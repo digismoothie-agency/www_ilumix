@@ -1,217 +1,97 @@
-<!DOCTYPE html>
-<html class="no-js supports-no-cookies{% if settings.enable_box %} box-layout{% endif %}" lang="{{ shop.locale }}">
-  <head>
-    <!-- Basic and Helper page needs -->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="{{ settings.color_primary }}">
-    <meta name="facebook-domain-verification" content="ny3lt5v3idosvx0ygaf5jm1stem7rj" />
+{%- capture direction -%}{% render 'direction' %}{%- endcapture -%}
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_button_background }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+  {% # theme-check-disable RemoteAsset %}
+  <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+  <link rel="dns-prefetch" href="https://maps.googleapis.com">
+  <link rel="dns-prefetch" href="https://maps.gstatic.com">
+  {% # theme-check-enable RemoteAsset %}
 
-    {%- assign header_font = settings.header_font_handle -%}
-    {%- assign section_header_font = settings.section_header_font_handle -%}
-    {%- assign paragraph_font = settings.paragraph_font_handle -%}
-    {%- assign other_font = settings.other_font_handle -%}
-    {%- assign body_font = settings.body_font_handle -%}
-    {%- assign body_font_bolder = body_font | font_modify: 'weight', 'bolder' -%}
-    {%- assign body_font_bold = body_font | font_modify: 'weight', 'bold' -%}
-    {%- assign body_font_italic = body_font | font_modify: 'style', 'italic' -%}
-    {%- assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic' -%}
-    <link rel="preload" as="font" href="{{ body_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ header_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ section_header_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ paragraph_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ other_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ body_font_bold | font_url }}" type="font/woff2" crossorigin>
+  {%- if settings.favicon != blank -%}
+    <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png" />
+  {%- endif -%}
 
-    <!-- Foxentry start -->
-<script type="text/javascript" async>
-  var Foxentry;
-  (function () {
-    var e = document.querySelector("script"), s = document.createElement('script');
-    s.setAttribute('type', 'text/javascript');
-    s.setAttribute('async', 'true');
-    s.setAttribute('src', 'https://cdn.foxentry.cz/lib');
-    e.parentNode.appendChild(s);
-    s.onload = function(){ Foxentry = new FoxentryBase('bwZYwKv6VP'); }
-  })();
-</script>
-<!-- Foxentry end -->
+  <title>
+    {{- page_title -}}
+    {%- if current_tags -%}
+      {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
+    {%- endif -%}
+    {%- if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif -%}
+    {%- if template == 'password' -%}
+      {{- shop.name -}}
+    {%- else -%}
+      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+    {%- endif -%}
+  </title>
 
-<script>
-window.LeadhubData = {
-  {% if product %}
-  product: {{ product|json }},
-  {% endif %}
-  {% if customer %}
-  customer: {
-      accepts_marketing: {{ customer.accepts_marketing|json }},
-      addresses: {{ customer.addresses|json }},
-      default_address: {{ customer.default_address|json }},
-      email: {{ customer.email|json }},
-      first_name: {{ customer.first_name|json }},
-      last_name: {{ customer.last_name|json }},
-      name: {{ customer.name|json }},
-      order_count: {{ customer.order_count|json }},
-      has_account: {{ customer.has_account|json }},
-      id: {{ customer.id|json }}
-  },
-  {% endif %}
-  cart: {{ cart|json }}
-}
-</script>
-<script src="https://www.lhinsights.com/shopify-st.js?shop=EvvGFgi9QwWEaef" defer="defer"></script>
+  {%- if page_description -%}
+    <meta name="description" content="{{ page_description | escape }}">
+  {%- endif -%}
+
+  {%- liquid
+    render 'social-meta-tags'
     
-  <!-- Facebook Pixel Code -->
-  <script>
-    function initializeFacebookPixel() {
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window,document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    }
+    render 'css-variables'
+    echo 'theme.css' | asset_url | stylesheet_tag: preload: true
+    
+    if direction == 'rtl'
+      echo 'rtl.css' | asset_url | stylesheet_tag: preload: true
+    endif
+  -%}
 
-    function trackFacebookPageView() {
-      fbq('init', '154931874118599');
-      fbq('track', 'PageView');
-    }
+  <link rel="stylesheet" href="{{ 'apps.css' | asset_url }}" media="print" fetchpriority="low" onload="this.media='all'">
 
-    document.addEventListener('DOMContentLoaded', function() {
-      initializeFacebookPixel();
-      trackFacebookPageView();
-    });
-  </script>
-  <noscript>
-    <img height="1" width="1" 
-    src="https://www.facebook.com/tr?id=154931874118599&ev=PageView
-    &noscript=1"/>
-  </noscript>
-  <!-- End Facebook Pixel Code -->
+  {{ content_for_header }}
 
-  <!-- Seznam retargeting -->
-  <script type="text/javascript" src="https://c.seznam.cz/js/rc.js"></script>
-<script>
-var retargetingConf = {
-  rtgId: 1369455 /* identifikátor retargeting */
-};
- // Ujistěte se, že metoda existuje, předtím než ji zavoláte
- if (window.rc && window.rc.retargetingHit) {
-   window.rc.retargetingHit(retargetingConf);
- }
-</script>
+  <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
-  <!-- Google tag retargeteing (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=11090323988"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config','11090323988');
-  </script>
+  {%- if request.page_type contains 'customers/' -%}
+    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+  {%- endif -%}
 
-    <link rel="canonical" href="{{ canonical_url }}">
-    {%- if settings.favicon != blank -%}
-    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
-    {%- endif -%}
-      
-    <!-- Title and description -->
-    {% capture seo_title %}
-    {{ page_title }}
-    {% if current_tags %}
-    {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
-    {% endif %}
-    {% if current_page != 1 %}
-    &ndash; {{ 'general.meta.page' | t: page: current_page }}
-    {% endif %}
-    {% unless page_title contains shop.name %}
-    &ndash; {{ shop.name }}
-    {% endunless %}
-    {% endcapture %}
-    {%- comment smartseo_integration_begin_meta_data -%}<title>{{ seo_title }}</title>{%- endcomment smartseo_integration_end_meta_data -%}
-    {%- if page_description -%}
-    {%- comment smartseo_integration_begin_meta_data -%}<meta name="description" content="{{ page_description | escape }}">{%- endcomment smartseo_integration_end_meta_data -%}
-    {%- endif -%}
-    <!-- Helpers -->
-    {% include 'social-meta-tags' %}
-    <!-- CSS -->
-    {{ 'timber.scss.css' | asset_url | stylesheet_tag }}
-    {%- include 'header-css' -%}
-
-    <style>*,::after,::before{box-sizing:border-box}body{font-family: var(--font-stack-body);font-weight: var(--font-weight-body);font-style: var(--font-style-body);}h1,h2,h3,h4,h5,h6{font-family: var(--font-stack-header);font-weight: var(--font-weight-header);font-style: var(--font-style-header);}
-      {{ header_font | font_face: font_display: 'swap' }}
-      {{ section_header_font | font_face: font_display: 'swap' }}
-      {{ body_font | font_face: font_display: 'swap' }}
-      {{ body_font_bolder | font_face: font_display: 'swap' }}
-      {{ body_font_bold | font_face: font_display: 'swap' }}
-      {{ body_font_italic | font_face: font_display: 'swap' }}
-      {{ body_font_bold_italic | font_face: font_display: 'swap' }}
-    </style>
-
-    <!-- Header hook for plugins -->
-    {{ content_for_header }}
-    {% include 'oldIE-js' %}
-    <!-- JS -->
-    {%- include 'header-js' -%}
-    {% if template contains 'customers' or 'cart' %}
-    {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
-    {% endif %}
-{% if content_for_header contains 'bss-b2b-cp' %}{% include 'bss-b2b-cp-header' %}{% endif %}
+  {%- render 'js-variables' -%}
 </head>
-  <body  id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template.name | handle }}">
-    {%- if settings.enable_preloader -%}
-    {% include 'preloader' %}
-    {%- endif -%}
-    {%- if template == 'index' and settings.newsletter_popup_enable -%}
-    {% include 'newsletter-popup' %}
-    {%- endif -%}
-    {% include 'top-nocification-bar' %}
-    {% section 'header' %}
-    {%- if template != 'index' -%}
-    {% include 'breadcrumb-banner' %}
-    {%- endif -%}
-    <main role="main">
+
+<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{% if request.design_mode %} shopify-design-mode{% endif %}" data-rounded-button="{{ settings.rounded_button }}" data-rounded-input="{{ settings.rounded_input }}" data-rounded-block="{{ settings.rounded_block }}" data-rounded-card="{{ settings.rounded_card }}" data-button-hover="{{ settings.buttons_hover }}"{% if settings.enable_lazy_image %} data-lazy-image{% endif %} data-title-animation data-page-rendering>
+  <a class="sr-only skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+  {%- liquid
+    if settings.enable_page_transition
+      render 'loading-bar'
+    endif
+    
+    render 'mouse-cursor'
+
+    sections 'header-group'
+    sections 'overlay-group'
+  -%}
+
+  <div class="page-container" id="PageContainer">
+    <main class="main-content relative" id="MainContent" role="main">
       {{ content_for_layout }}
     </main>
-    {% include 'fullscreen-bg' %}
-    {% section 'footer' %}
-    {% section 'copy-right' %}
-    {% include 'back-to-top' %}
-  <!-- Necessary JS -->
-    {% include 'footer-js' %}
-  <!-- WPD Start -->
-                {% if customer.tags.size > 0 and template != 'cart' %}
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                      let checkoutbtninterval = setInterval(function(){
-                        var x=document.querySelectorAll("input[name='checkout'], button[name='checkout'], input[name='goto_pp'], button[name='goto_pp'], input[name='goto_gc'], button[name='goto_gc'], [href$='checkout']");
-                        var WPD_RedirectToCart = function(e) {
-                          	e.stopPropagation();
-                            e.preventDefault();
-                            window.location = '/cart';
-                            };
-                            for (var i = 0; i < x.length; i++) {
-                                x[i].addEventListener('click', WPD_RedirectToCart, false);
-                            }
-                        },500)
-                });
-              </script>
-               {% endif %}
-         
 
-               {% if customer.tags.size > 0 and template == 'cart' %}
-                 {% include 'wcp_cart' %}
-               {% endif %}
-               <!-- WPD End -->
-    
-{% if canonical_url contains '/apps/wpdapp' %}    
-    <script>
-      window.wpd_signup_error_message = "Pod tímto e-mailem máte již registraci. Kontaktujte nás.";
-    </script>
-{% endif %}
-  </body>
+    <footer-group class="footer-group block w-full">
+      {%- sections 'footer-group' -%}
+    </footer-group>
+  </div>
+
+  <ul hidden>
+    <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
+    <li id="a11y-new-window-message">{{ 'general.accessibility.link_messages.new_window' | t }}</li>
+  </ul>
+
+  {%- if request.design_mode == false -%}
+    <script src="{{ 'instant-page.js' | asset_url }}" type="module" fetchpriority="low" defer="defer"></script>
+  {%- endif -%}
+</body>
 </html>

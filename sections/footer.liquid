@@ -1,726 +1,448 @@
-<section class="footer-top-area" {% if section.settings.footer_bg_img_enable %}style="background-image: url('{% if section.settings.footer_bg_img %}{{ section.settings.footer_bg_img | img_url: 'master' }}{% else %}https://via.placeholder.com/1920x450{% endif %}');"{% endif %} data-section-id="{{ section.id }}" data-section-type="app-section-feed" data-section-settings='{{ section_settings }}'>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xl-10 col-center">
-        <div class="footer-list-wrap">
-          <ul class="footer-list">
-            <li class="ftlink-li footer-info">
-              <div class="logo">
-                <svg width="124px" height="24px" viewBox="0 0 124 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="360design_logo" fill="#232323" fill-rule="nonzero">
-                          <g id="Group" transform="translate(66.393621, 0.000000)">
-                              <path d="M28.8063788,6.6 C29.0063788,5.2 29.4063788,3.8 29.9063788,2.5 C30.2063788,1.8 28.4063788,0.7 28.1063788,1.5 C27.6063788,2.8 27.2063788,4.2 27.0063788,5.6 C26.8063788,6.4 28.6063788,7.5 28.8063788,6.6 Z" id="Path"></path>
-                              <path d="M12.9063788,1.1 C12.9063788,0.6 12.2063788,0.1 11.7063788,0 C11.6063788,0 11.6063788,0 11.5063788,0 L11.5063788,0 C11.4063788,0 11.2063788,0.1 11.2063788,0.2 C11.2063788,0.2 11.2063788,0.3 11.2063788,0.3 C9.60637876,5 8.40637876,7.7 6.00637876,12 C5.90637876,12.1 5.80637876,12.3 5.70637876,12.5 C4.70637876,11.8 3.30637876,11.9 2.30637876,12.9 C0.906378764,14.3 0.206378764,16.4 0.00637876404,18.3 C-0.093621236,18.9 1.00637876,19.8 1.60637876,19.5 C3.80637876,18.3 5.40637876,16.6 6.80637876,14.7 C6.50637876,16.1 6.10637876,17.5 5.90637876,19 C5.80637876,19.8 7.50637876,20.8 7.70637876,20 C8.80637876,12.8 10.6063788,8.1 12.9063788,1.3 C12.9063788,1.2 12.9063788,1.2 12.9063788,1.1 Z M2.20637876,16.6 C2.30637876,16.3 2.50637876,16 2.60637876,15.7 C2.90637876,15.2 3.20637876,14.7 3.60637876,14.3 C3.80637876,14 4.10637876,13.7 4.40637876,13.6 C4.50637876,13.6 4.60637876,13.5 4.70637876,13.5 C4.70637876,13.5 4.80637876,13.5 4.80637876,13.5 C4.10637876,14.7 3.30637876,15.7 2.20637876,16.6 Z" id="Shape"></path>
-                              <path d="M55.6063788,5.9 C53.6063788,7.2 51.4063788,8.6 49.3063788,10 C49.6063788,9 50.0063788,8 50.4063788,7.1 C50.7063788,6.4 49.5063788,5.4 48.8063788,5.8 C47.2063788,6.6 45.8063788,7.5 44.5063788,8.7 C44.5063788,8.7 44.5063788,8.6 44.6063788,8.6 C44.9063788,7.9 43.1063788,6.8 42.8063788,7.6 C42.8063788,7.6 42.8063788,7.6 42.8063788,7.6 C41.3063788,8.5 39.9063788,9.4 38.2063788,10.7 C38.3063788,10.4 38.3063788,10 38.4063788,9.7 C38.5063788,9 37.4063788,8.2 36.8063788,8.5 C36.7063788,8.5 36.7063788,8.6 36.6063788,8.6 C35.5063788,7.4 33.8063788,7.4 32.7063788,8.5 C32.3063788,8.8 31.9063788,9.3 31.6063788,9.8 C30.2063788,11.2 27.7063788,13 26.6063788,13.4 C26.6063788,13.3 26.7063788,13.1 26.7063788,13 C26.9063788,11.9 27.3063788,11 27.7063788,10 C28.0063788,9.3 26.3063788,8.2 25.9063788,9 C25.7063788,9.4 25.5063788,9.9 25.3063788,10.4 C24.6063788,10.8 23.5063788,11.3 22.4063788,12 C22.2063788,11.9 22.0063788,11.7 21.9063788,11.6 C21.5063788,11.2 21.0063788,10.1 22.0063788,10 C22.5063788,10 22.4063788,9.4 22.2063788,9.1 C21.9063788,8.7 21.4063788,8.4 20.9063788,8.4 C19.3063788,8.5 19.3063788,10.2 20.0063788,11.2 C18.3063788,12.9 14.2063788,15.8 12.3063788,16.2 C12.3063788,16 12.4063788,15.7 12.4063788,15.5 C12.4063788,15.5 12.4063788,15.5 12.4063788,15.5 C13.5063788,14.8 17.4063788,12.6 15.4063788,11 C14.0063788,9.9 12.5063788,11.3 11.7063788,12.4 C10.8063788,13.7 9.70637876,16.1 11.0063788,17.5 C11.9063788,18.4 12.9063788,18.1 13.9063788,17.6 C16.5063788,16.2 18.7063788,14.1 20.9063788,12.2 C21.1063788,12.4 21.3063788,12.5 21.5063788,12.7 C20.0063788,14.4 19.0063788,16.3 20.9063788,17.5 C22.7063788,18.6 23.9063788,16.4 23.9063788,14.9 C23.9063788,14.4 23.8063788,14 23.6063788,13.5 C23.9063788,13.2 24.3063788,12.9 24.7063788,12.6 C24.7063788,12.9 24.7063788,13.1 24.7063788,13.4 C24.9063788,14.6 26.2063788,15.6 27.4063788,15.2 C28.5063788,14.8 29.4063788,13.9 30.2063788,13.2 C30.3063788,13.1 30.4063788,13 30.5063788,13 C30.4063788,13.3 30.4063788,13.6 30.4063788,13.9 C30.3063788,14.5 31.4063788,15.5 32.0063788,15.1 C33.7063788,14.2 34.8063788,12.5 36.2063788,11.2 C36.1063788,11.9 35.9063788,12.6 35.8063788,13.3 C35.1063788,14.2 34.5063788,14.6 33.9063788,15.6 C32.2063788,18.6 31.8063788,19 33.7063788,22.3 C33.9063788,22.7 35.2063788,23.8 35.4063788,22.9 C36.7063788,18.8 36.7063788,18.7 37.5063788,14.4 C38.8063788,12.8 40.2063788,11.4 41.9063788,10.2 C41.7063788,10.9 41.6063788,11.7 41.5063788,12.4 C41.4063788,13 42.8063788,14.2 43.2063788,13.5 C44.3063788,11.7 45.7063788,10.2 47.4063788,8.9 C47.2063788,9.6 47.0063788,10.2 47.0063788,10.9 C47.0063788,12 48.2063788,12.9 49.2063788,12.5 C50.3063788,12.1 51.2063788,11.1 52.1063788,10.4 C53.5063788,9.2 54.9063788,8.1 56.4063788,7.1 C57.2063788,6.5 56.3063788,5.5 55.6063788,5.9 Z M33.1063788,11.4 C33.1063788,11.4 33.1063788,11.3 33.2063788,11.3 C33.5063788,10.8 33.8063788,10.3 34.2063788,9.9 C34.4063788,9.6 34.7063788,9.3 35.0063788,9.2 C35.1063788,9.2 35.2063788,9.1 35.3063788,9.1 C35.4063788,9.1 35.4063788,9.1 35.5063788,9.1 C34.6063788,9.8 33.9063788,10.6 33.1063788,11.4 Z M34.8063788,17.9 C34.8063788,17.2 35.0063788,16.8 35.2063788,16.3 C35.1063788,16.9 34.9063788,17.4 34.8063788,17.9 Z" id="Shape"></path>
-                          </g>
-                          <g id="Group" transform="translate(0.000000, 0.200000)">
-                              <path d="M12.1,23.1 C12.4,23.1 12.6,23 12.9,22.9 L8.6,22.9 C9.7,23.2 10.8,23.3 12.1,23.1 Z" id="Path"></path>
-                              <path d="M65,5.3 C65.1,5.7 65.1,6.2 65.2,6.6 L65.2,-3.33066907e-16 L63.2,-3.33066907e-16 C64,1.5 64.7,3.3 65,5.3 L65,5.3 Z" id="Path"></path>
-                              <path d="M8.6,22.9 L12.9,22.9 C14.5,22.3 15.5,21 15.2,19.4 L15.2,19.3 C14.8,17.2 12.8,16.4 9.6,16.9 L7.3,17.3 L5.8,13.9 L10.8,6.7 L0.8,8.5 L0,4.2 L0,22.9 L4.1,22.9 L5.4,21.1 C6.5,21.9 7.5,22.5 8.6,22.9 Z" id="Path"></path>
-                              <path d="M65.2,10 C64.6,15.4 61.3,19.6 55.9,20.6 C49.1,21.8 43.6,16.8 42.3,9.4 L42.3,9.3 C41.7,5.9 42.1,2.6 43.5,0 L38.1,0 L36.2,4.1 C34.3,3.1 32.8,2.6 30.6,3 C26.8,3.7 26.3,7.6 26.5,9.8 C27.7,8.7 29.2,7.6 31.5,7.2 C36.6,6.4 41,8.5 42,13.8 L42,13.9 C42.7,17.6 41,20.9 38,22.8 L65.3,22.8 C65.2,22.9 65.2,10 65.2,10 Z" id="Path"></path>
-                              <path d="M21.1,13.9 L21.1,13.9 C20.1,8 21.2,2.9 24.8,0 L0,0 L0,0.1 L0,3.5 L17.2,0.5 L17.9,4.7 L12.5,12 C16.1,12 19.8,13.2 20.6,18 L20.6,18.1 C20.9,19.8 20.7,21.4 20.1,22.8 L25.5,22.8 C23.6,21.3 22,18.8 21.1,13.9 Z" id="Path"></path>
-                          </g>
-                      </g>
-                  </g>
-                </svg>
-                {% comment %}<p>{{ settings.company_details }}</p>{% endcomment %}
-              </div>
-              <div class="logo-desc">
-                <p>{{ section.settings.logo_description }}</p>
-              </div>
-              <div class="footer-block footer-block--social">
-                <h2 class="footer-block__heading h6">Let's Get Social</h2>
-                <ul class="footer__list-social list-unstyled list-social" role="list">
-                  <li class="list-social__item">
-                    <a href="https://www.facebook.com/360design.cz/" class="link list-social__link">
-                      <svg class="icon icon-facebook" width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.19264 15.4059V8.37913H7.55135L7.90448 5.6405H5.19264V3.89206C5.19264 3.09919 5.41279 2.55889 6.54982 2.55889L8 2.55821V0.108873C7.74912 0.0755593 6.88833 0.000976562 5.88687 0.000976562C3.79604 0.000976562 2.36469 1.27718 2.36469 3.62092V5.6405H0V8.37913H2.36469V15.4059H5.19264Z" fill="#393939"></path>
-                      </svg>
-                      <span class="visually-hidden">Facebook</span>
-                    </a>
-                  </li>
-                  <li class="list-social__item">
-                    <a href="https://www.instagram.com/360design.cz/" class="link list-social__link">
-                      <svg class="icon icon-instagram" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7118 0.05475C11.751 0.0105 11.4443 0 9 0C6.55575 0 6.24975 0.0105 5.28975 0.054C2.02125 0.204 0.20475 2.0175 0.05475 5.289C0.0105 6.24975 0 6.55575 0 9C0 11.4443 0.0105 11.751 0.054 12.711C0.204 15.9795 2.0175 17.796 5.289 17.946C6.24975 17.9895 6.55575 18 9 18C11.4443 18 11.751 17.9895 12.711 17.946C15.9765 17.796 17.7975 15.9825 17.9452 12.711C17.9895 11.751 18 11.4443 18 9C18 6.55575 17.9895 6.24975 17.946 5.28975C17.799 2.02425 15.9832 0.20475 12.7118 0.05475ZM5.38144 2.0519C6.40022 2.00573 6.75725 2 9 2C11.2462 2 11.6026 2.00579 12.6197 2.05263C14.8572 2.15522 15.8475 3.14617 15.948 5.37969C15.9943 6.40022 16 6.75725 16 9C16 11.2463 15.9942 11.6027 15.9474 12.6189C15.8464 14.8554 14.8555 15.8454 12.6192 15.9481C11.6007 15.9943 11.243 16 9 16C6.75729 16 6.40031 15.9943 5.37946 15.948C3.14301 15.8455 2.15457 14.8566 2.0519 12.6193C2.00574 11.6007 2 11.243 2 9C2 6.75401 2.00578 6.39831 2.05263 5.38102C2.15525 3.14301 3.14411 2.15457 5.38144 2.0519Z" fill="#393939"></path>
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7238 4.19719C12.7238 3.60094 13.2075 3.11719 13.8045 3.11719C14.4008 3.11719 14.8838 3.60094 14.8838 4.19719C14.8838 4.79344 14.4008 5.27719 13.8045 5.27719C13.2075 5.27719 12.7238 4.79344 12.7238 4.19719ZM9 4C6.23872 4 4 6.23854 4 8.99959C4 11.7606 6.23872 14 9 14C11.7613 14 14 11.7615 14 8.99959C14 6.23854 11.7613 4 9 4ZM9 12C7.34325 12 6 10.6575 6 9C6 7.34325 7.34325 6 9 6C10.6567 6 12 7.34325 12 9C12 10.6575 10.6567 12 9 12Z" fill="#393939"></path>
-                      </svg>
-                      <span class="visually-hidden">Instagram</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            {% for block in section.blocks %}
-            <li class="ftlink-li link-list">
-              <h2 class="ft-title">{{ block.settings.footer_menu_title }}</h2>
-              <a data-bs-toggle="collapse" href="#collapse-{{ block.settings.footer_menu_title | replace: ' ' , '-' | remove: '&' }}" class="ft-title">
-                <span>{{ block.settings.footer_menu_title }}</span>
-                <i class="ti-plus"></i>
-              </a>
-              <ul class="footer-sublist collapse" id="collapse-{{ block.settings.footer_menu_title | replace: ' ' , '-' | remove: '&' }}">
-                {% assign footer_menu = block.settings.footer_menu_handle %}
-                {% for link in linklists[footer_menu].links %}
-                {% if linklists[footer_menu].links != '' %}
-                <li class="ftsublink-li">
-                  <a href="{{ link.url }}" class="ft-sublink">{{ link.title }}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-              </ul>
-            </li>
-            {% endfor %}
-            <li class="ftlink-li link-list kontakt-list">
-              <h2 class="ft-title">{{ section.settings.footer_kontakt }}</h2>
-              <a data-bs-toggle="collapse" href="#collapse-{{ section.settings.footer_kontakt | replace: ' ' , '-' | remove: '&' }}" class="ft-title">
-                <span>{{ section.settings.footer_kontakt }}</span>
-                <i class="ti-plus"></i>
-              </a>
-              <ul class="footer-sublist collapse" id="collapse-{{ section.settings.footer_kontakt | replace: ' ' , '-' | remove: '&' }}">
-                <li class="ftsublink-li contact-icons">
-                  {% render 'headset' %}
-                  <span class="ft-sublink">{{ section.settings.call }}</span>
-                </li>
-                <li class="ftsublink-li contact-icons">
-                  {% render 'store' %}
-                  <span class="ft-sublink">{{ section.settings.ico }}</span>
-                </li>
-                <li class="ftsublink-li contact-icons">
-                  {% render 'map' %}
-                  <span class="ft-sublink">{{ section.settings.adresa }}</span>
-                </li>
-              </ul>
-            </li>
-          </ul>
+<style>
+  #shopify-section-{{ section.id }} {
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    {%- render 'section-variables', section: section -%}
+  }
+</style>
+
+{%- liquid
+  assign enable_footer_info = false
+  if section.settings.enable_newsletter or section.settings.show_social or shop.features.follow_on_shop? and section.settings.enable_follow_on_shop
+    assign enable_footer_info = true
+  endif
+-%}
+
+<div class="section section--padding{% if section.settings.divider %} section--divider{% endif %}{% if section.settings.rounded %} section--rounded{% endif %}"{% if section.settings.enable_parallax %} is="footer-parallax"{% endif %}>
+  <footer class="footer{% if enable_footer_info %}{% if section.settings.invert_newsletter_others %} footer--inverted{% endif %}{% else %} footer--no-info{% endif %} page-width{% if section.settings.full_width %} page-width--full{% endif %} relative grid">
+    {%- if section.blocks.size > 0 -%}
+      <div class="footer__left flex flex-col md:flex-row gap-10">
+        {%- liquid
+          assign block = section.blocks | where: "type", "logo_social" | first
+          if block
+            render 'footer-logo', block: block
+          endif
+        -%}
+
+        <div class="footer__accordions flex flex-wrap flex-col md:flex-row md:grow md:gap-12">
+          {%- liquid
+            for block in section.blocks
+              case block.type
+                when 'link_list'
+                  render 'footer-menu', block: block
+
+                when 'text'
+                  render 'footer-text', block: block
+
+                when 'brand_information'
+                  render 'footer-contact', block: block
+              endcase
+            endfor
+          -%}
         </div>
       </div>
-    </div>
-  </div>
-  <div class="footer__scrollingText">
-      <div class="scrollingText">
-        <ul class="scrollingText__container">
-          <li class="scrollingText__item">Přisazená svítidla</li>
-          <li class="scrollingText__item">Stojací svítidla</li>
-          <li class="scrollingText__item">Lištové systémy</li>
-          <li class="scrollingText__item">Žárovky a zdroje</li>
-        </ul>
-        <ul class="scrollingText__container">
-          <li class="scrollingText__item">Přisazená svítidla</li>
-          <li class="scrollingText__item">Stojací svítidla</li>
-          <li class="scrollingText__item">Lištové systémy</li>
-          <li class="scrollingText__item">Žárovky a zdroje</li>
-        </ul>
+    {%- endif -%}
+
+    {%- if section.settings.enable_newsletter or section.settings.show_social or shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
+      <div class="footer__right grid gap-10">
+        {%- if section.settings.enable_newsletter -%}
+          <div class="footer__newsletter grid gap-6">
+            {%- if section.settings.newsletter_logo -%}
+              <p class="footer__logo leading-none">
+                <a href="{{ routes.root_url }}">
+                  <span class="sr-only">{{ shop.name }}</span>
+                  {%- capture sizes -%}{{ section.settings.newsletter_logo_height | times: section.settings.newsletter_logo.aspect_ratio }}px{%- endcapture -%}
+                  {%- capture widths -%}{{ section.settings.newsletter_logo_height | times: section.settings.newsletter_logo.aspect_ratio }}, {{ section.settings.newsletter_logo_height | times: section.settings.newsletter_logo.aspect_ratio | times: 2 | at_most: section.settings.newsletter_logo.width }}{%- endcapture -%}
+                  {%- capture style -%}--image-width: {{ section.settings.newsletter_logo_height | times: section.settings.newsletter_logo.aspect_ratio }}px; --image-height: {{ section.settings.newsletter_logo_height }}px;{%- endcapture -%}
+                  {{- section.settings.newsletter_logo | image_url: width: section.settings.newsletter_logo.width | image_tag: loading: 'lazy', widths: widths, sizes: sizes, style: style, preload: true, is: 'lazy-image' -}}
+                </a>
+              </p>
+            {%- endif -%}
+
+            <p class="h3 text-xl {{ section.settings.newsletter_heading_size }} leading-none tracking-none font-medium lg:font-heading">{{ section.settings.newsletter_heading | escape }}</p>
+            {%- render 'newsletter-form', section_id: section.id, context: 'footer' -%}
+
+            {%- if section.settings.newsletter_text != blank -%}
+              <div class="rte text-sm leading-tight">{{ section.settings.newsletter_text }}</div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.show_social -%}
+          <div class="footer__socials flex justify-start md:justify-end xl:justify-start">
+            {%- render 'social-icons', size: 'lg', gap: '7' -%}
+          </div>
+        {%- endif -%}
+
+        {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
+          <div class="follow-on-shop">
+            {{- shop | login_button: action: 'follow' -}}
+          </div>
+        {%- endif -%}
       </div>
-    </div>
-</section>
+    {%- endif -%}
+  </footer>
+
+  {%- if section.settings.enable_parallax -%}
+    <parallax-overlay class="footer-overlay hidden md:block z-20 absolute left-0 top-0 w-full pointer-events-none" data-target="height" data-start="100%" data-stop="0%"></parallax-overlay>
+  {%- endif -%}
+</div>
+
 {% schema %}
 {
-  "name": "Footer",
+  "name": "t:sections.footer.name",
+  "max_blocks": 12,
   "settings": [
     {
+      "type": "checkbox",
+      "id": "invert_newsletter_others",
+      "default": false,
+      "label": "t:sections.footer.settings.invert_newsletter_others.label"
+    },
+    {
       "type": "header",
-      "content": "Section Padding"
-    },
-    {
-      "type" : "paragraph",
-      "content" : "Desktop / Laptop / tablet"
-    },
-    {
-      "type": "range",
-      "id": "foot_padding_top",
-      "label": "Section Padding Top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 60
-    },
-    {
-      "type": "range",
-      "id": "foot_padding_bottom",
-      "label": "Section Padding Bottom",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 60
-    },
-    {
-      "type" : "paragraph",
-      "content" : "Ipad pro / Ipad"
-    },
-    {
-      "type": "range",
-      "id": "foot_padding_top_ipad",
-      "label": "Section Padding Top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 30
-    },
-    {
-      "type": "range",
-      "id": "foot_padding_bottom_ipad",
-      "label": "Section Padding Bottom",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 30
-    },
-    {
-      "type" : "paragraph",
-      "content" : "Mobile"
-    },
-    {
-      "type": "range",
-      "id": "foot_padding_top_xs",
-      "label": "Section Padding Top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 20
-    },
-    {
-      "type": "range",
-      "id": "foot_padding_bottom_xs",
-      "label": "Section Padding Bottom",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 20
-    },
-    {
-      "type": "image_picker",
-      "id": "footer_bg_img",
-      "label": "Image",
-      "info": "Recommended Size: 1920 x 770px"
+      "content": "t:sections.footer.settings.header__newsletter.content",
+      "info": "t:sections.footer.settings.header__newsletter.info"
     },
     {
       "type": "checkbox",
-      "id": "footer_bg_img_enable",
-      "label": "Show Background Image",
-      "default": false
-    },
-    {
-      "type": "color",
-      "id": "footer_bg_color",
-      "label": "Background Color",
-      "default": "#fff"
-    },
-    {
-      "type" : "header",
-      "content" : "Copyright Text"
+      "id": "enable_newsletter",
+      "default": true,
+      "label": "t:sections.footer.settings.enable_newsletter.label"
     },
     {
       "type": "text",
-      "id": "logo_description",
-      "label": "Logo Description",
-      "default": "Lorem Ipsum is simply dummy of the printing and typesetting industry lorem Ipsum"
+      "id": "newsletter_heading",
+      "default": "Subscribe to our emails",
+      "label": "t:sections.global.settings.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "newsletter_heading_size",
+      "options": [
+        {
+          "value": "md:title-sm",
+          "label": "t:sections.global.settings.heading_size.options__1.label"
+        },
+        {
+          "value": "md:title-md",
+          "label": "t:sections.global.settings.heading_size.options__2.label"
+        },
+        {
+          "value": "md:title-lg",
+          "label": "t:sections.global.settings.heading_size.options__3.label"
+        },
+        {
+          "value": "md:title-xl",
+          "label": "t:sections.global.settings.heading_size.options__4.label"
+        }
+      ],
+      "default": "md:title-lg",
+      "label": "t:sections.global.settings.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "newsletter_text",
+      "label": "t:sections.global.settings.text.label",
+      "info": "t:sections.global.settings.optional.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "newsletter_logo",
+      "label": "t:sections.footer.settings.newsletter_logo.label"
+    },
+    {
+      "type": "range",
+      "id": "newsletter_logo_height",
+      "label": "t:sections.footer.settings.newsletter_logo_height.label",
+      "default": 50,
+      "min": 20,
+      "max": 120,
+      "step": 1,
+      "unit": "px"
     },
     {
       "type": "header",
-      "content": "Newsletter"
+      "content": "t:sections.footer.settings.header__social.content",
+      "info": "t:sections.footer.settings.header__social.info"
     },
     {
-      "type": "text",
-      "id": "footer_newsletter_title",
-      "label": "Newsletter Title",
-      "default": "Subscribe"
+      "type": "checkbox",
+      "id": "show_social",
+      "default": true,
+      "label": "t:sections.footer.settings.show_social.label"
     },
     {
-      "type": "text",
-      "id": "footer_newsletter_des",
-      "label": "Newsletter Description",
-      "default": "Subscribe to our newsletter to receive fashion store news on new update."
+      "type": "header",
+      "content": "t:sections.footer.settings.header__follow.content",
+      "info": "t:sections.footer.settings.header__follow.info"
     },
     {
-      "type": "text",
-      "id": "footer_kontakt",
-      "label": "Kontakty",
-      "default": "Kontakty"
+      "type": "checkbox",
+      "id": "enable_follow_on_shop",
+      "default": true,
+      "label": "t:sections.footer.settings.enable_follow_on_shop.label"
     },
     {
-      "type": "richtext",
-      "id": "call",
-      "label": "Kontaktní údaje"
+      "type": "header",
+      "content": "t:sections.global.settings.header__colors.content",
+      "info": "t:sections.global.settings.header__colors.info"
     },
     {
-      "type": "richtext",
-      "id": "ico",
-      "label": "Firemní údaje"
+      "type": "color",
+      "id": "color_text",
+      "label": "t:sections.global.settings.color_text.label",
+      "default": "#ffffff"
     },
     {
-      "type": "richtext",
-      "id": "adresa",
-      "label": "Adresa"
+      "type": "color",
+      "id": "color_background",
+      "label": "t:sections.global.settings.color_background.label",
+      "default": "#1f1f1f"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient_background",
+      "label": "t:sections.global.settings.gradient_background.label"
+    },
+    {
+      "type": "color",
+      "id": "color_button_text",
+      "label": "t:sections.global.settings.color_button_text.label",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "color_button_background",
+      "label": "t:sections.global.settings.color_button_background.label",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color_background",
+      "id": "color_button_gradient",
+      "label": "t:sections.global.settings.color_button_gradient.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.global.settings.header__section.content"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.global.settings.padding_top.label",
+      "default": 72
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.global.settings.padding_bottom.label",
+      "default": 72
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "t:sections.global.settings.divider.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "t:sections.global.settings.full_width.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "rounded",
+      "default": false,
+      "label": "t:sections.global.settings.rounded.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_parallax",
+      "default": true,
+      "label": "t:sections.global.settings.enable_parallax.label"
     }
-
   ],
-  "blocks":[
+  "blocks": [
     {
-      "type": "footer_menu",
-      "name": "Menu",
-      "limit": 3,
+      "type": "logo_social",
+      "name": "t:sections.footer.blocks.logo_social.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "t:sections.footer.blocks.logo_social.settings.logo.label"
+        },
+        {
+          "type": "range",
+          "id": "logo_height",
+          "label": "t:sections.footer.blocks.logo_social.settings.logo_height.label",
+          "default": 50,
+          "min": 20,
+          "max": 120,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_social",
+          "default": false,
+          "label": "t:sections.footer.settings.show_social.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_follow_on_shop",
+          "default": false,
+          "label": "t:sections.footer.settings.enable_follow_on_shop.label"
+        }
+      ]
+    },
+    {
+      "type": "link_list",
+      "name": "t:sections.footer.blocks.link_list.name",
       "settings": [
         {
           "type": "text",
-          "id": "footer_menu_title",
-          "label": "Menu Title",
-          "default": "Menu Title"
+          "id": "heading",
+          "label": "t:sections.global.settings.heading.label",
+          "info": "t:sections.global.settings.optional.label",
+          "default": "Heading"
         },
         {
           "type": "link_list",
-          "id": "footer_menu_handle",
-          "label": "Select Menu"
+          "id": "menu",
+          "default": "footer",
+          "label": "t:sections.footer.blocks.link_list.settings.menu.label",
+          "info": "t:sections.footer.blocks.link_list.settings.menu.info"
+        },
+        {
+          "type": "range",
+          "id": "container_width",
+          "label": "t:sections.footer.blocks.link_list.settings.container_width.label",
+          "default": 50,
+          "min": 15,
+          "max": 95,
+          "step": 1,
+          "unit": "%"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.footer.blocks.text.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:sections.global.settings.heading.label",
+          "info": "t:sections.global.settings.optional.label",
+          "default": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:sections.global.settings.text.label",
+          "default": "<p>Share contact information, store details, and brand content with your customers.</p>"
+        },
+        {
+          "type": "range",
+          "id": "container_width",
+          "label": "t:sections.footer.blocks.text.settings.container_width.label",
+          "default": 50,
+          "min": 15,
+          "max": 95,
+          "step": 1,
+          "unit": "%"
+        }
+      ]
+    },
+    {
+      "type": "brand_information",
+      "name": "t:sections.footer.blocks.brand_information.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:sections.global.settings.heading.label",
+          "info": "t:sections.global.settings.optional.label",
+          "default": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "label": "t:sections.footer.blocks.brand_information.settings.button_label_1.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "t:sections.footer.blocks.brand_information.settings.button_link_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "t:sections.footer.blocks.brand_information.settings.button_label_2.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.footer.blocks.brand_information.settings.button_link_2.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_3",
+          "label": "t:sections.footer.blocks.brand_information.settings.button_label_3.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_3",
+          "label": "t:sections.footer.blocks.brand_information.settings.button_link_3.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_4",
+          "label": "t:sections.footer.blocks.brand_information.settings.button_label_4.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_4",
+          "label": "t:sections.footer.blocks.brand_information.settings.button_link_4.label"
+        },
+        {
+          "type": "range",
+          "id": "container_width",
+          "label": "t:sections.footer.blocks.brand_information.settings.container_width.label",
+          "default": 50,
+          "min": 15,
+          "max": 95,
+          "step": 1,
+          "unit": "%"
         }
       ]
     }
   ],
-  "presets":[
-    {
-      "name": "Footer",
-      "category": "Footer"
-    }
-  ]
+  "default": {
+    "blocks": [
+      {
+        "type": "logo_social"
+      },
+      {
+        "type": "link_list"
+      }
+    ]
+  },
+  "enabled_on": {
+    "groups": [
+      "footer"
+    ]
+  }
 }
 {% endschema %}
-<style>
-  .footer-top-area{
-    padding-top: {{ section.settings.foot_padding_top }}px;
-    padding-bottom: {{ section.settings.foot_padding_bottom }}px;
-    {% if section.settings.footer_bg_img_enable %}
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    {% else %}
-    background-color: {{ section.settings.footer_bg_color }};
-    {% endif %}
-  }
-  @media (max-width: 1199px){
-    .footer-top-area{
-      padding-top: {{ section.settings.foot_padding_top_ipad }}px;
-      padding-bottom: {{ section.settings.foot_padding_bottom_ipad }}px;
-    }
-  }
-  @media (max-width: 767px){
-    .footer-top-area{
-      padding-top: {{ section.settings.foot_padding_top_xs }}px;
-      padding-bottom: {{ section.settings.foot_padding_bottom_xs }}px;
-    }
-  }
-  .footer-list-wrap ul.footer-list{
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    {% if settings.enable_rtl %}
-    margin-right: -30px;
-    {% else %}
-    margin-left: -30px;
-    {% endif %}
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li{
-    width: calc(28% - 30px);
-    {% if settings.enable_rtl %}
-    margin-right: 30px;
-    {% else %}
-    margin-left: 30px;
-    {% endif %}
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.footer-info{
-    margin-top: 0;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.link-list{
-    width: calc(16% - 30px);
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.link-list:nth-child(4),
-  .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li{
-    /* width: calc(20% - 30px); */
-  }
-  
-  .footer-list-wrap ul.footer-list li.ftlink-li .logo { 
-    margin-left: 38px;
-  }
-  
-  .footer-list-wrap ul.footer-list li.ftlink-li .logo-desc {
-    margin-top: 35px;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li .logo-desc p{
-    font-size: 14px;
-    line-height: 1.8;
-    width: 80%;
-  }
-
-  @media screen and (max-width: 1599px) {
-    .footer-list-wrap ul.footer-list li.ftlink-li .logo-desc p {
-      font-size: 14px;
-      width: 70%;
-    }
-  }
-
-  .footer-list-wrap ul.footer-list li.ftlink-li .footer-social{
-    margin-top: 24px;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.footer-info .logo h2,
-  .footer-list-wrap ul.footer-list li.ftlink-li .ft-title{
-    font-size: 20px;
-    line-height: 1;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li a.ft-title{
-    display: none;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li .footer-sublist.collapse:not(.show){
-    display: block;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li,
-  .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftcon-li{
-    margin-top: 13px;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li:first-child{
-    margin-top: 40px;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li a{
-    color: #6f6f6f;
-    font-size: 14px;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li a:hover{
-    color: {{ settings.color_secondary }};
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.insta-li h2.ft-title{
-    display: block;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist .insta-wrap{
-    margin-top: 23px;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li p.ft-description {
-    font-size: 18px;
-    margin-top: 55px;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .news-content{
-    margin-top: 15px;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .subscribe-block {
-    position: relative;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .subscribe-block input{
-    width: 100%;
-    color: #6f6f6f;
-    font-size: 14px;
-    padding: 15px 0;
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid #d6d6d6;
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .subscribe-block .email-submit{
-    position: absolute;
-    {% if settings.enable_rtl %}
-    left: 0;
-    {% else %}
-    right: 0;
-    {% endif %}
-    bottom: 50%;
-    transform: translateY(50%);
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .subscribe-block .email-submit button:hover{
-    color: {{ settings.color_secondary }};
-  }
-  .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .subscribe-block .email-submit button{
-    font-size: 24px;
-    line-height: 1;
-    color: #999;
-  }
-  @media (max-width : 1599px){
-    .footer-list-wrap ul.footer-list li.ftlink-li .logo-desc{
-      margin-top: 30px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li .logo-desc p{
-      width: 100%;
-      
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li .ft-title{
-      font-size: 14px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li p.ft-description{
-      font-size: 14px;
-      margin-top: 30px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li a{
-      font-size: 14px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li:first-child{
-      margin-top: 30px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .subscribe-block inputś{
-      padding-top: 0;
-    }
-  }
-  @media (max-width : 991px){
-    ul.footer-list li:nth-child(3) {
-      order: 1;
-    }
-
-    ul.footer-list li:nth-child(4) {
-      order: -1;
-    }
-
-    ul.footer-list li:nth-child(5) {
-      order: 1;
-    }
-
-    ul.footer-list li.footer-info {
-      order: -1;
-    }
-    
-    .footer-list-wrap ul.footer-list li.ftlink-li{
-      margin-top: 15px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.footer-info{
-      margin-top: 0;
-      margin-bottom: 30px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.link-list:nth-child(4),
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li,
-    .footer-list-wrap ul.footer-list li.ftlink-li.link-list,
-    .footer-list-wrap ul.footer-list li.ftlink-li{
-      width: calc(50% - 30px);
-      text-align: center;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li .footer-social{
-      margin: 20px 0;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li .footer-social ul.social-icon{
-      justify-content: center;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li h2.ft-title{
-      /*display: none;*/
-      text-transform: uppercase;
-      text-align: left;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li a.ft-title{
-      display: none;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li {
-      {% if settings.enable_rtl %}
-      text-align: left;
-      {% else %}
-      text-align: left;
-      {% endif %}
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li h2.ft-title{
-      display: block;
-      font-size: 14px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li a.ft-title{
-      display: none;
-      font-size: 14px;
-      align-items: center;
-      justify-content: space-between;
-      padding-bottom: 15px;
-      border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li a.ft-title i{
-      font-size: 14px;
-    }
-
-    .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li,
-    .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftcon-li{
-      margin-top: 5px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li a.ft-title[aria-expanded="true"] i:before{
-      content: "\e622";
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li .footer-sublist{
-      {% if settings.enable_rtl %}
-      text-align: left;
-      {% else %}
-      text-align: left;
-      {% endif %}
-      margin-bottom: 30px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li .footer-sublist.collapse:not(.show){
-      /*display: none;*/
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li:first-child{
-      margin-top: 15px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li a{
-      font-size: 12px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.insta-li ul.footer-sublist{
-      margin-top: 10px;
-      border-top: 1px solid rgba(0,0,0,0.1);
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li p.ft-description{
-      font-size: 12px;
-      margin-top: 15px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .subscribe-block input{
-      font-size: 12px;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .news-content{
-      margin-top: 0;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.newsletter-li .subscribe-block .email-submit button{
-      font-size: 20px;
-    }
-  }
-  @media (max-width : 767px){
-    .footer-list-wrap ul.footer-list{
-      {% if settings.enable_rtl %}
-      margin-right: -15px;
-      {% else %}
-      margin-left: -15px;
-      {% endif %}
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li{
-      width: calc(100% - 15px);
-      {% if settings.enable_rtl %}
-      margin-right: 15px;
-      {% else %}
-      margin-left: 15px;
-      {% endif %}
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li.footer-info p{
-      max-width: 100%;
-    }
-    .footer-list-wrap ul.footer-list li.ftlink-li ul.footer-sublist li.ftsublink-li a{
-      
-    }
-  }
-  .contact-icons{
-    display: flex;
-    align-items: flex-start;
-    gap:10px;
-  }
-  .contact-icons svg{
-    width:30px;
-    fill:#6f6f6f;
-  }
-  
-  @media screen and (max-width: 991px) {
-   .contact-icons svg{
-      width:20px;
-      margin-top: 6px;
-    } 
-  }
-  
-  .kontakt-list{
-    width:20%;
-  }
-
-  @media screen and (max-width: 991px) {
-    .kontakt-list .footer-sublist .ftsublink-li p {
-      line-height: 22px;
-    }  
-  }
-
-  .contact-icons span {
-    font-size: 14px;
-  }
-
-  @media screen and (max-width: 991px) {
-   .contact-icons span {
-      font-size: 12px;
-    }
-  }
-  
-  .scrollingText {
-    display: flex;
-    margin: 60px 0;
-    overflow: hidden;
-  }
-
-  @media screen and (max-width: 600px) {
-    .scrollingText {
-      margin: 0;
-    }  
-  }
-
-  .scrollingText .scrollingText__container {
-    -moz-animation: my-animation 30s linear infinite;
-    -webkit-animation: my-animation 30s linear infinite;
-    animation: my-animation 30s linear infinite;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .scrollingText .scrollingText__item {
-    font-size: 60px;
-    font-weight: bold;
-    margin-right: 20px;
-    color: #fff;
-    white-space: nowrap;
-    width: 33%;
-    text-align: center;
-    padding: 0 20px;
-  }
-
-  @media screen and (max-width: 640px) {
-    .scrollingText .scrollingText__item {
-      font-size: 50px;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    .scrollingText .scrollingText__item {
-      font-size: 40px;
-    }
-  }
-  
-  @keyframes my-animation {
-    from {
-      -moz-transform: translateX(0%);
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-    }
-    to {
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
-    }
-  }
-
-  .footer-block .footer-block__heading {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 600;
-    margin: 40px 0 25px;
-  }
-
-  @media screen and (max-width: 991px) {
-    .footer-block--social .footer-block__heading {
-      text-align: left;
-    }
-  }
-
-  .list-social {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  
-  .list-social__item .list-social__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background: white;
-    position: relative;
-  }
-
-  .list-social__item .list-social__link:hover {
-    background: black;
-  }
-
-  .list-social__item .list-social__link:hover path {
-    fill: white;
-  }
-</style>

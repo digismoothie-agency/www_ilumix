@@ -1,18 +1,24 @@
 {
   "sections": {
-    "404-template": {
-      "type": "404-template",
+    "main-404": {
+      "type": "main-404",
       "settings": {
-        "section_title_bold": "Ups!",
-        "section_title": "Nedá se svítit, ale tento odkaz neexistuje.",
-        "section_img": "shopify:\/\/shop_images\/404.jpg",
-        "section_des": "Světlo vám přinesou odkazy níže.",
-        "home_button": "Hlavní stránka",
-        "back_button": "Jít zpět"
+        "rounded": false,
+        "heading_size": "title-xl tracking-heading",
+        "padding_top": 120,
+        "padding_bottom": 120
+      }
+    },
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 120,
+        "mobile_height": 20
       }
     }
   },
   "order": [
-    "404-template"
+    "main-404",
+    "empty-space"
   ]
 }
