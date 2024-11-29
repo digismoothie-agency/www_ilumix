@@ -1373,7 +1373,21 @@
     {
       "type": "inventory",
       "name": "t:sections.main-product.blocks.inventory.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "in_stock_title",
+          "label": "t:sections.main-product.blocks.inventory.settings.in_stock_message.label",
+          "default": "t:sections.main-product.blocks.inventory.settings.in_stock_message.default"
+        },
+        {
+          "type": "text",
+          "id": "out_of_stock_title",
+          "label": "t:sections.main-product.blocks.inventory.settings.out_of_stock_message.label",
+          "default": "t:sections.main-product.blocks.inventory.settings.out_of_stock_message.default"
+        }
+      ]
     },
     {
       "type": "quantity_selector",
