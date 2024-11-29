@@ -476,7 +476,7 @@
         "transparent_header": false,
         "video": "{{ product.metafields.custom.video_u_produktu.value }}",
         "video_url": "",
-        "description": "",
+        "description": "{{ product.metafields.custom.nadpis_videa_u_produktu.value }}",
         "enable_video_autoplay": true,
         "enable_video_looping": true,
         "image_height": "650px",
