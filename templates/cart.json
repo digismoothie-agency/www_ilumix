@@ -1,1 +1,145 @@
-{"sections":{"main":{"type":"main-cart","blocks":{"free_shipping":{"type":"free_shipping","settings":{"minimum_amount":"2500"}},"subtotal":{"type":"subtotal","settings":{}},"cart_note":{"type":"cart_note","settings":{"heading":"Poznámka k objednávce"}},"buttons":{"type":"buttons","settings":{}}},"block_order":["free_shipping","subtotal","cart_note","buttons"],"settings":{"heading_size":"title-xl tracking-heading","heading_alignment":"md:items-end","heading_tag":"h1","show_vendor":false,"show_payment_icons":true,"show_shipping_calculator":true,"padding_top":28,"padding_bottom":60,"divider":false,"full_width":false,"rounded":false}},"recently-viewed":{"type":"recently-viewed","settings":{"product_limit":10,"columns":5,"carousel_on_desktop":true,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Mohlo by se Vám take líbit","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":60,"padding_bottom":100,"divider":false,"full_width":false,"rounded":false}}},"order":["main","recently-viewed"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "free_shipping": {
+          "type": "free_shipping",
+          "settings": {
+            "minimum_amount": "2500"
+          }
+        },
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "custom_field_NbwkE6": {
+          "type": "custom_field",
+          "settings": {
+            "type": "text",
+            "title": "Název společnosti",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "custom_field_HW6LyD": {
+          "type": "custom_field",
+          "settings": {
+            "type": "text",
+            "title": "IČO",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "custom_field_e4wYCQ": {
+          "type": "custom_field",
+          "settings": {
+            "type": "text",
+            "title": "DIČ",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "custom_field_iydEqH": {
+          "type": "custom_field",
+          "settings": {
+            "type": "text",
+            "title": "E-mail",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "cart_note": {
+          "type": "cart_note",
+          "disabled": true,
+          "settings": {
+            "heading": "Poznámka k objednávce"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "free_shipping",
+        "subtotal",
+        "custom_field_NbwkE6",
+        "custom_field_HW6LyD",
+        "custom_field_e4wYCQ",
+        "custom_field_iydEqH",
+        "cart_note",
+        "buttons"
+      ],
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "md:items-end",
+        "heading_tag": "h1",
+        "show_vendor": false,
+        "show_payment_icons": true,
+        "show_shipping_calculator": true,
+        "padding_top": 28,
+        "padding_bottom": 60,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "product_limit": 10,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Mohlo by se Vám take líbit",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recently-viewed"
+  ]
+}
