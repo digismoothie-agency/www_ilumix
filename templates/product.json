@@ -536,7 +536,7 @@
       "settings": {
         "image": "{{ product.metafields.custom.photo_designer.value }}",
         "image_height": "550px",
-        "image_width": "medium",
+        "image_width": "small",
         "layout": "image_first",
         "text_alignment": "left",
         "content_position": "align-self-center",
