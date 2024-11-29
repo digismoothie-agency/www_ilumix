@@ -510,7 +510,7 @@
           "type": "heading",
           "settings": {
             "heading": "{{ product.metafields.custom.name_designer.value }}",
-            "heading_size": "title-md",
+            "heading_size": "title-sm",
             "heading_tag": "h2",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
