@@ -155,6 +155,18 @@
       "s": "s",
       "second": "Sec",
       "seconds": "Secs"
+    },
+    "delivery": {
+      "days": {
+        "one": "day",
+        "many": "days",
+        "other": "days"
+      },
+      "weeks": {
+        "one": "week",
+        "many": "weeks",
+        "other": "weeks"
+      }
     }
   },
   "sections": {

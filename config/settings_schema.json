@@ -235,6 +235,18 @@
       },
       {
         "type": "color",
+        "id": "color_supplier_text",
+        "default": "#4d7c0f",
+        "label": "t:settings_schema.colors.settings.color_supplier_text.label"
+      },
+      {
+        "type": "color",
+        "id": "color_supplier_background",
+        "default": "#fffedf",
+        "label": "t:settings_schema.colors.settings.color_supplier_background.label"
+      },
+      {
+        "type": "color",
         "id": "color_info_text",
         "default": "#b45309",
         "label": "t:settings_schema.colors.settings.color_info_text.label"

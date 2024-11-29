@@ -2772,6 +2772,14 @@
               "label": "Show inventory transfer notice",
               "info": "Learn how to create inventory transfers [here](https://help.shopify.com/manual/products/inventory/transfers/create-transfer)"
             },
+            "in_stock_message": {
+              "label": "In stock message",
+              "default": "Skladem, pripraveno k odesláni"
+            },
+            "out_of_stock_message": {
+              "label": "Out of stock message",
+              "default": "Skladem u dodavatele <span>(doručíme do $doba_dodani $jednotka)<\/span>"
+            },
             "color_scheme": {
               "options__1": {
                 "label": "Accent 1"
@@ -3867,6 +3875,12 @@
         },
         "color_error_background": {
           "label": "Error background"
+        },
+        "color_supplier_text": {
+          "label": "Supplier text"
+        },
+        "color_supplier_background": {
+          "label": "Supplier background"
         },
         "color_info_text": {
           "label": "Info text"

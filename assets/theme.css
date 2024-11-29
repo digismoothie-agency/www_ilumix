@@ -10701,6 +10701,11 @@ html.touch .logo-list--right .logo-bar.animate {
   background-color: rgb(var(--color-info-background));
 }
 
+.alert--supplier {
+  color: rgb(var(--color-supplier-text));
+  background-color: rgb(var(--color-supplier-background));
+}
+
 /*! 404 */
 
 .page-404 {

@@ -4472,6 +4472,7 @@ class ProductInfo extends HTMLElement {
   }
 
   connectedCallback() {
+    this.checkStockLevel();
     this.initProductAnimation();
 
     this.onVariantChangeUnsubscriber = theme.pubsub.subscribe(
@@ -4481,6 +4482,28 @@ class ProductInfo extends HTMLElement {
 
     this.initQuantityHandlers();
     this.dispatchEvent(new CustomEvent('product-info:loaded', { bubbles: true }));
+  }
+
+  checkStockLevel() {
+    const inStockElement = this.querySelector('.in-stock');
+    const outStockElement = this.querySelector('.out-stock');
+    if (!inStockElement || !outStockElement) return;
+  
+    const checkedInput = this.querySelector('input[type="radio"]:checked');
+    if (checkedInput) {
+      const stockLevel = parseInt(checkedInput.getAttribute('data-stocks') || '0');
+      
+      if (stockLevel <= 0) {
+        inStockElement.classList.add('hidden');
+        outStockElement.classList.remove('hidden');
+      } else {
+        inStockElement.classList.remove('hidden');
+        outStockElement.classList.add('hidden');
+      }
+    } else {
+      inStockElement.classList.add('hidden');
+      outStockElement.classList.remove('hidden');
+    }
   }
 
   disconnectedCallback() {
@@ -4580,11 +4603,31 @@ class ProductInfo extends HTMLElement {
   handleUpdateProductInfo() {
     return (parsedHTML) => {
       const variant = this.getSelectedVariant(parsedHTML);
-      
+    
       this.pickupAvailability?.update(variant);
       this.updateOptionValues(parsedHTML);
       this.updateURL(variant?.id);
       this.updateVariantInputs(variant?.id);
+      
+      const inStockElement = this.querySelector('.in-stock');
+      const outStockElement = this.querySelector('.out-stock');
+      if (!inStockElement || !outStockElement) return;
+    
+      const checkedInput = this.querySelector('input[type="radio"]:checked');
+      if (checkedInput) {
+        const stockLevel = parseInt(checkedInput.getAttribute('data-stocks') || '0');
+        
+        if (stockLevel <= 0) {
+          inStockElement.classList.add('hidden');
+          outStockElement.classList.remove('hidden');
+        } else {
+          inStockElement.classList.remove('hidden');
+          outStockElement.classList.add('hidden');
+        }
+      } else {
+        inStockElement.classList.add('hidden');
+        outStockElement.classList.remove('hidden');
+      }
       
       if (!variant) {
         this.setUnavailable();

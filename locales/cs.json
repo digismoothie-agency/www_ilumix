@@ -208,6 +208,18 @@
             "s": "s",
             "second": "Sekunda",
             "seconds": "Sekund"
+        },
+        "delivery": {
+            "days": {
+                "one": "dne",
+                "many": "dnů",
+                "other": "dní"
+            },
+            "weeks": {
+                "one": "týdne",
+                "many": "týdnů",
+                "other": "týdny"
+            }
         }
     },
     "blogs": {
