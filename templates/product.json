@@ -86,10 +86,8 @@
         "inventory": {
           "type": "inventory",
           "settings": {
-            "inventory_threshold": 2,
-            "show_inventory_transfer": true,
-            "show_inventory_quantity": "low",
-            "color_scheme": "accent-1"
+            "in_stock_title": "Skladem, pripraveno k odesláni",
+            "out_of_stock_title": "Skladem u dodavatele <span>(doručíme do $doba_dodani $jednotka)</span>"
           }
         },
         "buy_buttons": {
@@ -485,6 +483,8 @@
         "content_width": "small",
         "content_position": "md:items-center md:justify-center",
         "text_alignment": "center",
+        "video_mobile": "{{ product.metafields.custom.video_u_produktu.value }}",
+        "video_url_mobile": "",
         "image_height_mobile": "auto",
         "content_position_mobile": "items-center justify-center",
         "text_alignment_mobile": "center",
