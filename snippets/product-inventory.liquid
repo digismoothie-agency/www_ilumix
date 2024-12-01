@@ -109,7 +109,7 @@
       {%- endif -%}
     {%- endif -%}
   {% endcomment %}
-  {% if product.variants.first.inventory_management == 'shopify' and product.variants.first.inventory_quantity == 0 %}
+  {% if product.variants.first.inventory_management == 'shopify' and product.variants.first.inventory_quantity <= 0 %}
     <span class="out-stock text-danger alert alert--supplier inline-flex items-center gap-3">
       {%- render 'icon', icon: 'ellipse', size: 'xs', class: 'flex-auto' -%}
       <span class="text-sm font-medium leading-tight"> {{ out_of_stock_message }}</span>
@@ -117,13 +117,11 @@
     <span class="in-stock text-success alert alert--success inline-flex items-center gap-3">
       {%- render 'icon', icon: 'ellipse', size: 'xs', class: 'flex-auto' -%}
       <span class="text-sm font-medium leading-tight"> {{ in_stock_message }}</span>
-      {{ block.settings.stock_vice }}
     </span>
   {% elsif product.variants.first.inventory_management == 'shopify' and product.variants.first.inventory_quantity > 0 %}
     <span class="in-stock text-success alert alert--success inline-flex items-center gap-3">
       {%- render 'icon', icon: 'ellipse', size: 'xs', class: 'flex-auto' -%}
       <span class="text-sm font-medium leading-tight"> {{ in_stock_message }}</span>
-      {{ block.settings.stock_vice }}
     </span>
     <span class="out-stock text-danger alert alert--supplier inline-flex items-center gap-3">
       {%- render 'icon', icon: 'ellipse', size: 'xs', class: 'flex-auto' -%}
