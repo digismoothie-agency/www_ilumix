@@ -86,7 +86,7 @@
         "inventory": {
           "type": "inventory",
           "settings": {
-            "in_stock_title": "Skladem, pripraveno k odesláni",
+            "in_stock_title": "Skladem, připraveno k odeslání",
             "out_of_stock_title": "Skladem u dodavatele <span>(doručíme do $doba_dodani $jednotka)</span>"
           }
         },

@@ -2774,7 +2774,7 @@
             },
             "in_stock_message": {
               "label": "In stock message",
-              "default": "Skladem, pripraveno k odesláni"
+              "default": "Skladem, připraveno k odeslání"
             },
             "out_of_stock_message": {
               "label": "Out of stock message",
