@@ -91,7 +91,7 @@
     "product_vendor": true,
     "product_secondary_image": true,
     "product_rating": true,
-    "product_countdown": false,
+    "product_countdown": true,
     "product_quick_add": true,
     "product_quick_view": true,
     "product_color_swatches": true,
