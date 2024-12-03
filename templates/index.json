@@ -1,1 +1,1188 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/header_1_55d1ccdd-9951-42a3-9131-086a579cf62f.jpg","image_mobile":"shopify:\/\/shop_images\/header_mobile_1.jpg","heading":"Leaf LED","heading_size":"title-md","heading_tag":"h2","button_label":"Zobrazit produkt","button_link":"shopify:\/\/products\/leaf-led-stolni-svitidlo","button_external":false,"button_icon":false,"button_secondary_style":false}},"slide-3":{"type":"video","disabled":true,"settings":{"video":"shopify:\/\/files\/videos\/ilumix_svetla_header.mp4","video_url":"","description":"","video_url_mobile":"","heading":"Buster and Punch","heading_size":"title-md","heading_tag":"h2","button_label":"Zobrazit produkt","button_link":"","button_external":false,"button_icon":false,"button_secondary_style":false}},"image_wMEQLk":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/header_2.jpg","image_mobile":"shopify:\/\/shop_images\/header_mobile_2.jpg","heading":"Aromas Elli","heading_size":"title-lg tracking-heading","heading_tag":"h2","button_label":"Zobrazit produkt","button_link":"shopify:\/\/products\/aromas-elli-led-zavesne-kruhove-svitidlo-stmivatelne","button_external":false,"button_icon":false,"button_secondary_style":false}},"image_V8X8ND":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/header_3.jpg","image_mobile":"shopify:\/\/shop_images\/header_mobile_3.jpg","heading":"Astro Toro","heading_size":"title-lg tracking-heading","heading_tag":"h2","button_label":"Zobrazit produkt","button_link":"shopify:\/\/products\/astro-toro-e27-nastenne-svitidlo","button_external":false,"button_icon":false,"button_secondary_style":false}}},"block_order":["slide-1","slide-3","image_wMEQLk","image_V8X8ND"],"settings":{"autoplay":true,"autoplay_speed":6,"show_navigation":true,"image_height":"750px","content_width":"small","image_height_mobile":"400px","color_text":"#ffffff","color_background":"#ffffff","gradient_background":"","color_button_text":"#171717","color_button_background":"#ffffff","color_button_gradient":"","color_overlay":"#000000","overlay_opacity":20,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":false,"enable_parallax":false,"parallax_direction":"vertical"}},"rich-text-1":{"type":"rich-text","blocks":{"text":{"type":"text","settings":{"text":"<p>Vítejte na 360design – místě, kde se světlo snoubí s designem a kvalitou. Již více než 10 let pomáháme našim zákazníkům nacházet ideální osvětlení pro jejich prostory. Úspěšně jsme rozzářili stovky projektů po celé České republice – od rozsáhlých komerčních objektů a kanceláří až po oceňované designové realizace a útulné domovy. Naše práce nás baví a věříme, že dobře zvolené osvětlení dokáže změnit nejen prostor, ale i atmosféru a každodenní život.<br\/><br\/>Ať už hledáte funkční osvětlení, které splní všechny technické požadavky, nebo stylový designový kousek, který se stane dominantou vašeho interiéru, u nás jste na správném místě. <br\/><br\/>Objevte světlo. Objevte 360design.<\/p>","text_size":"subtext-md","text_max_size":32,"text_font":"body","secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["text"],"settings":{"text_alignment":"left","text_alignment_mobile":"left","heading":"Jsme <em>360design<\/em>","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_width":"small","heading_tag":"h2","subheading":"","description":"","button_label":"O nás","button_link":"shopify:\/\/pages\/o-nas","button_external":false,"button_icon":true,"highlighted_text":"scribble","highlighted_scribble":"basic-underline","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":0,"divider":false,"narrow":false,"rounded":false}},"featured-collections":{"type":"featured-collections","blocks":{"collection-1":{"type":"collection","settings":{"collection":"interierova-svitidla","products":[],"title":"Interiérová"}},"collection-2":{"type":"collection","settings":{"collection":"exterierova-svitidla","products":[],"title":"Exteriérová"}},"collection-3":{"type":"collection","settings":{"collection":"dekorativni-exterierova-svitidla","products":[],"title":"Přenosná USB svítidla"}}},"block_order":["collection-1","collection-2","collection-3"],"settings":{"product_limit":6,"columns":5,"carousel_on_desktop":true,"show_view_all":false,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Novinky","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":100,"padding_bottom":100,"divider":false,"full_width":false,"rounded":true}},"collection_list_hyj4fQ":{"type":"collection-list","blocks":{"collection_eqrN3t":{"type":"collection","settings":{"collection":"interierova-svitidla","title":"Interiérová svítidla","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_HzCb9E":{"type":"collection","settings":{"collection":"exterierova-svitidla","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_9RzY7E":{"type":"collection","settings":{"collection":"3f-listy","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection_RmhYpD":{"type":"collection","settings":{"collection":"zarovky-a-zdroje","title":"","description":"","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}}},"block_order":["collection_eqrN3t","collection_HzCb9E","collection_9RzY7E","collection_RmhYpD"],"disabled":true,"settings":{"columns":4,"carousel_on_desktop":true,"image_type":"collection","image_ratio":"square","show_products_count":true,"show_view_all":false,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Kolekce","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false}},"video-with-text-overlay":{"type":"video-with-text-overlay","blocks":{"heading":{"type":"heading","settings":{"heading":"Objevte kouzlo Buster and Punch","heading_size":"title-md","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}},"text":{"type":"text","settings":{"text":"<p>Jedinečná anglická značka s citem pro detail.<\/p>","text_size":"subtext-md","text_max_size":32,"text_font":"body","secondary_color":true,"highlighted_text":"none","highlighted_scribble":"circle"}},"button":{"type":"button","settings":{"button_label":"Prohlédnout kolekci","button_link":"shopify:\/\/collections\/buster-punch","button_size":"md","button_external":false,"button_icon":true,"button_secondary_style":false}}},"block_order":["heading","text","button"],"settings":{"transparent_header":false,"video":"shopify:\/\/files\/videos\/ilumix_svetla_header.mp4","video_url":"","description":"","enable_video_autoplay":true,"enable_video_looping":true,"image_height":"750px","content_width":"medium","content_position":"md:items-center md:justify-center","text_alignment":"center","video_url_mobile":"","image_height_mobile":"auto","content_position_mobile":"items-center justify-center","text_alignment_mobile":"center","color_text":"#ffffff","color_highlight":"#e0a580","gradient_highlight":"","color_button_text":"#171717","color_button_background":"#ffffff","color_button_gradient":"","color_overlay":"#000000","overlay_opacity":50,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":true}},"featured-product":{"type":"featured-product","blocks":{"text":{"type":"text","settings":{"text":"{{ section.settings.product.vendor }}","text_size":"text-base"}},"title":{"type":"title","settings":{"title_size":"product-title-md","title_size_mobile":"product-title-md","show_price":true,"show_rating":true}},"description":{"type":"description","disabled":true,"settings":{"text_size":"text-base"}},"countdown":{"type":"countdown","settings":{"heading":"Pospěšte!","subheading":"Sleva končí za:","color_text":"#e11d48","color_background":"#fff1f2","gradient_background":""}},"variant_picker":{"type":"variant_picker","settings":{"show_variant_labels":true,"picker_type":"button","enable_color_swatches":true,"color_swatch_type":"color","size_chart":""}},"inventory":{"type":"inventory","settings":{"inventory_threshold":15,"show_inventory_transfer":true,"show_inventory_quantity":"low","color_scheme":"accent-1"}},"buy_buttons":{"type":"buy_buttons","settings":{"show_quantity_selector":false,"show_dynamic_checkout":false,"show_gift_card_recipient":false,"enable_back_in_stock":false,"show_back_in_stock_name":false,"show_back_in_stock_phone":false}},"pickup_availability":{"type":"pickup_availability","settings":{}},"share":{"type":"share","settings":{"share_label":"Share","show_help_desk":true,"help_label":"Need help?","help_page":""}},"read_more":{"type":"read_more","settings":{}},"spinning_text":{"type":"spinning_text","settings":{"text":"Skladem skladem"}}},"block_order":["text","title","description","countdown","variant_picker","inventory","buy_buttons","pickup_availability","share","read_more","spinning_text"],"settings":{"product":"barth-led-prisazene-svitidlo","enable_sticky_info":true,"media_size":64,"gallery_layout":"thumbnail","thumbnail_position":"beside","image_ratio":"adapt_first","image_zoom":"lightbox","hide_variants":false,"enable_video_autoplay":true,"enable_video_looping":true,"mobile_layout":"full_width","image_ratio_mobile":"adapt_first","mobile_thumbnail":false,"padding_top":120,"padding_bottom":0,"divider":false,"full_width":false,"rounded":true}},"image-comparison":{"type":"image-comparison","blocks":{"image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/pred.jpg","subheading":"","heading":"Den","content_position":"end","color_text":"#ffffff"}},"image-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/po.jpg","subheading":"","heading":"Noc","content_position":"end","color_text":"#ffffff"}}},"block_order":["image-1","image-2"],"disabled":true,"settings":{"layout":"horizontal","image_height":"750px","image_height_mobile":"300px","heading":"<em>Dodejte Vašemu domovu atmosféru<\/em>","heading_size":"title-md","heading_alignment":"text-center md:items-center","heading_tag":"h2","subheading":"Světlo tvoří design","description":"","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"text","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"linear-gradient(90deg, rgba(249, 197, 141, 1), rgba(43, 43, 43, 1) 100%)","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":100,"padding_bottom":0,"divider":false,"full_width":false,"rounded":false}},"rich-text-2":{"type":"rich-text","disabled":true,"settings":{"text_alignment":"left","text_alignment_mobile":"left","heading":"Sestavte si design se <em>slevou 5%<\/em>","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_width":"large","heading_tag":"h2","subheading":"","description":"<p><strong>Bonusová sleva 5%<\/strong> na celý nákup je tady! Stačí si vybrat <strong>tři produkty<\/strong> z naší nabídky a sleva je vaše – skvělý způsob, jak ušetřit a vytvořit dokonalé osvětlení podle vašich představ.<\/p>","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"scribble","highlighted_scribble":"squiggle-underline","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":120,"padding_bottom":48,"divider":false,"narrow":false,"rounded":false}},"product-bundle":{"type":"product-bundle","disabled":true,"custom_css":["@media screen and (min-width: 1536px) {.product-bundle-wrapper {padding-inline: calc(var(--grid-gap) * 2); }}","@media screen and (min-width: 1536px) and (max-width: 1920px) {.product-bundle {flex: 0 0 25%; } .product-bundle__sidebar {width: 100%; }}"],"settings":{"collection":"ilumix-light","products":[],"product_limit":6,"columns":3,"columns_mobile":"1","minimum_quantity":3,"maximum_quantity":10,"prevent_duplicate_products":true,"allow_quantity_change":true,"quantity_increment":"1","quantity_minimum":"1","quantity_maximum":"","show_variant_labels":false,"picker_type":"button","enable_color_swatches":true,"color_swatch_type":"variant","heading":"Váš výběr","heading_size":"lg:text-5xl text-2xl","heading_alignment":"text-left","heading_tag":"h2","subheading":"","description":"<p>Přidejte alespoň 3 produkty a ušetřete 5 %.<\/p>","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":0,"padding_bottom":0,"divider":false,"full_width":false,"rounded":false}},"scrolling-text-1":{"type":"scrolling-text","blocks":{"text":{"type":"text","settings":{"text":"<em><strong>Doprava od 2.500 Kč ZDARMA<\/strong><\/em>","text_size":100,"text_font":"body","highlighted_text":"stencil","highlighted_scribble":"circle"}}},"block_order":["text"],"settings":{"direction":"left","speed":20,"grid_horizontal":70,"enable_twin":false,"enable_parallax":true,"color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","padding_top":120,"padding_bottom":120,"divider":false,"rounded":false}},"countdown-timer":{"type":"countdown-timer","blocks":{"text":{"type":"text","settings":{"text":"<p>Využijte slevu až 40% na skladová svítidla<\/p>","text_size":"subtext-custom","text_max_size":32,"text_font":"body","secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}},"spacing":{"type":"spacing","settings":{"height":24,"height_mobile":16}},"timer":{"type":"timer","settings":{"year":"2025","month":"01","day":"1","hour":"03","minute":"00","text_font":"heading","text_size":"title-lg tracking-heading","message":""}},"button":{"type":"button","settings":{"button_label":"Prohlédnout nabídku","button_link":"","button_size":"md","button_external":false,"button_icon":true,"button_secondary_style":true}}},"block_order":["text","spacing","timer","button"],"disabled":true,"settings":{"transparent_header":false,"image":"shopify:\/\/shop_images\/14638_11604_14638_11603_14638_11601_14638_11599__vyrp15_115975.jpg","image_height":"750px","content_width":"medium","content_position":"md:items-center md:justify-center","text_alignment":"center","image_height_mobile":"500px","content_position_mobile":"items-center justify-center","text_alignment_mobile":"center","color_text":"#ffffff","color_highlight":"#fcd34d","gradient_highlight":"","color_button_text":"#171717","color_button_background":"#ffffff","color_button_gradient":"","color_overlay":"#000000","overlay_opacity":30,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":true,"enable_parallax":true,"parallax_direction":"vertical"}},"shop-the-look":{"type":"shop-the-look","blocks":{"product_3wqa3U":{"type":"product","settings":{"product":"nova-luce-anapnoe-led-zavesne-svitidlo-sklenene","color_text":"#ffffff","vertical":44,"horizontal":50,"vertical_mobile":50,"horizontal_mobile":50}},"product-3":{"type":"product","settings":{"product":"nova-luce-anapnoe-led-stojaci-svitidlo-sklenene","color_text":"#ffffff","vertical":57,"horizontal":73,"vertical_mobile":50,"horizontal_mobile":50}}},"block_order":["product_3wqa3U","product-3"],"settings":{"image":"shopify:\/\/shop_images\/Nova_Luce_Anapnoe_Zavesne_1_jpg.webp","heading":"Nechte se okouzlit <em>designem<\/em>","heading_size":"title-md","heading_alignment":"text-center md:items-center","heading_tag":"h2","subheading":"Nova luce Anapnoe","description":"","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"scribble","highlighted_scribble":"squiggle-underline","color_text":"#d5d5d5","color_background":"#1c1c1c","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"#ffffff","color_button_background":"#1c1c1c","color_button_gradient":"","color_overlay":"#1c1c1c","overlay_opacity":23,"padding_top":48,"padding_bottom":100,"divider":false,"full_width":false,"rounded":true}},"collection-list":{"type":"collection-list","blocks":{"collection-1":{"type":"collection","settings":{"collection":"aromas-del-campo","title":"Aromas","description":"Poznej produkty od Aromas","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}},"collection-2":{"type":"collection","settings":{"collection":"astro","title":"","description":"Anglická výroba","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":40}},"collection-4":{"type":"collection","settings":{"collection":"karizma-luce","image":"shopify:\/\/shop_images\/KARIZMA_luce_Dea_Amata_S_Zapustne_3.jpg","title":"Karizma luce","description":"Made in Holland","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":40}},"collection-3":{"type":"collection","settings":{"collection":"ilumix-light","image":"shopify:\/\/shop_images\/360_barth_4.jpg","title":"Design edition","description":"Design edition kolekce","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":40}},"collection_pNYAAz":{"type":"collection","settings":{"collection":"tooy","image":"shopify:\/\/shop_images\/tooy-nabila-deckenleuchte-552.12-black-brass-2_5aad9490-e3cc-4983-a22b-c2271f466806.jpg","title":"","description":"Italský design","overlay_content":false,"color_text":"#ffffff","color_overlay":"#000000","overlay_opacity":30}}},"block_order":["collection-1","collection-2","collection-4","collection-3","collection_pNYAAz"],"settings":{"columns":5,"carousel_on_desktop":true,"image_type":"collection","image_ratio":"square","show_products_count":true,"show_view_all":false,"columns_mobile":"1","swipe_on_mobile":true,"heading":"Poznejte výrobce","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":60,"padding_bottom":100,"divider":false,"full_width":false,"rounded":false}},"testimonials-banner":{"type":"testimonials-banner","blocks":{"testimonial-1":{"type":"testimonial","settings":{"icon":"quote","text":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name","author_info":"","author_url":"","image_ratio":"rounded","highlighted_text":"none","highlighted_scribble":"circle"}},"testimonial-2":{"type":"testimonial","settings":{"icon":"quote","text":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name","author_info":"","author_url":"","image_ratio":"rounded","highlighted_text":"none","highlighted_scribble":"circle"}},"testimonial-3":{"type":"testimonial","settings":{"icon":"quote","text":"<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>","author":"Author's name","author_info":"","author_url":"","image_ratio":"rounded","highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["testimonial-1","testimonial-2","testimonial-3"],"disabled":true,"settings":{"transparent_header":false,"image_height":"750px","content_position":"md:items-center md:justify-center","image_height_mobile":"500px","content_position_mobile":"items-center justify-center","color_text":"#ffffff","color_highlight":"","gradient_highlight":"","color_overlay":"#171717","overlay_opacity":40,"padding_top":0,"padding_bottom":0,"divider":false,"rounded":true,"enable_parallax":true,"parallax_direction":"vertical"}},"scrolling-text-2":{"type":"scrolling-text","blocks":{"image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_aromas_529b5235-0082-4db2-b8b5-5a39bb817ffc.png","height":60}},"image-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_gibas_9d7f767f-2aae-4d7c-9ec3-9992d637a2ff.png","height":60}},"image-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_bomma_ff15b898-a90b-47b2-929b-34bc90eeadd0.png","height":60}},"image-4":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_karizma_7e8b6125-bf34-49b7-8d4d-c39847c1185a.png","height":60}},"image-5":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_wever_a0e41ad0-0383-44cd-909c-1b3a1d336fbb.png","height":60}},"image-6":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_buster_c4a7c666-a39e-420d-893c-fa956e6e9408.png","height":60}},"image-7":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_astro_1cf8890c-0e6d-4f2c-9320-42fdc50a4e93.png","height":60}}},"block_order":["image-1","image-2","image-3","image-4","image-5","image-6","image-7"],"settings":{"direction":"right","speed":5,"grid_horizontal":140,"enable_twin":true,"enable_parallax":true,"color_text":"","color_background":"#f2ecc9","gradient_background":"","color_highlight":"","gradient_highlight":"","padding_top":36,"padding_bottom":36,"divider":false,"rounded":false}},"blog-posts-collage":{"type":"blog-posts-collage","disabled":true,"settings":{"blog":"news","post_limit":3,"show_view_all":true,"image_ratio":"landscape","show_tags":true,"show_date":true,"show_comments":true,"show_author":false,"show_excerpt":true,"heading":"Naše poslední články","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":100,"padding_bottom":100,"divider":false,"full_width":false,"rounded":false}}},"order":["slideshow","rich-text-1","featured-collections","collection_list_hyj4fQ","video-with-text-overlay","featured-product","image-comparison","rich-text-2","product-bundle","scrolling-text-1","countdown-timer","shop-the-look","collection-list","testimonials-banner","scrolling-text-2","blog-posts-collage"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/header_1_55d1ccdd-9951-42a3-9131-086a579cf62f.jpg",
+            "image_mobile": "shopify://shop_images/header_mobile_1.jpg",
+            "heading": "Leaf LED",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "button_label": "Zobrazit produkt",
+            "button_link": "shopify://products/leaf-led-stolni-svitidlo",
+            "button_external": false,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        },
+        "slide-3": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/ilumix_svetla_header.mp4",
+            "video_url": "",
+            "description": "",
+            "video_url_mobile": "",
+            "heading": "Buster and Punch",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "button_label": "Zobrazit produkt",
+            "button_link": "",
+            "button_external": false,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        },
+        "image_wMEQLk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/header_2.jpg",
+            "image_mobile": "shopify://shop_images/header_mobile_2.jpg",
+            "heading": "Aromas Elli",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "Zobrazit produkt",
+            "button_link": "shopify://products/aromas-elli-led-zavesne-kruhove-svitidlo-stmivatelne",
+            "button_external": false,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        },
+        "image_V8X8ND": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/header_3.jpg",
+            "image_mobile": "shopify://shop_images/header_mobile_3.jpg",
+            "heading": "Astro Toro",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "Zobrazit produkt",
+            "button_link": "shopify://products/astro-toro-e27-nastenne-svitidlo",
+            "button_external": false,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-3",
+        "image_wMEQLk",
+        "image_V8X8ND"
+      ],
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": 6,
+        "show_navigation": true,
+        "image_height": "750px",
+        "content_width": "small",
+        "image_height_mobile": "400px",
+        "color_text": "#ffffff",
+        "color_background": "#ffffff",
+        "gradient_background": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vítejte na 360design – místě, kde se světlo snoubí s designem a kvalitou. Již více než 10 let pomáháme našim zákazníkům nacházet ideální osvětlení pro jejich prostory. Úspěšně jsme rozzářili stovky projektů po celé České republice – od rozsáhlých komerčních objektů a kanceláří až po oceňované designové realizace a útulné domovy. Naše práce nás baví a věříme, že dobře zvolené osvětlení dokáže změnit nejen prostor, ale i atmosféru a každodenní život.<br/><br/>Ať už hledáte funkční osvětlení, které splní všechny technické požadavky, nebo stylový designový kousek, který se stane dominantou vašeho interiéru, u nás jste na správném místě. <br/><br/>Objevte světlo. Objevte 360design.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "Jsme <em>360design</em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "O nás",
+        "button_link": "shopify://pages/o-nas",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "basic-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "interierova-svitidla",
+            "products": [],
+            "title": "Interiérová"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "exterierova-svitidla",
+            "products": [],
+            "title": "Exteriérová"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "dekorativni-exterierova-svitidla",
+            "products": [],
+            "title": "Přenosná USB svítidla"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "product_limit": 6,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Novinky",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "collection_list_hyj4fQ": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_eqrN3t": {
+          "type": "collection",
+          "settings": {
+            "collection": "interierova-svitidla",
+            "title": "Interiérová svítidla",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_HzCb9E": {
+          "type": "collection",
+          "settings": {
+            "collection": "exterierova-svitidla",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9RzY7E": {
+          "type": "collection",
+          "settings": {
+            "collection": "3f-listy",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_RmhYpD": {
+          "type": "collection",
+          "settings": {
+            "collection": "zarovky-a-zdroje",
+            "title": "",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_eqrN3t",
+        "collection_HzCb9E",
+        "collection_9RzY7E",
+        "collection_RmhYpD"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Kolekce",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "video-with-text-overlay": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Objevte kouzlo Buster and Punch",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jedinečná anglická značka s citem pro detail.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Prohlédnout kolekci",
+            "button_link": "shopify://collections/buster-punch",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/ilumix_svetla_header.mp4",
+        "video_url": "",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "750px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_size": "text-base"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "product-title-md",
+            "title_size_mobile": "product-title-md",
+            "show_price": true,
+            "show_rating": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "text_size": "text-base"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Pospěšte!",
+            "subheading": "Sleva končí za:",
+            "color_text": "#e11d48",
+            "color_background": "#fff1f2",
+            "gradient_background": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "color_swatch_type": "color",
+            "size_chart": ""
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+            "in_stock_title": "Skladem, připraveno k odeslání",
+            "out_of_stock_title": "Skladem u dodavatele <span>(doručíme do $doba_dodani $jednotka)</span>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share",
+            "show_help_desk": true,
+            "help_label": "Need help?",
+            "help_page": ""
+          }
+        },
+        "read_more": {
+          "type": "read_more",
+          "settings": {}
+        },
+        "spinning_text": {
+          "type": "spinning_text",
+          "settings": {
+            "text": "Skladem skladem"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "title",
+        "description",
+        "countdown",
+        "variant_picker",
+        "inventory",
+        "buy_buttons",
+        "pickup_availability",
+        "share",
+        "read_more",
+        "spinning_text"
+      ],
+      "settings": {
+        "product": "barth-led-prisazene-svitidlo",
+        "enable_sticky_info": true,
+        "media_size": 64,
+        "gallery_layout": "thumbnail",
+        "thumbnail_position": "beside",
+        "image_ratio": "adapt_first",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
+        "mobile_thumbnail": false,
+        "padding_top": 120,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "image-comparison": {
+      "type": "image-comparison",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pred.jpg",
+            "subheading": "",
+            "heading": "Den",
+            "content_position": "end",
+            "color_text": "#ffffff"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/po.jpg",
+            "subheading": "",
+            "heading": "Noc",
+            "content_position": "end",
+            "color_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "horizontal",
+        "image_height": "750px",
+        "image_height_mobile": "300px",
+        "heading": "<em>Dodejte Vašemu domovu atmosféru</em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "Světlo tvoří design",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "text",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "linear-gradient(90deg, rgba(249, 197, 141, 1), rgba(43, 43, 43, 1) 100%)",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "rich-text-2": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "heading": "Sestavte si design se <em>slevou 5%</em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "large",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p><strong>Bonusová sleva 5%</strong> na celý nákup je tady! Stačí si vybrat <strong>tři produkty</strong> z naší nabídky a sleva je vaše – skvělý způsob, jak ušetřit a vytvořit dokonalé osvětlení podle vašich představ.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 120,
+        "padding_bottom": 48,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "product-bundle": {
+      "type": "product-bundle",
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (min-width: 1536px) {.product-bundle-wrapper {padding-inline: calc(var(--grid-gap) * 2); }}",
+        "@media screen and (min-width: 1536px) and (max-width: 1920px) {.product-bundle {flex: 0 0 25%; } .product-bundle__sidebar {width: 100%; }}"
+      ],
+      "settings": {
+        "collection": "ilumix-light",
+        "products": [],
+        "product_limit": 6,
+        "columns": 3,
+        "columns_mobile": "1",
+        "minimum_quantity": 3,
+        "maximum_quantity": 10,
+        "prevent_duplicate_products": true,
+        "allow_quantity_change": true,
+        "quantity_increment": "1",
+        "quantity_minimum": "1",
+        "quantity_maximum": "",
+        "show_variant_labels": false,
+        "picker_type": "button",
+        "enable_color_swatches": true,
+        "color_swatch_type": "variant",
+        "heading": "Váš výběr",
+        "heading_size": "lg:text-5xl text-2xl",
+        "heading_alignment": "text-left",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Přidejte alespoň 3 produkty a ušetřete 5 %.</p>",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "scrolling-text-1": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>Doprava od 2.500 Kč ZDARMA</strong></em>",
+            "text_size": 100,
+            "text_font": "body",
+            "highlighted_text": "stencil",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 20,
+        "grid_horizontal": 70,
+        "enable_twin": false,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 120,
+        "padding_bottom": 120,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "countdown-timer": {
+      "type": "countdown-timer",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Využijte slevu až 40% na skladová svítidla</p>",
+            "text_size": "subtext-custom",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "spacing": {
+          "type": "spacing",
+          "settings": {
+            "height": 24,
+            "height_mobile": 16
+          }
+        },
+        "timer": {
+          "type": "timer",
+          "settings": {
+            "year": "2025",
+            "month": "01",
+            "day": "1",
+            "hour": "03",
+            "minute": "00",
+            "text_font": "heading",
+            "text_size": "title-lg tracking-heading",
+            "message": ""
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Prohlédnout nabídku",
+            "button_link": "",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": true
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "spacing",
+        "timer",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": false,
+        "image": "shopify://shop_images/14638_11604_14638_11603_14638_11601_14638_11599__vyrp15_115975.jpg",
+        "image_height": "750px",
+        "content_width": "medium",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "image_height_mobile": "500px",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#fcd34d",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 30,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "shop-the-look": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_3wqa3U": {
+          "type": "product",
+          "settings": {
+            "product": "nova-luce-anapnoe-led-zavesne-svitidlo-sklenene",
+            "color_text": "#ffffff",
+            "vertical": 44,
+            "horizontal": 50,
+            "vertical_mobile": 50,
+            "horizontal_mobile": 50
+          }
+        },
+        "product-3": {
+          "type": "product",
+          "settings": {
+            "product": "nova-luce-anapnoe-led-stojaci-svitidlo-sklenene",
+            "color_text": "#ffffff",
+            "vertical": 57,
+            "horizontal": 73,
+            "vertical_mobile": 50,
+            "horizontal_mobile": 50
+          }
+        }
+      },
+      "block_order": [
+        "product_3wqa3U",
+        "product-3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nova_Luce_Anapnoe_Zavesne_1_jpg.webp",
+        "heading": "Nechte se okouzlit <em>designem</em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "Nova luce Anapnoe",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline",
+        "color_text": "#d5d5d5",
+        "color_background": "#1c1c1c",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#1c1c1c",
+        "color_button_gradient": "",
+        "color_overlay": "#1c1c1c",
+        "overlay_opacity": 23,
+        "padding_top": 48,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "aromas-del-campo",
+            "title": "Aromas",
+            "description": "Made in Spain",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "astro",
+            "title": "",
+            "description": "Made in England",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "karizma-luce",
+            "image": "shopify://shop_images/KARIZMA_luce_Dea_Amata_S_Zapustne_3.jpg",
+            "title": "Karizma luce",
+            "description": "Made in Holland",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "ilumix-light",
+            "image": "shopify://shop_images/360_barth_4.jpg",
+            "title": "Design edition",
+            "description": "Design edition kolekce",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection_pNYAAz": {
+          "type": "collection",
+          "settings": {
+            "collection": "tooy",
+            "image": "shopify://shop_images/tooy-nabila-deckenleuchte-552.12-black-brass-2_5aad9490-e3cc-4983-a22b-c2271f466806.jpg",
+            "title": "",
+            "description": "Made in Italy",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_H3MTrg": {
+          "type": "collection",
+          "settings": {
+            "collection": "bomma",
+            "image": "shopify://shop_images/bomma_ama_7.jpg",
+            "title": "",
+            "description": "Made in Czechia",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_hBGGX4": {
+          "type": "collection",
+          "settings": {
+            "collection": "faro-barcelona",
+            "image": "shopify://shop_images/Faro_Venice_200_7L_Pruhovana_3.jpg",
+            "title": "",
+            "description": "Made in Spain",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_6TfXiD": {
+          "type": "collection",
+          "settings": {
+            "collection": "lombardo",
+            "image": "shopify://shop_images/pop_80T_C_Bianco_Rame.jpg",
+            "title": "",
+            "description": "Made in Italy",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_xjpVyJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "interierova-svitidla",
+            "image": "shopify://shop_images/Faro_Luang_Stolni_XS_Kamelova_2.jpg",
+            "title": "Zobrazit všechny výrobce",
+            "description": "",
+            "overlay_content": false,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-4",
+        "collection-3",
+        "collection_pNYAAz",
+        "collection_H3MTrg",
+        "collection_hBGGX4",
+        "collection_6TfXiD",
+        "collection_xjpVyJ"
+      ],
+      "settings": {
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Poznejte výrobce",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "testimonials-banner": {
+      "type": "testimonials-banner",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": false,
+        "image_height": "750px",
+        "content_position": "md:items-center md:justify-center",
+        "image_height_mobile": "500px",
+        "content_position_mobile": "items-center justify-center",
+        "color_text": "#ffffff",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "scrolling-text-2": {
+      "type": "scrolling-text",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_aromas_529b5235-0082-4db2-b8b5-5a39bb817ffc.png",
+            "height": 60
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_gibas_9d7f767f-2aae-4d7c-9ec3-9992d637a2ff.png",
+            "height": 60
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_bomma_ff15b898-a90b-47b2-929b-34bc90eeadd0.png",
+            "height": 60
+          }
+        },
+        "image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_karizma_7e8b6125-bf34-49b7-8d4d-c39847c1185a.png",
+            "height": 60
+          }
+        },
+        "image-5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_wever_a0e41ad0-0383-44cd-909c-1b3a1d336fbb.png",
+            "height": 60
+          }
+        },
+        "image-6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_buster_c4a7c666-a39e-420d-893c-fa956e6e9408.png",
+            "height": 60
+          }
+        },
+        "image-7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_astro_1cf8890c-0e6d-4f2c-9320-42fdc50a4e93.png",
+            "height": 60
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2",
+        "image-3",
+        "image-4",
+        "image-5",
+        "image-6",
+        "image-7"
+      ],
+      "settings": {
+        "direction": "right",
+        "speed": 5,
+        "grid_horizontal": 140,
+        "enable_twin": true,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "#f2ecc9",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "blog-posts-collage": {
+      "type": "blog-posts-collage",
+      "disabled": true,
+      "settings": {
+        "blog": "news",
+        "post_limit": 3,
+        "show_view_all": true,
+        "image_ratio": "landscape",
+        "show_tags": true,
+        "show_date": true,
+        "show_comments": true,
+        "show_author": false,
+        "show_excerpt": true,
+        "heading": "Naše poslední články",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich-text-1",
+    "featured-collections",
+    "collection_list_hyj4fQ",
+    "video-with-text-overlay",
+    "featured-product",
+    "image-comparison",
+    "rich-text-2",
+    "product-bundle",
+    "scrolling-text-1",
+    "countdown-timer",
+    "shop-the-look",
+    "collection-list",
+    "testimonials-banner",
+    "scrolling-text-2",
+    "blog-posts-collage"
+  ]
+}
