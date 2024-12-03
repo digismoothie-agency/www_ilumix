@@ -63,7 +63,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Zaregistrujte se a získejte <em>5% slevu</em> na svou první objednávku",
+            "heading": "Přihlaste se k odběru novinek a získejte <em>slevu 5%</em> na první objednávku",
             "heading_size": "text-2xl lg:text-3xl",
             "heading_tag": "h2",
             "highlighted_text": "scribble",
