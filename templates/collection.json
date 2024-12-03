@@ -125,11 +125,11 @@
             "content_position_mobile": "items-center",
             "text_alignment_mobile": "center",
             "color_text": "#171717",
-            "color_button_text": "#171717",
-            "color_button_background": "#ffffff",
+            "color_button_text": "#ffffff",
+            "color_button_background": "#171717",
             "color_button_gradient": "",
-            "color_overlay": "#171717",
-            "overlay_opacity": 5
+            "color_overlay": "#ffffff",
+            "overlay_opacity": 50
           }
         }
       },
