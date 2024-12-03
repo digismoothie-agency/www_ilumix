@@ -354,7 +354,7 @@
       ],
       "settings": {
         "transparent_header": false,
-        "video": "shopify://files/videos/ilumix_svetla_header.mp4",
+        "video": "shopify://files/videos/buster-bulb.mp4",
         "video_url": "",
         "description": "",
         "enable_video_autoplay": true,
@@ -363,6 +363,7 @@
         "content_width": "medium",
         "content_position": "md:items-center md:justify-center",
         "text_alignment": "center",
+        "video_mobile": "shopify://files/videos/buster-bulb.mp4",
         "video_url_mobile": "",
         "image_height_mobile": "auto",
         "content_position_mobile": "items-center justify-center",
