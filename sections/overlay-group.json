@@ -84,7 +84,7 @@
         "text-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Přihlaste se k odběru našeho newsletteru a buďte první, kdo se dozví o našich novinkách, speciálních akcích a online exkluzivitách. <br/><em>Odesláním souhlasíte se zpracováním </em><a href=\"https://360design.cz/pages/zasady-ochrany-osobnich-udaju\"><em>osobních údajů</em></a><em>.</em></p>",
+            "text": "<p>Přihlaste se k odběru našeho newsletteru a buďte první, kdo se dozví o našich novinkách, speciálních akcích a online exkluzivitách. <br/><em>Odesláním souhlasíte se zpracováním</em> <a href=\"https://360design.cz/pages/zasady-ochrany-osobnich-udaju\"><em>osobních údajů</em></a><em>.</em></p>",
             "text_size": "text-sm",
             "text_max_size": 32,
             "text_font": "body",
