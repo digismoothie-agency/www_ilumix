@@ -1,41 +1,55 @@
-<ul class="pagination-box">
-  {% if paginate.previous %}
-  <li class="prev">
-    <a href="{{ paginate.previous.url }}" class="Previous" aria-label="Previous">
-      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
-    </a>
-  </li>
-  {% endif %}
-  {% for part in paginate.parts %}
-  {% if part.is_link %}
-    
-    <li class="number">
-      <a href="{{ part.url }}" title="{{ part.title }}">{% if part.title < 10 %} {{ part.title | prepend: "0" }} {% else %} {{ part.title }} {% endif %}</a>
-    </li>
-  
-  {% else %}
+{%- comment -%}
+  Renders a set of links for paginated results. Must be used within paginate tags.
 
-  {% if part.title == paginate.current_page %}
-  <li class="active">
-    <a href="javascript:void(0)">{% if part.title < 10 %} {{ part.title | prepend: "0" }} {% else %} {{ part.title }} {% endif %}</a>
-  </li>
-  {% else %}
-  <li>
-    <a href="javascript:void(0)">{{ part.title }}</a>
-  </li>
-  {% endif %}
-  {% endif %}
-  {% endfor %}
-  {% if paginate.next %}
-  <li class="next">
-    <a href="{{ paginate.next.url }}" class="Next" title="{{ paginate.next.title }}">
-      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-    </a>
-  </li>
-  {% endif %}
-</ul>
+  Usage:
+  {% paginate results by 2 %}
+    {% render 'pagination', paginate: paginate %}
+  {% endpaginate %}
 
-<script>
-  $(".theme-default-pagination .disabled a"). removeAttr("href");
-  $(".theme-default-pagination li.active a"). removeAttr("href");
-</script>
+  Accepts:
+  - paginate: {Object}
+  - mode: {String} (optional) How additional pages of products are navigated
+{%- endcomment -%}
+
+<div class="pagination flex flex-wrap justify-center align-self-center md:gap-2 text-sm md:text-base">
+  {%- if mode == 'infinite' or mode == 'click' -%}
+    {%- if paginate.next -%}
+      <button type="button" class="infinite-scroll button button--primary button--fixed" action="{{ shop.url }}{{ paginate.next.url }}" mode="{{ mode }}" is="infinite-button">
+        <span class="btn-fill" data-fill></span>
+        <span class="btn-text" data-text>{{ 'general.pagination.show_more' | t }}</span>
+      </button>
+    {%- endif -%}
+  {%- else -%}
+    {%- if paginate.previous -%}
+      <a class="previous flex items-center justify-center gap-2" href="{{ paginate.previous.url }}{{ hash }}" is="magnet-link" aria-current="page" aria-label="{{ 'general.pagination.previous' | t | escape }}">
+        {%- render 'icon', icon: 'arrow-left', size: 'sm', class: 'transform stroke-1 flex-auto' -%}
+        <span class="btn-text" data-text>{{ 'general.pagination.previous' | t }}</span>
+      </a>
+    {%- endif -%}
+
+    {%- for part in paginate.parts -%}
+      {%- if part.is_link -%}
+        <a class="page flex items-center justify-center rounded-full" href="{{ part.url }}{{ hash }}" is="magnet-link" aria-current="page" aria-label="{{ part.title | escape }}">
+          <span class="btn-text" data-text>{{ part.title }}</span>
+        </a>
+      {%- else -%}
+        {%- if part.title == paginate.current_page -%}
+          <span class="page current flex items-center justify-center rounded-full pointer-events-none" aria-current="page" aria-label="{{ part.title | escape }}">
+            {{- part.title -}}
+          </span>
+        {%- else -%}
+          <span class="page flex items-center justify-center rounded-full" aria-current="page" aria-label="{{ part.title | escape }}">
+            {{- part.title -}}
+          </span>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- if paginate.next -%}
+      <a class="next flex items-center justify-center gap-2" href="{{ paginate.next.url }}{{ hash }}" is="magnet-link" aria-current="page" aria-label="{{ 'general.pagination.next' | t | escape }}">
+        <span class="btn-text" data-text>{{ 'general.pagination.next' | t }}</span>
+        {%- render 'icon', icon: 'arrow-right', size: 'sm', class: 'transform stroke-1 flex-auto' -%}
+      </a>
+    {%- endif -%}
+  {%- endif -%}
+</div>

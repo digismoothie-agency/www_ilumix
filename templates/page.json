@@ -1,0 +1,128 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "contact_with_map_EmBPJN": {
+      "type": "contact-with-map",
+      "blocks": {
+        "contact_krjQUt": {
+          "type": "contact",
+          "settings": {
+            "heading": "E-mail",
+            "text": "<p>info@360design.cz</p>"
+          }
+        },
+        "contact_fgjD9J": {
+          "type": "contact",
+          "settings": {
+            "heading": "TELEFON",
+            "text": "<p><a href=\"#\" title=\"tel:+420 773 33 55 35\">+420 773 33 55 35<br/></a>po – pá: 09:00 – 16:00</p>"
+          }
+        },
+        "contact_Rxwxhw": {
+          "type": "contact",
+          "settings": {
+            "heading": "údaje společnosti",
+            "text": "<p>ILUMIX light s.r.o.<br/>IČO: 29115728<br/>DIČ: CZ29115728<br/>Spisová značka: <br/>C 25969 vedená u Krajského soudu v Plzni.</p>"
+          }
+        },
+        "contact_mfy38m": {
+          "type": "contact",
+          "settings": {
+            "heading": "Bankovní spojení",
+            "text": "<p>ČSOB: 4377999/0300<br/>RB: 333888999/5500</p>"
+          }
+        },
+        "media_b6W7Ar": {
+          "type": "media",
+          "settings": {
+            "heading": "Follow us"
+          }
+        },
+        "custom_field_qhK7az": {
+          "type": "custom_field",
+          "disabled": true,
+          "settings": {
+            "type": "text",
+            "title": "Your label",
+            "required": false,
+            "full_width": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        }
+      },
+      "block_order": [
+        "contact_krjQUt",
+        "contact_fgjD9J",
+        "contact_Rxwxhw",
+        "contact_mfy38m",
+        "media_b6W7Ar",
+        "custom_field_qhK7az"
+      ],
+      "settings": {
+        "heading": "Napište nám",
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left md:items-start",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Rádi Vám pomůžeme s výběrem vhodného osvětlení nebo zodpovíme Vaše dotazy.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "map_address": "Holečkova 368/4, 360 17 Karlovy Vary 17-Stará Role",
+        "map_api_key": "AIzaSyAZrxFsZOzZoCh642v2vzXVAnXNNgHMjLY",
+        "map_zoom": 15,
+        "map_style": "silver",
+        "image_height": "550px",
+        "image_height_mobile": "400px",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "narrow": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "contact_with_map_EmBPJN"
+  ]
+}
