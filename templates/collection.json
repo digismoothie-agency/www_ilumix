@@ -112,9 +112,10 @@
           "settings": {
             "position": 28,
             "column_size": "1",
+            "image": "shopify://shop_images/nenaslijste.jpg",
             "heading": "Nenašli jste co hledáte?",
             "content": "<p>Máme toho mnohem víc, pošlete nám co hledáte.</p>",
-            "button_label": "Kontaktovat",
+            "button_label": "Poptat",
             "button_link": "",
             "button_external": false,
             "button_icon": true,
@@ -123,12 +124,12 @@
             "text_alignment": "center",
             "content_position_mobile": "items-center",
             "text_alignment_mobile": "center",
-            "color_text": "#ffffff",
+            "color_text": "#171717",
             "color_button_text": "#171717",
             "color_button_background": "#ffffff",
             "color_button_gradient": "",
             "color_overlay": "#171717",
-            "overlay_opacity": 40
+            "overlay_opacity": 5
           }
         }
       },
