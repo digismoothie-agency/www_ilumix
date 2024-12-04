@@ -468,13 +468,23 @@
               {%- endif -%}
 
             {%- when 'variant_picker' -%}
-              {%- render 'product-variant-picker',
-                block: block,
-                product: product,
-                product_id: product.id,
-                section_id: section.id,
-                product_form_id: product_form_id
-              -%}
+              {%- if product.has_only_default_variant == false -%}
+                {%- render 'product-variant-picker',
+                  block: block,
+                  product: product,
+                  product_id: product.id,
+                  section_id: section.id,
+                  product_form_id: product_form_id
+                -%}
+              {%- else -%}
+                <input
+                  type="hidden"
+                  name="id"
+                  value="{{ product.selected_or_first_available_variant.id }}"
+                  data-stocks="{{ product.selected_or_first_available_variant.inventory_quantity }}"
+                  id="product-stock"
+                >
+              {%- endif -%}
 
             {%- when 'product_variations' -%}
               {%- render 'product-variants',

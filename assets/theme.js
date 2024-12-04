@@ -4490,19 +4490,23 @@ class ProductInfo extends HTMLElement {
     if (!inStockElement || !outStockElement) return;
   
     const checkedInput = this.querySelector('input[type="radio"]:checked');
+    
+    const singleVariantInput = this.querySelector('#product-stock');
+    
+    let stockLevel = 0;
+    
     if (checkedInput) {
-      const stockLevel = parseInt(checkedInput.getAttribute('data-stocks') || '0');
-      
-      if (stockLevel <= 0) {
-        inStockElement.classList.add('hidden');
-        outStockElement.classList.remove('hidden');
-      } else {
-        inStockElement.classList.remove('hidden');
-        outStockElement.classList.add('hidden');
-      }
-    } else {
+      stockLevel = parseInt(checkedInput.getAttribute('data-stocks') || '0');
+    } else if (singleVariantInput) {
+      stockLevel = parseInt(singleVariantInput.getAttribute('data-stocks') || '0');
+    }
+    
+    if (stockLevel <= 0) {
       inStockElement.classList.add('hidden');
       outStockElement.classList.remove('hidden');
+    } else {
+      inStockElement.classList.remove('hidden');
+      outStockElement.classList.add('hidden');
     }
   }
 
