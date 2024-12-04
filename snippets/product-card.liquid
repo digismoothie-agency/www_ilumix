@@ -97,7 +97,7 @@
 
         <a class="block relative media media--{{ image_ratio }}{% unless image_fill %} media--contain{% endunless %}{% unless show_secondary_image and product.media.size > 1 %} overflow-hidden{% endunless %}" href="{{ product_url }}" aria-label="{{ product.title | escape }}" tabindex="-1">
           {%- unless featured_media.media_type == 'video' or featured_media.media_type == 'external_video' -%}
-            {%- if show_secondary_image and product.media.size > 1 and false -%}
+            {%- if show_secondary_image and product.media.size > 1 -%}
               <template>
                 {%- for media in product.media limit: 4 -%}
                   <div class="media media--height{% unless image_fill %} media--contain{% endunless %} w-full h-full overflow-hidden">
