@@ -4487,10 +4487,10 @@ class ProductInfo extends HTMLElement {
   checkStockLevel() {
     const inStockElement = this.querySelector('.in-stock');
     const outStockElement = this.querySelector('.out-stock');
+    const pickupAvailability = this.querySelector('.pickup-availability');
     if (!inStockElement || !outStockElement) return;
   
     const checkedInput = this.querySelector('input[type="radio"]:checked');
-    
     const singleVariantInput = this.querySelector('#product-stock');
     
     let stockLevel = 0;
@@ -4504,9 +4504,11 @@ class ProductInfo extends HTMLElement {
     if (stockLevel <= 0) {
       inStockElement.classList.add('hidden');
       outStockElement.classList.remove('hidden');
+      if (pickupAvailability) pickupAvailability.classList.add('hidden');
     } else {
       inStockElement.classList.remove('hidden');
       outStockElement.classList.add('hidden');
+      if (pickupAvailability) pickupAvailability.classList.remove('hidden');
     }
   }
 
@@ -4615,6 +4617,7 @@ class ProductInfo extends HTMLElement {
       
       const inStockElement = this.querySelector('.in-stock');
       const outStockElement = this.querySelector('.out-stock');
+      const pickupAvailability = this.querySelector('.pickup-availability');
       if (!inStockElement || !outStockElement) return;
     
       const checkedInput = this.querySelector('input[type="radio"]:checked');
@@ -4624,13 +4627,16 @@ class ProductInfo extends HTMLElement {
         if (stockLevel <= 0) {
           inStockElement.classList.add('hidden');
           outStockElement.classList.remove('hidden');
+          if (pickupAvailability) pickupAvailability.classList.add('hidden');
         } else {
           inStockElement.classList.remove('hidden');
           outStockElement.classList.add('hidden');
+          if (pickupAvailability) pickupAvailability.classList.remove('hidden');
         }
       } else {
         inStockElement.classList.add('hidden');
         outStockElement.classList.remove('hidden');
+        if (pickupAvailability) pickupAvailability.classList.add('hidden');
       }
       
       if (!variant) {
