@@ -24,6 +24,7 @@
         },
         "custom_field_NbwkE6": {
           "type": "custom_field",
+          "disabled": true,
           "settings": {
             "type": "text",
             "title": "Název společnosti",
@@ -36,6 +37,7 @@
         },
         "custom_field_HW6LyD": {
           "type": "custom_field",
+          "disabled": true,
           "settings": {
             "type": "text",
             "title": "IČO",
@@ -48,6 +50,7 @@
         },
         "custom_field_e4wYCQ": {
           "type": "custom_field",
+          "disabled": true,
           "settings": {
             "type": "text",
             "title": "DIČ",
@@ -60,6 +63,7 @@
         },
         "custom_field_iydEqH": {
           "type": "custom_field",
+          "disabled": true,
           "settings": {
             "type": "text",
             "title": "E-mail",
@@ -68,13 +72,6 @@
             "unchecked_value": "No",
             "radio_options": "",
             "select_options": ""
-          }
-        },
-        "cart_note": {
-          "type": "cart_note",
-          "disabled": true,
-          "settings": {
-            "heading": "Poznámka k objednávce"
           }
         },
         "buttons": {
@@ -89,7 +86,6 @@
         "custom_field_HW6LyD",
         "custom_field_e4wYCQ",
         "custom_field_iydEqH",
-        "cart_note",
         "buttons"
       ],
       "settings": {
