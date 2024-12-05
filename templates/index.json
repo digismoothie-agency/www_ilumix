@@ -112,7 +112,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Vítejte na 360design – místě, kde se světlo snoubí s designem a kvalitou. Již více než 10 let pomáháme našim zákazníkům nacházet ideální osvětlení pro jejich prostory. Úspěšně jsme rozzářili stovky projektů po celé České republice – od rozsáhlých komerčních objektů a kanceláří až po oceňované designové realizace a útulné domovy. Naše práce nás baví a věříme, že dobře zvolené osvětlení dokáže změnit nejen prostor, ale i atmosféru a každodenní život.<br/><br/>Ať už hledáte funkční osvětlení, které splní všechny technické požadavky, nebo stylový designový kousek, který se stane dominantou vašeho interiéru, u nás jste na správném místě. <br/><br/>Objevte světlo. Objevte 360design.</p>",
+            "text": "<p>Vítejte na 360design – místě, kde se světlo snoubí s designem a kvalitou. Již více než 10 let pomáháme našim zákazníkům nacházet ideální osvětlení pro jejich prostory. Úspěšně jsme rozzářili stovky projektů po celé České republice – od rozsáhlých komerčních objektů a kanceláří až po oceňované designové realizace a útulné domovy. Naše práce nás baví a věříme, že dobře zvolené osvětlení dokáže změnit nejen prostor, ale i atmosféru a každodenní život.<br/>Objevte světlo. Objevte 360design.</p>",
             "text_size": "subtext-md",
             "text_max_size": 32,
             "text_font": "body",
