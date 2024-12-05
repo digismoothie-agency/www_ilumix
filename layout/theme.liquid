@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png" />
   {%- endif -%}
 
-  <title>
+  {%- comment smartseo_integration_begin_meta_data -%}<title>
     {{- page_title -}}
     {%- if current_tags -%}
       {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
@@ -30,10 +30,10 @@
     {%- else -%}
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     {%- endif -%}
-  </title>
+  </title>{%- endcomment smartseo_integration_end_meta_data -%}
 
   {%- if page_description -%}
-    <meta name="description" content="{{ page_description | escape }}">
+    {%- comment smartseo_integration_begin_meta_data -%}<meta name="description" content="{{ page_description | escape }}">{%- endcomment smartseo_integration_end_meta_data -%}
   {%- endif -%}
 
   {%- liquid
