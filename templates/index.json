@@ -339,7 +339,7 @@
           "type": "button",
           "settings": {
             "button_label": "Prohlédnout kolekci",
-            "button_link": "shopify://collections/vendors-q-buster-20-26-20punch",
+            "button_link": "shopify://collections/buster-and-punch",
             "button_size": "md",
             "button_external": false,
             "button_icon": true,
