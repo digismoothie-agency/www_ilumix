@@ -30,15 +30,15 @@
         "contact_krjQUt": {
           "type": "contact",
           "settings": {
-            "heading": "E-mail",
-            "text": "<p>info@360design.cz</p>"
+            "heading": "Kontakt",
+            "text": "<p><strong>E-mail</strong><br/>info@360design.cz<br/><br/><strong>Telefon</strong><br/><a href=\"#\" title=\"tel:+420 773 33 55 35\">+420 773 33 55 35<br/></a>po – pá: 09:00 – 16:00</p>"
           }
         },
         "contact_fgjD9J": {
           "type": "contact",
           "settings": {
-            "heading": "TELEFON",
-            "text": "<p><a href=\"#\" title=\"tel:+420 773 33 55 35\">+420 773 33 55 35<br/></a>po – pá: 09:00 – 16:00</p>"
+            "heading": "SHOWROOM",
+            "text": "<p>Holečkova 368/4<br/>Karlovy Vary<br/>36017<br/>po – pá: 09:00 – 16:00</p>"
           }
         },
         "contact_Rxwxhw": {
