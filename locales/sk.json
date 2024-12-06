@@ -360,31 +360,115 @@
       "add_to_bundle": "Pridať do balíčka",
       "vendor": "Predajca",
       "include_taxes": "Daň je zahrnutá v cene. ",
-      "shipping_policy_html": "<a href=\"&lt;span%20class=\" notranslate>{{ link }} '&gt;Doprava</a> bude pripočítaná na stránke doprava a platba v pokladni."
+      "shipping_policy_html": "<a href=\"&lt;span%20class=\" notranslate>{{ link }} '&gt;Doprava</a> bude pripočítaná na stránke doprava a platba v pokladni.",
+      "will_not_ship_until": "Pripravené na odoslanie {{ date }}",
+      "will_be_in_stock_after": "Opäť skladom {{ date }}",
+      "waiting_for_stock": "Tovar je na ceste",
+      "xr_button": "Zobraziť v priestore",
+      "xr_button_label": "Zobraziť v priestore, načíta položku v okne s rozšírenou realitou",
+      "read_more": "Zobraziť úplné detaily"
     },
     "quantity": {
-      "label": "Množstvo"
+      "label": "Množstvo",
+      "input_label": "Množstvo pre {{ product }}",
+      "increase": "Zvýšiť množstvo pre {{ product }}",
+      "decrease": "Znížiť množstvo pre {{ product }}",
+      "minimum_of": "Minimálne z {{ quantity }}",
+      "maximum_of": "Maximálne z {{ quantity }}",
+      "multiples_of": "Násobky z {{ quantity }}",
+      "min_of": "Min {{ quantity }}",
+      "max_of": "Max {{ quantity }}",
+      "in_cart_html": "{{ quantity }} v košíku",
+      "note": "Zobraziť pravidlá množstva"
     },
     "inventory": {
       "out_of_stock": "Vypredané",
-      "out_of_stock_continue_selling": "Skladom"
+      "out_of_stock_continue_selling": "Skladom",
+      "in_stock": "Skladom, pripravené na odoslanie",
+      "in_stock_with_count": "{{ count }} skladom",
+      "low_stock": "Nízky stav zásob",
+      "low_stock_with_count": {
+        "one": "Poponáhľajte sa, zostáva {{ count }} kusov skladom",
+        "other": "Poponáhľajte sa, zostáva {{ count }} kusov skladom!"
+      },
+      "will_not_ship_until": "Pripravené na odoslanie {{ date }}",
+      "will_be_in_stock_after": "Opäť skladom {{ date }}",
+      "waiting_for_stock": "Tovar je na ceste"
     },
     "back_in_stock": {
       "form": {
         "name": "Meno",
-        "phone": "Telefón"
-      }
+        "phone": "Telefón",
+        "message": "Upozornenie o naskladnení",
+        "send": "Informujte ma",
+        "post_success": "Váš e-mail bol prijatý."
+      },
+      "label": "Informujte ma o dostupnosti"
+    },
+    "price": {
+      "regular_price": "Bežná cena",
+      "sale_price": "Cena v akcii",
+      "from_price_html": "<small>Od</small> {{ price }}"
+    },
+    "media": {
+      "open_media": "Otvoriť médiá {{ index }} v modálnom okne",
+      "play_model": "Spustiť 3D prehliadač",
+      "play_video": "Spustiť video",
+      "gallery_viewer": "Prehliadač galérie"
+    },
+    "volume_pricing": {
+      "title": "Cenová zľava na základe objemu",
+      "note": "Dostupná cenová zľava na základe objemu",
+      "minimum": "{{ quantity }} +",
+      "price_at_each": "za {{ price }} /ea"
+    },
+    "pickup_availability": {
+      "title": "Osobný odber",
+      "view_store_info": "Zobraziť informácie o obchode",
+      "check_other_stores": "Skontrolovať dostupnosť v iných obchodoch",
+      "pick_up_available": "Osobný odber",
+      "pick_up_available_at_html": "Osobný odber dostupný na <span class=\"color-foreground\">{{ location_name }}</span>",
+      "pick_up_unavailable": "Osobný odber momentálne nie je dostupný",
+      "pick_up_unavailable_at_html": "Osobný odber momentálne nie je dostupný na <span class=\"color-foreground\">{{ location_name }}</span>",
+      "unavailable": "Nepodarilo sa načítať dostupnosť pre osobný odber ",
+      "refresh": "Obnoviť"
     }
   },
   "recipient": {
     "form": {
       "name": "Meno",
-      "message": "Správa"
+      "message": "Správa",
+      "checkbox": "Chcem poslať ako darček.",
+      "expanded": "Rozšírený formulár pre príjemcu darčekovej karty.",
+      "collapsed": "Skrátený formulár pre príjemcu darčekovej karty.",
+      "email_label": "Príjemca emailu",
+      "email_label_optional_for_no_js_behavior": "Príjemca emailu (voliteľný)",
+      "name_label": "Meno príjemcu (voliteľný)",
+      "message_label": "Správa (voliteľný)",
+      "max_characters": "{{ max_chars }} maximálny počet znakov",
+      "send_on_label": "Odoslať na štítku (voliteľný)"
     }
   },
   "localization": {
     "country_label": "Krajina/región",
     "update_language": "Aktualizovať jazyk",
     "update_country": "Aktualizovať krajinu/región"
+  },
+  "gift_cards": {
+    "issued": {
+      "title_html": "Tu je vaša {{ value }} darčeková karta pre {{ shop }} !",
+      "subtext": "Tu je vaša darčeková karta!",
+      "disabled": "Neaktívne",
+      "expired": "Prešla",
+      "active": "Platnosť do {{ expiry }}",
+      "redeem": "Použite tento kód v pokladni na uplatnenie vašej darčekovej karty.",
+      "shop_link": "Navštívte internetový obchod",
+      "copy_code_success": "Kód bol úspešne skopírovaný",
+      "copy": "Kopírovať",
+      "print": "Vytlačiť",
+      "scan": "alebo oskenujte tento QR kód",
+      "add_to_apple_wallet": "Pridať do peňaženky Apple",
+      "qr_image_alt": "QR kód - oskenujte na uplatnenie darčekovej karty "
+    }
   }
 }
