@@ -1,1 +1,766 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"heading_size":"title-xl tracking-heading","heading_alignment":"text-left","heading_tag":"h1","text_size":"text-base","padding_top":72,"padding_bottom":120,"divider":false,"narrow":true,"rounded":false}},"image-with-text-overlay":{"type":"image-with-text-overlay","blocks":{"text":{"type":"text","settings":{"text":"<p><em><strong>Náš příběh<\/strong><\/em><\/p>","text_size":"subtext-lg","text_max_size":32,"text_font":"body","secondary_color":false,"highlighted_text":"text","highlighted_scribble":"circle"}},"heading":{"type":"heading","settings":{"heading":"Jsme 360design","heading_size":"title-xl tracking-heading","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["text","heading"],"settings":{"transparent_header":true,"image":"shopify:\/\/shop_images\/onas_header_08563f5f-d5f0-4ad0-8891-ca8fa5b3a3cd.jpg","image_height":"500px","content_width":"large","content_position":"md:items-end md:justify-start","text_alignment":"left","image_height_mobile":"auto","content_position_mobile":"items-end justify-start","text_alignment_mobile":"left","color_text":"#ffffff","color_highlight":"#e0a580","gradient_highlight":"","color_button_text":"#171717","color_button_background":"#ffffff","color_button_gradient":"","color_overlay":"#000000","overlay_opacity":50,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":true,"enable_parallax":true,"parallax_direction":"vertical"}},"images-with-text":{"type":"images-with-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Více než 10 let světelných <em>zkušeností<\/em>","heading_size":"title-md","heading_tag":"h2","highlighted_text":"scribble","highlighted_scribble":"basic-underline"}},"text":{"type":"text","settings":{"text":"<p>Od roku 2010 se věnujeme světlu. Začali jsme velkými světelnými projekty – díky nám svítí třeba Kongresové centrum, desítky českých obchodních center i nemocnic. Naše svítidla můžete vidět v českých televizních pořadech o designu. Postupně jsme dali dohromady rozsáhlou nabídku vlastních interiérových i exteriérových svítidel a stali se výhradními distributory předních evropských výrobců designových světel.<\/p>","text_size":"subtext-md","text_max_size":32,"text_font":"body","secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}},"button":{"type":"button","disabled":true,"settings":{"button_label":"Button label","button_link":"","button_size":"md","button_external":false,"button_icon":true,"button_secondary_style":true}}},"block_order":["heading","text","button"],"settings":{"image":"shopify:\/\/shop_images\/nova_luce_aider_zavesne_1.jpg","image_2":"shopify:\/\/shop_images\/nova_luce_aider_zavesne_5.jpg","image_ratio":"portrait","image_width":"medium","layout":"image_first","text_alignment":"left","text_alignment_mobile":"left","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":80,"padding_bottom":80,"divider":false,"full_width":false,"rounded":true,"enable_parallax":true}},"video_hero_MNPxpH":{"type":"video-hero","blocks":{"slide_Ff8VmH":{"type":"slide","settings":{"heading":"Široký výběr svítidel","heading_size":"title-lg tracking-heading","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}},"slide_hgBNLW":{"type":"slide","settings":{"heading":"Kvalitní zpracování","heading_size":"title-lg tracking-heading","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}},"slide_dHWGyy":{"type":"slide","settings":{"heading":"Přední evropští výrobci","heading_size":"title-lg tracking-heading","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}},"slide_7gTMYA":{"type":"slide","settings":{"heading":"To je <strong>360design<\/strong>","heading_size":"title-lg tracking-heading","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["slide_Ff8VmH","slide_hgBNLW","slide_dHWGyy","slide_7gTMYA"],"settings":{"transparent_header":false,"video":"shopify:\/\/files\/videos\/ilumix_svetla_header.mp4","video_url":"","description":"videoheader","enable_video_autoplay":true,"enable_video_looping":true,"content_width":"medium","video_url_mobile":"","color_text":"#ffffff","color_highlight":"","gradient_highlight":"","color_overlay":"#000000","overlay_opacity":40,"padding_top":0,"padding_bottom":0,"divider":false,"full_width":true,"rounded":false}},"portfolio":{"type":"portfolio","blocks":{"profile-1":{"type":"profile","settings":{"image":"shopify:\/\/shop_images\/Astro_Minima_Mini_8.jpg","heading":"Kvalita a funkčnost","text":"<p>Kvalita a funkčnost jsou pro nás klíčové. Svítidla vybíráme s maximální péčí, abychom vám nabídli jen to nejlepší od ověřených evropských výrobců. Stejnou pozornost věnujeme i naší vlastní výrobě, kde spojujeme precizní řemeslo s moderním designem. Každý detail je promyšlený tak, aby světla nejen skvěle vypadala, ale také perfektně sloužila vašim potřebám.<\/p>","color_text":"#ffffff","color_background":"#000000"}},"profile-2":{"type":"profile","settings":{"image":"shopify:\/\/shop_images\/Astro_Koto_Bar_Prisazene_19.jpg","heading":"Originální design","text":"<p>Naše svítidla pocházejí od předních evropských výrobců a designérů, kteří udávají trendy v moderním osvětlení. Spojují špičkovou kvalitu s jedinečným stylem, který podtrhne atmosféru každého interiéru. Sázíme na originální design, který vás osloví svou nadčasovostí a precizním zpracováním.<\/p>","color_text":"#ffffff","color_background":"#000000"}},"profile-3":{"type":"profile","settings":{"image":"shopify:\/\/shop_images\/Astro_Palermo_600_Prisazene_Cerna_5.jpg","heading":"Víme, co prodáváme","text":"<p>Víme, co prodáváme, a na kvalitě nám opravdu záleží. Všechny naše výrobce a dodavatele známe osobně a pravidelně navštěvujeme jejich výrobu, abychom měli jistotu, že jejich postupy splňují nejvyšší standardy. Díky mnohaletým zkušenostem v oblasti osvětlovací techniky vám můžeme nabídnout produkty, které Vás nezklamou.<\/p>","color_text":"#ffffff","color_background":"#000000"}}},"block_order":["profile-1","profile-2","profile-3"],"settings":{"columns":4,"carousel_on_desktop":false,"layout":"grid","image_ratio":"portrait","image_ratio_mobile":"portrait","columns_mobile":"1","swipe_on_mobile":true,"heading":"Vaše spokojenost je naše priorita","heading_size":"title-md","heading_alignment":"text-left justify-start","heading_tag":"h2","subheading":"Je to o Vás","description":"<p>Vaše spokojenost je pro nás na prvním místě. Do naší nabídky zařazujeme pouze ověřená a kvalitní svítidla od renomovaných evropských výrobců, která splňují nejvyšší standardy designu i funkčnosti. Každý produkt pečlivě vybíráme tak, aby vám přinesl radost a dlouhodobou spolehlivost. S námi si můžete být jisti, že dostáváte to nejlepší.<\/p>","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"scribble","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"#ccd8b5","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":108,"padding_bottom":108,"divider":false,"full_width":false,"rounded":false}},"timeline":{"type":"timeline","blocks":{"content_eF9LU6":{"type":"content","settings":{"image":"shopify:\/\/shop_images\/Nova_Luce_Polifemo_Zavesne_Hnedy_Maly_1_5d0d67e1-1365-4f5d-9c97-0e9e4119cc69.jpg","subheading":"Interiérová svítidla","heading":"Svítidla pro Váš domov","heading_tag":"h2","text":"<p>Interiérová svítidla dodají vašemu domovu tu správnou atmosféru. Nabízíme široký výběr svítidel pro všechny typy místností – od elegantních lustrů přes moderní nástěnná svítidla až po praktické lampy a bodová světla. Všechny naše produkty spojují kvalitní zpracování, nadčasový design a funkčnost, aby váš interiér nejen zářil, ale také dokonale ladil s vaším stylem.<\/p>","button_label":"Zobrazit","button_link":"shopify:\/\/collections\/interierova-svitidla","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle"}},"content-1":{"type":"content","settings":{"image":"shopify:\/\/shop_images\/Astro_Montreal_Oval_Nastenne_6.jpg","subheading":"Exteriérová svítidla","heading":"Dejte Vaší zahradě kouzlo","heading_tag":"h2","text":"<p>Exteriérová svítidla přináší vaší zahradě, terase nebo okolí domu nejen světlo, ale i jedinečnou atmosféru. Nabízíme odolná a stylová svítidla, která skvěle kombinují funkčnost s designem. Ať už hledáte dekorativní osvětlení pro příjemné večery, nebo praktická svítidla pro bezpečný pohyb, u nás najdete to pravé. Dejte svému venkovnímu prostoru kouzlo, které si zaslouží!<\/p>","button_label":"Zobrazit","button_link":"shopify:\/\/collections\/exterierova-svitidla","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle"}},"content-2":{"type":"content","settings":{"image":"shopify:\/\/shop_images\/KL_DeaVestaS-Track_OfficeArea_ed4e4516-2e7b-4826-b617-0592bf304c28.jpg","subheading":"Lištové systémy","heading":"Flexibilní řešení osvětlení","heading_tag":"h2","text":"<p>Lištové systémy představují moderní a flexibilní řešení osvětlení pro váš interiér. Nabízíme 3fázové lištové systémy a 48V magnetické lišty, které umožňují snadnou instalaci a přizpůsobení svítidel přesně podle vašich potřeb. Díky široké nabídce reflektorů, závěsných či vestavěných svítidel si můžete vytvořit jedinečné osvětlení na míru. Ideální volba pro komerční i rezidenční prostory, kde je variabilita klíčová.<\/p>","button_label":"Zobrazit","button_link":"shopify:\/\/collections\/3f-listy","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle"}},"content-3":{"type":"content","settings":{"image":"shopify:\/\/shop_images\/zarovky_a34bd418-d93e-46d3-9966-e9b559701253.jpg","subheading":"Žárovky a zdroje","heading":"Světelná atmosféra podle Vašich potřeb","heading_tag":"h2","text":"<p>Žárovky a světelné zdroje jsou základem pro vytvoření dokonalé světelné atmosféry ve vašem prostoru. U nás najdete širokou nabídku LED žárovek i dekorativních zdrojů. Vyberte si teplotu světla a intenzitu, která bude přesně odpovídat vašim potřebám, a dolaďte tak každou místnost k dokonalosti.<\/p>","button_label":"Zobrazit","button_link":"shopify:\/\/collections\/zarovky-a-zdroje","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["content_eF9LU6","content-1","content-2","content-3"],"settings":{"image_ratio":"portrait","image_ratio_mobile":"wide","heading":"Vše co potřebujete, na jednom místě","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_tag":"h2","subheading":"","description":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"#ffffff","color_background":"#171717","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"#171717","color_button_background":"#ffffff","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":true}},"testimonials":{"type":"testimonials","blocks":{"testimonial":{"type":"testimonial","settings":{"icon":"5-stars","text":"<p>Svítidla bezpečně zabalena a doručena včas. Doporučuji<\/p>","author":"recenze Heureka","author_info":"","author_url":"","image_ratio":"rounded","highlighted_text":"none","highlighted_scribble":"circle"}},"testimonial_6pyziP":{"type":"testimonial","settings":{"icon":"5-stars","text":"<p>Příjemná telefonická podpora, pomohli vybrat vhodná svítidla.<\/p>","author":"recenze Heureka","author_info":"","author_url":"","image_ratio":"rounded","highlighted_text":"none","highlighted_scribble":"circle"}},"testimonial_CXQ8f9":{"type":"testimonial","settings":{"icon":"quote","text":"<p>Vybrané svítidlo bohužel nebylo skladem, ale vybrali jsme podobné svítidlo od jiného výrobce a je skvělé.<\/p>","author":"Facebook","author_info":"","author_url":"","image_ratio":"rounded","highlighted_text":"none","highlighted_scribble":"circle"}},"testimonial_Ee9CRJ":{"type":"testimonial","settings":{"icon":"quote","text":"<p>Díky za dodaná svítidla, vypadají úplně úžasně.<\/p>","author":"Facebook","author_info":"","author_url":"","image_ratio":"rounded","highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["testimonial","testimonial_6pyziP","testimonial_CXQ8f9","testimonial_Ee9CRJ"],"settings":{"heading":"","heading_size":"title-md","heading_alignment":"text-center md:items-center","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":84,"padding_bottom":120,"divider":false,"rounded":false}},"image_with_text_pKbMjN":{"type":"image-with-text","blocks":{"heading_RgJFL4":{"type":"heading","settings":{"heading":"B2B program","heading_size":"title-md","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}},"text_D7nGKp":{"type":"text","settings":{"text":"<p>Pro velkoodběratele máme připravený B2B program plný výhod. Nabízíme jedinečné velkoobchodní ceny, individuální cenové nabídky a profesionální poradenství při výběru osvětlení. Staňte se naším partnerem a získejte přístup k široké nabídce kvalitních svítidel a výhodám šitým na míru vašim potřebám.<\/p>","text_size":"subtext-md","text_max_size":32,"text_font":"body","secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}},"button_hkc6NT":{"type":"button","settings":{"button_label":"Více o B2B programu","button_link":"shopify:\/\/pages\/b2b","button_size":"md","button_external":false,"button_icon":true,"button_secondary_style":false}}},"block_order":["heading_RgJFL4","text_D7nGKp","button_hkc6NT"],"settings":{"image":"shopify:\/\/shop_images\/bomma_ama_14.jpg","image_height":"650px","image_width":"medium","layout":"image_first","text_alignment":"right","content_position":"align-self-center","image_height_mobile":"auto","text_alignment_mobile":"left","color_text":"#ffffff","color_background":"#121212","gradient_background":"","color_background_2":"","gradient_background_2":"","color_highlight":"","gradient_highlight":"","color_button_text":"#121212","color_button_background":"#ffffff","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":false,"enable_parallax":true,"parallax_direction":"vertical"}},"rich-text":{"type":"rich-text","blocks":{"text":{"type":"text","settings":{"text":"<p>Naši partneři<\/p>","text_size":"subtext-md","text_max_size":32,"text_font":"body","secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}},"heading":{"type":"heading","settings":{"heading":"<em>Prémiová svítidla<\/em> od předních výrobců","heading_size":"title-md","heading_tag":"h2","highlighted_text":"scribble","highlighted_scribble":"squiggle-underline"}}},"block_order":["text","heading"],"settings":{"text_alignment":"center","text_alignment_mobile":"center","heading":"","heading_size":"title-md","heading_alignment":"text-left md:items-end md:flex-row","heading_width":"small","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"#fafafa","gradient_background":"","color_highlight":"#c5e8b8","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":120,"padding_bottom":20,"divider":false,"narrow":true,"rounded":true}},"logo-list":{"type":"logo-list","blocks":{"logo-1":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_powergear.png","height":60,"link":"shopify:\/\/collections\/powergear"}},"logo-2":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_buster.png","height":60,"link":"shopify:\/\/collections\/buster-punch"}},"logo-3":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_wever.png","height":60,"link":""}},"logo-4":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_lombardo.png","height":60,"link":"shopify:\/\/collections\/lombardo"}},"logo-5":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_tooy.png","height":60,"link":"shopify:\/\/collections\/tooy"}},"logo-6":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_astro.png","height":60,"link":""}},"logo-7":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_karizma.png","height":60,"link":""}},"logo_9eUaJh":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_ilumix.png","height":80,"link":""}},"logo_QYgYCj":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_gibas.png","height":80,"link":""}},"logo_6eBrym":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_bomma.png","height":60,"link":""}},"logo_3GRAxh":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_aromas.png","height":80,"link":""}}},"block_order":["logo-1","logo-2","logo-3","logo-4","logo-5","logo-6","logo-7","logo_9eUaJh","logo_QYgYCj","logo_6eBrym","logo_3GRAxh"],"settings":{"layout":"marquee","grid_horizontal":120,"direction":"right","speed":6,"heading":"","heading_size":"title-md","heading_alignment":"text-center md:items-center","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","button_external":false,"button_icon":true,"highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"#fafafa","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":60,"padding_bottom":120,"divider":false,"full_width":true,"rounded":true}}},"order":["main","image-with-text-overlay","images-with-text","video_hero_MNPxpH","portfolio","timeline","testimonials","image_with_text_pKbMjN","rich-text","logo-list"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "text-left",
+        "heading_tag": "h1",
+        "text_size": "text-base",
+        "padding_top": 72,
+        "padding_bottom": 120,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Náš příběh</strong></em></p>",
+            "text_size": "subtext-lg",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jsme 360design",
+            "heading_size": "title-xl tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading"
+      ],
+      "settings": {
+        "transparent_header": true,
+        "image": "shopify://shop_images/onas_header_08563f5f-d5f0-4ad0-8891-ca8fa5b3a3cd.jpg",
+        "image_height": "500px",
+        "content_width": "large",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "images-with-text": {
+      "type": "images-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Více než 10 let světelných <em>zkušeností</em>",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "scribble",
+            "highlighted_scribble": "basic-underline"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Od roku 2010 se věnujeme světlu. Začali jsme velkými světelnými projekty – díky nám svítí třeba Kongresové centrum, desítky českých obchodních center i nemocnic. Naše svítidla můžete vidět v českých televizních pořadech o designu. Postupně jsme dali dohromady rozsáhlou nabídku vlastních interiérových i exteriérových svítidel a stali se výhradními distributory předních evropských výrobců designových světel.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/nova_luce_aider_zavesne_1.jpg",
+        "image_2": "shopify://shop_images/nova_luce_aider_zavesne_5.jpg",
+        "image_ratio": "portrait",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": true
+      }
+    },
+    "video_hero_MNPxpH": {
+      "type": "video-hero",
+      "blocks": {
+        "slide_Ff8VmH": {
+          "type": "slide",
+          "settings": {
+            "heading": "Široký výběr svítidel",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "slide_hgBNLW": {
+          "type": "slide",
+          "settings": {
+            "heading": "Kvalitní zpracování",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "slide_dHWGyy": {
+          "type": "slide",
+          "settings": {
+            "heading": "Přední evropští výrobci",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "slide_7gTMYA": {
+          "type": "slide",
+          "settings": {
+            "heading": "To je <strong>360design</strong>",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Ff8VmH",
+        "slide_hgBNLW",
+        "slide_dHWGyy",
+        "slide_7gTMYA"
+      ],
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/ilumix_svetla_header.mp4",
+        "video_url": "",
+        "description": "videoheader",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "content_width": "medium",
+        "video_url_mobile": "",
+        "color_text": "#ffffff",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "portfolio": {
+      "type": "portfolio",
+      "blocks": {
+        "profile-1": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/Astro_Minima_Mini_8.jpg",
+            "heading": "Kvalita a funkčnost",
+            "text": "<p>Kvalita a funkčnost jsou pro nás klíčové. Svítidla vybíráme s maximální péčí, abychom vám nabídli jen to nejlepší od ověřených evropských výrobců. Stejnou pozornost věnujeme i naší vlastní výrobě, kde spojujeme precizní řemeslo s moderním designem. Každý detail je promyšlený tak, aby světla nejen skvěle vypadala, ale také perfektně sloužila vašim potřebám.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#000000"
+          }
+        },
+        "profile-2": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/Astro_Koto_Bar_Prisazene_19.jpg",
+            "heading": "Originální design",
+            "text": "<p>Naše svítidla pocházejí od předních evropských výrobců a designérů, kteří udávají trendy v moderním osvětlení. Spojují špičkovou kvalitu s jedinečným stylem, který podtrhne atmosféru každého interiéru. Sázíme na originální design, který vás osloví svou nadčasovostí a precizním zpracováním.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#000000"
+          }
+        },
+        "profile-3": {
+          "type": "profile",
+          "settings": {
+            "image": "shopify://shop_images/Astro_Palermo_600_Prisazene_Cerna_5.jpg",
+            "heading": "Víme, co prodáváme",
+            "text": "<p>Víme, co prodáváme, a na kvalitě nám opravdu záleží. Všechny naše výrobce a dodavatele známe osobně a pravidelně navštěvujeme jejich výrobu, abychom měli jistotu, že jejich postupy splňují nejvyšší standardy. Díky mnohaletým zkušenostem v oblasti osvětlovací techniky vám můžeme nabídnout produkty, které Vás nezklamou.</p>",
+            "color_text": "#ffffff",
+            "color_background": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "profile-1",
+        "profile-2",
+        "profile-3"
+      ],
+      "settings": {
+        "columns": 4,
+        "carousel_on_desktop": false,
+        "layout": "grid",
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Vaše spokojenost je naše priorita",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left justify-start",
+        "heading_tag": "h2",
+        "subheading": "Je to o Vás",
+        "description": "<p>Vaše spokojenost je pro nás na prvním místě. Do naší nabídky zařazujeme pouze ověřená a kvalitní svítidla od renomovaných evropských výrobců, která splňují nejvyšší standardy designu i funkčnosti. Každý produkt pečlivě vybíráme tak, aby vám přinesl radost a dlouhodobou spolehlivost. S námi si můžete být jisti, že dostáváte to nejlepší.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "#ccd8b5",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 108,
+        "padding_bottom": 108,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "timeline": {
+      "type": "timeline",
+      "blocks": {
+        "content_eF9LU6": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Nova_Luce_Polifemo_Zavesne_Hnedy_Maly_1_5d0d67e1-1365-4f5d-9c97-0e9e4119cc69.jpg",
+            "subheading": "Interiérová svítidla",
+            "heading": "Svítidla pro Váš domov",
+            "heading_tag": "h2",
+            "text": "<p>Interiérová svítidla dodají vašemu domovu tu správnou atmosféru. Nabízíme široký výběr svítidel pro všechny typy místností – od elegantních lustrů přes moderní nástěnná svítidla až po praktické lampy a bodová světla. Všechny naše produkty spojují kvalitní zpracování, nadčasový design a funkčnost, aby váš interiér nejen zářil, ale také dokonale ladil s vaším stylem.</p>",
+            "button_label": "Zobrazit",
+            "button_link": "shopify://collections/interierova-svitidla",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-1": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/Astro_Montreal_Oval_Nastenne_6.jpg",
+            "subheading": "Exteriérová svítidla",
+            "heading": "Dejte Vaší zahradě kouzlo",
+            "heading_tag": "h2",
+            "text": "<p>Exteriérová svítidla přináší vaší zahradě, terase nebo okolí domu nejen světlo, ale i jedinečnou atmosféru. Nabízíme odolná a stylová svítidla, která skvěle kombinují funkčnost s designem. Ať už hledáte dekorativní osvětlení pro příjemné večery, nebo praktická svítidla pro bezpečný pohyb, u nás najdete to pravé. Dejte svému venkovnímu prostoru kouzlo, které si zaslouží!</p>",
+            "button_label": "Zobrazit",
+            "button_link": "shopify://collections/exterierova-svitidla",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-2": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/KL_DeaVestaS-Track_OfficeArea_ed4e4516-2e7b-4826-b617-0592bf304c28.jpg",
+            "subheading": "Lištové systémy",
+            "heading": "Flexibilní řešení osvětlení",
+            "heading_tag": "h2",
+            "text": "<p>Lištové systémy představují moderní a flexibilní řešení osvětlení pro váš interiér. Nabízíme 3fázové lištové systémy a 48V magnetické lišty, které umožňují snadnou instalaci a přizpůsobení svítidel přesně podle vašich potřeb. Díky široké nabídce reflektorů, závěsných či vestavěných svítidel si můžete vytvořit jedinečné osvětlení na míru. Ideální volba pro komerční i rezidenční prostory, kde je variabilita klíčová.</p>",
+            "button_label": "Zobrazit",
+            "button_link": "shopify://collections/3f-listy",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "content-3": {
+          "type": "content",
+          "settings": {
+            "image": "shopify://shop_images/zarovky_a34bd418-d93e-46d3-9966-e9b559701253.jpg",
+            "subheading": "Žárovky a zdroje",
+            "heading": "Světelná atmosféra podle Vašich potřeb",
+            "heading_tag": "h2",
+            "text": "<p>Žárovky a světelné zdroje jsou základem pro vytvoření dokonalé světelné atmosféry ve vašem prostoru. U nás najdete širokou nabídku LED žárovek i dekorativních zdrojů. Vyberte si teplotu světla a intenzitu, která bude přesně odpovídat vašim potřebám, a dolaďte tak každou místnost k dokonalosti.</p>",
+            "button_label": "Zobrazit",
+            "button_link": "shopify://collections/zarovky-a-zdroje",
+            "button_external": false,
+            "button_icon": true,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "content_eF9LU6",
+        "content-1",
+        "content-2",
+        "content-3"
+      ],
+      "settings": {
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "wide",
+        "heading": "Vše co potřebujete, na jednom místě",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "text": "<p>Svítidla bezpečně zabalena a doručena včas. Doporučuji</p>",
+            "author": "recenze Heureka",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_6pyziP": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "text": "<p>Příjemná telefonická podpora, pomohli vybrat vhodná svítidla.</p>",
+            "author": "recenze Heureka",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_CXQ8f9": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Vybrané svítidlo bohužel nebylo skladem, ale vybrali jsme podobné svítidlo od jiného výrobce a je skvělé.</p>",
+            "author": "Facebook",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "testimonial_Ee9CRJ": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "text": "<p>Díky za dodaná svítidla, vypadají úplně úžasně.</p>",
+            "author": "Facebook",
+            "author_info": "",
+            "author_url": "",
+            "image_ratio": "rounded",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial",
+        "testimonial_6pyziP",
+        "testimonial_CXQ8f9",
+        "testimonial_Ee9CRJ"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 84,
+        "padding_bottom": 120,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "image_with_text_pKbMjN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RgJFL4": {
+          "type": "heading",
+          "settings": {
+            "heading": "B2B program",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_D7nGKp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pro velkoodběratele máme připravený B2B program plný výhod. Nabízíme jedinečné velkoobchodní ceny, individuální cenové nabídky a profesionální poradenství při výběru osvětlení. Staňte se naším partnerem a získejte přístup k široké nabídce kvalitních svítidel a výhodám šitým na míru vašim potřebám.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_hkc6NT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Více o B2B programu",
+            "button_link": "shopify://pages/b2b",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RgJFL4",
+        "text_D7nGKp",
+        "button_hkc6NT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/bomma_ama_14.jpg",
+        "image_height": "650px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "right",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_background": "#121212",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#121212",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Naši partneři</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Prémiová svítidla</em> od předních výrobců",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "scribble",
+            "highlighted_scribble": "squiggle-underline"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_width": "small",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_highlight": "#c5e8b8",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 120,
+        "padding_bottom": 20,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "logo-list": {
+      "type": "logo-list",
+      "blocks": {
+        "logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_powergear.png",
+            "height": 60,
+            "link": "shopify://collections/powergear"
+          }
+        },
+        "logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_buster.png",
+            "height": 60,
+            "link": "shopify://collections/vendors-q-buster-20-26-20punch"
+          }
+        },
+        "logo-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_wever.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "logo-4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_lombardo.png",
+            "height": 60,
+            "link": "shopify://collections/lombardo"
+          }
+        },
+        "logo-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_tooy.png",
+            "height": 60,
+            "link": "shopify://collections/tooy"
+          }
+        },
+        "logo-6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_astro.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "logo-7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_karizma.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "logo_9eUaJh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_ilumix.png",
+            "height": 80,
+            "link": ""
+          }
+        },
+        "logo_QYgYCj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_gibas.png",
+            "height": 80,
+            "link": ""
+          }
+        },
+        "logo_6eBrym": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_bomma.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "logo_3GRAxh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_aromas.png",
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo-1",
+        "logo-2",
+        "logo-3",
+        "logo-4",
+        "logo-5",
+        "logo-6",
+        "logo-7",
+        "logo_9eUaJh",
+        "logo_QYgYCj",
+        "logo_6eBrym",
+        "logo_3GRAxh"
+      ],
+      "settings": {
+        "layout": "marquee",
+        "grid_horizontal": 120,
+        "direction": "right",
+        "speed": 6,
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "#fafafa",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 120,
+        "divider": false,
+        "full_width": true,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-with-text-overlay",
+    "images-with-text",
+    "video_hero_MNPxpH",
+    "portfolio",
+    "timeline",
+    "testimonials",
+    "image_with_text_pKbMjN",
+    "rich-text",
+    "logo-list"
+  ]
+}
