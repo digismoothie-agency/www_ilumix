@@ -176,7 +176,7 @@
         "subheading": {
           "type": "subheading",
           "settings": {
-            "subheading": "DESIGNOVÁ SVÍTIDLA",
+            "subheading": "{{ collection.title }}",
             "subheading_size": "subtitle-md",
             "secondary_color": true
           }
@@ -184,7 +184,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "{{ collection.title }}",
+            "heading": "{{ collection.metafields.custom.nadpis_detailni_kolekce.value }}",
             "heading_size": "title-md",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -194,7 +194,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ collection.description }}</p>",
+            "text": "<p>{{ collection.metafields.custom.popis_kolekce | metafield_tag }}</p>",
             "text_size": "subtext-md",
             "text_max_size": 30,
             "text_font": "body",
@@ -205,6 +205,7 @@
         },
         "button_atzc8R": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Všechny produkty",
             "button_link": "{{ collection.url }}",
