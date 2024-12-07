@@ -30,13 +30,13 @@
         "title": {
           "type": "title",
           "settings": {
-            "title_size": "title-xl"
+            "title_size": "title-lg tracking-heading"
           }
         },
         "description_wAAmkK": {
           "type": "description",
           "settings": {
-            "text_size": "subtext-md",
+            "text_size": "subtext-sm",
             "text_max_size": 20,
             "text_font": "body",
             "secondary_color": true
