@@ -114,7 +114,7 @@
             "image": "shopify://shop_images/nenaslijste.jpg",
             "heading": "Nenašli jste, co hledáte?",
             "content": "<p>Prohlédněte si kompletní nabídku našich svítidel.</p>",
-            "button_label": "Zobrazit všechny produkty",
+            "button_label": "Všechny produkty",
             "button_link": "shopify://collections/all",
             "button_external": false,
             "button_icon": true,
