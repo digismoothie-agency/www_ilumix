@@ -39,7 +39,14 @@
     <span class="sr-only">{{ 'products.price.sale_price' | t }}</span>
   {%- endif -%}
 
-  <span class="price__regular whitespace-nowrap">
+  <span 
+    data-wpd-product-handle="{{ product.handle }}"
+    data-wpd-variant-id="{{ product.selected_or_first_available_variant.id }}"
+    data-wpd-variant-price="{{ product.selected_or_first_available_variant.price }}"
+    data-wpd-variant-compare-at-price="{{ product.selected_or_first_available_variant.compare_at_price }}"
+    data-wpd-product-collection-ids="{% assign wpdProductCollectionIds = product.collections | map:'id' %}{{ wpdProductCollectionIds | join:',' }}"
+    data-wpd-product-id="{{ product.id }}"
+    class="price__regular whitespace-nowrap">
     {%- liquid
       if product.quantity_price_breaks_configured? != true or skip_to_price
         if target == product and product.price_varies
@@ -69,7 +76,7 @@
 
   {%- if on_sale -%}
     <span class="sr-only">{{ 'products.price.regular_price' | t }}</span>
-    <span class="price__sale inline-flex items-center h-auto relative">
+    <span class="data-wpd-hide price__sale inline-flex items-center h-auto relative">
       {%- liquid
         if settings.currency_code_enabled
           echo compare_at_price | money_with_currency
