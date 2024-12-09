@@ -192,8 +192,8 @@
         "button_EeLDfC": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Prohlédnout všechna svítidla",
+            "button_link": "shopify://collections",
             "button_size": "md",
             "button_external": false,
             "button_icon": true,
