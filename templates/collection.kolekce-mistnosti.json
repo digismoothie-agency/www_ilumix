@@ -154,6 +154,81 @@
         "rounded": true
       }
     },
+    "images_with_text_mAaDLH": {
+      "type": "images-with-text",
+      "blocks": {
+        "heading_AiDEi4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>{{ collection.title }}</em>",
+            "heading_size": "title-sm",
+            "heading_tag": "h1",
+            "highlighted_text": "scribble",
+            "highlighted_scribble": "squiggle-underline"
+          }
+        },
+        "heading_REGn9e": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.nadpis_detailni_kolekce.value }}",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_wwNgJ4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.popis_kolekce | metafield_tag }}</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_EeLDfC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AiDEi4",
+        "heading_REGn9e",
+        "text_wwNgJ4",
+        "button_EeLDfC"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_background": "#1c1c1c",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#1c1c1c",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true
+      }
+    },
     "images-with-text-overlay": {
       "type": "images-with-text-overlay",
       "blocks": {
@@ -224,11 +299,12 @@
         "text",
         "button_atzc8R"
       ],
+      "disabled": true,
       "settings": {
         "transparent_header": false,
         "image_height": "650px",
         "content_width": "small",
-        "content_position": "md:items-center md:justify-start",
+        "content_position": "md:items-start md:justify-start",
         "text_alignment": "left",
         "image_1": "shopify://shop_images/Faneurope_Madera_Prisazene_4.jpg",
         "image_2": "shopify://shop_images/Faneurope_Tropikana_Zavesne_5.jpg",
@@ -289,6 +365,7 @@
   "order": [
     "main-collection-banner",
     "main-collection",
+    "images_with_text_mAaDLH",
     "images-with-text-overlay",
     "recently-viewed"
   ]
