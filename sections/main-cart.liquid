@@ -520,8 +520,15 @@
 
                       <div class="totals flex flex-wrap items-end justify-between gap-2">
                         <h2 class="totals__subtotal font-medium text-base-xl md:text-2xl leading-none">{{ 'cart.general.subtotal' | t }}</h2>
-                        <p class="totals__subtotal-value font-bold text-2xl md:text-3xl leading-none">{{ cart.total_price | money_with_currency }}</p>
+                        <p class="totals__subtotal-value font-bold text-2xl md:text-3xl leading-none">
+                          <span class="wcp-original-cart-total">{{ cart.total_price | money_with_currency }}</span>
+                          <span class="wcp-cart-total"></span>
+                        </p>
                       </div>
+                      <div class="additional-notes">
+                          <span class="wcp-minimums-note"></span>
+                          <span class="wcp-extra-note "></span>
+                      </div>{% render 'wcp_multi_currency_msg' %}
 
                       <div class="tax-note text-opacity text-2sm rte">
                         {%- liquid
@@ -571,7 +578,15 @@
                           -%}
                         </span>
                       </button>
-          
+
+                      {% if customer.tags contains 'wpdnet' %}
+                        {% if shop.metafields.wcp_net.isNetEnabled == 'true' or shop.metafields.wcp_net.isNetEnabled == '1' %}
+                          <div style="margin-top:30px;display:none" id="wpdNetContainer">
+                            <p>{{shop.metafields.wcp_net.netCartMsg}}</p><button id="wcp-30-open" class="button button--primary w-full"> {{shop.metafields.wcp_net.netBtnMsg}}</button>
+                          </div>
+                        {% endif %}
+                      {% endif %}
+                      
                       {% if additional_checkout_buttons %}
                         <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
                       {% endif %}
