@@ -155,7 +155,7 @@
                                     <span class="sr-only">{{ 'products.price.regular_price' | t }}</span>
                                     <span class="price__sale inline-flex items-center relative">{{ money_price }}</span>
                                     <span class="sr-only">{{ 'products.price.sale_price' | t }}</span>
-                                    <span class="price__regular whitespace-nowrap">
+                                    <span data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}" class="price__regular whitespace-nowrap">
                                       {%- liquid
                                         if settings.currency_code_enabled
                                           echo item.final_price | money_with_currency
@@ -165,7 +165,7 @@
                                       -%}
                                     </span>
                                   {%- else -%}
-                                    <span class="price__regular whitespace-nowrap">{{ money_price }}</span>
+                                    <span data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}" class="price__regular whitespace-nowrap">{{ money_price }}</span>
                                   {%- endif -%}
                       
                                   {%- if item.variant.available and item.unit_price_measurement -%}
@@ -392,7 +392,7 @@
                         </td>
 
                         <td class="text-right hidden md:table-cell">
-                          <span class="price text-base-xl">
+                          <span data-wpd-cart-variant-id="{{ item.variant.id }}" data-wpd-cart-item="{{ item.key }}" data-wpd-cart-line-price class="price text-base-xl">
                             {%- liquid
                               if settings.currency_code_enabled
                                 echo item.final_line_price | money_with_currency
