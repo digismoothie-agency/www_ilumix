@@ -208,7 +208,8 @@
         "button_EeLDfC"
       ],
       "settings": {
-        "image_ratio": "landscape",
+        "image": "{{ collection.metafields.custom.obrazek_ke_kategorii.value }}",
+        "image_ratio": "adapt",
         "image_width": "small",
         "layout": "image_first",
         "text_alignment": "left",
