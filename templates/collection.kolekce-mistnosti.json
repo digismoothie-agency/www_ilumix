@@ -192,8 +192,8 @@
         "button_EeLDfC": {
           "type": "button",
           "settings": {
-            "button_label": "Prohlédnout všechna svítidla",
-            "button_link": "shopify://collections",
+            "button_label": "Chcete s výběrem svítidla pomoci?",
+            "button_link": "shopify://pages/kontakty",
             "button_size": "md",
             "button_external": false,
             "button_icon": true,
