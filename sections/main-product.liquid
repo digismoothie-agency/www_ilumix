@@ -610,11 +610,224 @@
                     </div>
                     {%- render 'icon', icon: 'plus-alt', size: 'xs', class: 'flex-auto' -%}
                   </summary>
-                  <div class="details__content rte text-sm text-opacity">
-                    {{ block.settings.content }}
-                    {{ block.settings.page.content }}
-                    {{ block.settings.liquid }}
-                  </div>
+                  {% if block.settings.heading == 'Technická data' or block.settings.heading == 'Technické dáta' %}
+                    <style>
+                      .details__content.technic-table div {
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 5px 0;
+                      }
+                      .details__content.technic-table p {
+                        margin: 0;
+                      }
+                    </style>
+                    <div
+                      id="TechnicalData-{{ section.id }}-{{ product.id }}"
+                      class="details__content rte text-sm text-opacity technic-table"
+                    >
+                      {% if product.selected_or_first_available_variant.metafields.custom.barevna_teplota
+                        or product.metafields.custom.barevna_teplota
+                      %}
+                        <div>
+                          <p>Barevná teplota:</p>
+                          <p>
+                            {{
+                              product.selected_or_first_available_variant.metafields.custom.barevna_teplota
+                              | default: product.metafields.custom.barevna_teplota
+                            }}
+                          </p>
+                        </div>
+                      {% endif %}
+
+                      {% if product.selected_or_first_available_variant.metafields.custom.vykon
+                        or product.metafields.custom.vykon
+                      %}
+                        <div>
+                          <p>Výkon:</p>
+                          <p>
+                            {{
+                              product.selected_or_first_available_variant.metafields.custom.vykon
+                              | default: product.metafields.custom.vykon
+                            }}
+                          </p>
+                        </div>
+                      {% endif %}
+
+                      {% if product.selected_or_first_available_variant.metafields.custom.svetelny_tok
+                        or product.metafields.custom.svetelny_tok
+                      %}
+                        <div>
+                          <p>Světelný tok:</p>
+                          <p>
+                            {{
+                              product.selected_or_first_available_variant.metafields.custom.svetelny_tok
+                              | default: product.metafields.custom.svetelny_tok
+                            }}
+                          </p>
+                        </div>
+                      {% endif %}
+
+                      {% if product.metafields.custom.varianta_montaze %}
+                        <div>
+                          <p>Varianta montáže:</p>
+                          <p>
+                            {% assign varianty = product.metafields.custom.varianta_montaze
+                              | remove: '["'
+                              | remove: '"]'
+                            %}
+                            {{ varianty }}
+                          </p>
+                        </div>
+                      {% endif %}
+
+                      {% if product.metafields.custom.typ_svetelneho_zdroje %}
+                        <div>
+                          <p>Typ světelného zdroje:</p>
+                          <p>{{ product.metafields.custom.typ_svetelneho_zdroje }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.vykon %}
+                        <div>
+                          <p>Výkon:</p>
+                          <p>{{ product.metafields.custom.vykon }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.svetelny_tok %}
+                        <div>
+                          <p>Světelný tok:</p>
+                          <p>{{ product.metafields.custom.svetelny_tok }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.barevna_teplota %}
+                        <div>
+                          <p>Barevná teplota:</p>
+                          <p>{{ product.metafields.custom.barevna_teplota }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.stupen_kryti %}
+                        <div>
+                          <p>Stupeň krytí:</p>
+                          <p>{{ product.metafields.custom.stupen_kryti }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.uhel_svitu %}
+                        <div>
+                          <p>Úhel svitu:</p>
+                          <p>{{ product.metafields.custom.uhel_svitu }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.selected_or_first_available_variant.metafields.custom.uhel_svitu
+                        or product.metafields.custom.uhel_svitu
+                      %}
+                        <div>
+                          <p>Úhel svitu:</p>
+                          <p>
+                            {{
+                              product.selected_or_first_available_variant.metafields.custom.uhel_svitu
+                              | default: product.metafields.custom.uhel_svitu
+                            }}
+                          </p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom._hel_svitu %}
+                        <div>
+                          <p>Hel svitu:</p>
+                          <p>{{ product.metafields.custom._hel_svitu }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.zivnotnost_h_ %}
+                        <div>
+                          <p>Životnost (h):</p>
+                          <p>{{ product.metafields.custom.zivnotnost_h_ }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.zivotnost %}
+                        <div>
+                          <p>Životnost:</p>
+                          <p>{{ product.metafields.custom.zivotnost }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.material %}
+                        <div>
+                          <p>Materiál:</p>
+                          <p>{{ product.metafields.custom.material }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.povrchova_uprava %}
+                        <div>
+                          <p>Povrchová úprava:</p>
+                          <p>{{ product.metafields.custom.povrchova_uprava }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.hodnota_oslneni %}
+                        <div>
+                          <p>Hodnota oslnění:</p>
+                          <p>{{ product.metafields.custom.hodnota_oslneni }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.index_barev %}
+                        <div>
+                          <p>Index barev:</p>
+                          <p>{{ product.metafields.custom.index_barev }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.stmivatelne %}
+                        <div>
+                          <p>Stmívatelné:</p>
+                          <p>{{ product.metafields.custom.stmivatelne }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.rozmery %}
+                        <div>
+                          <p>Rozměry:</p>
+                          <p>{{ product.metafields.custom.rozmery }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.selected_or_first_available_variant.metafields.custom.rozmer
+                        or product.metafields.custom.rozmer
+                      %}
+                        <div>
+                          <p>Rozměr:</p>
+                          <p>
+                            {{
+                              product.selected_or_first_available_variant.metafields.custom.rozmer
+                              | default: product.metafields.custom.rozmer
+                            }}
+                          </p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.rozmer %}
+                        <div>
+                          <p>Rozměr:</p>
+                          <p>{{ product.metafields.custom.rozmer }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.napeti %}
+                        <div>
+                          <p>Napětí:</p>
+                          <p>{{ product.metafields.custom.napeti }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.elektricka_trida %}
+                        <div>
+                          <p>Elektrická třída:</p>
+                          <p>{{ product.metafields.custom.elektricka_trida }}</p>
+                        </div>
+                      {% endif %}
+                      {% if product.metafields.custom.zaruka %}
+                        <div>
+                          <p>Záruka:</p>
+                          <p>{{ product.metafields.custom.zaruka }}</p>
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% else %}
+                    <div class="details__content rte text-sm text-opacity">
+                      {{ block.settings.content }}
+                      {{ block.settings.page.content }}
+                      {{ block.settings.liquid }}
+                    </div>
+                  {% endif %}
                 </details>
               {% endif %}
             {%- when 'countdown' -%}
