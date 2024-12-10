@@ -498,6 +498,30 @@
     line-height: 32px; /* 133.333% */
   } 
   
+  #wpdCartBasedVDMessage {
+    margin-bottom: 24px;
+  }
+
+  #wpdCartBasedVDMessage .vd-success,  #wpdCartBasedVDMessage .vd-next-tier-message{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 24px;
+    margin: 0;
+  }
+  
+  #wpdCartBasedVDMessage.success {
+    background: #aee9d1;
+    color: #008060;
+    display: flex !important;
+  }
+  
+  #wpdCartBasedVDMessage.info {
+    color: #916a00;
+    background: #ffd79d;
+    display: flex !important;
+  }
   #wpdCloseNetPopup:hover {
     background: rgb(0 0 0 / 15%);
   }
@@ -1006,6 +1030,7 @@
               {% endfor %}                                         
           </div>
           <div id="wpdNetDiscountCodeWrapper">
+            <div id="wpdCartBasedVDMessage"></div>
             <span id="wpdNetDiscountCodeHeader">Discount coupon</span>
             <div id="wpdNetCorrectDiscountCodeWrapper">
               <span id="wpdNetCorrectDiscountCodeText"></span>
@@ -1022,7 +1047,7 @@
           </div>
           <div id="wpdNetCartFooter">
               <div id="wpdNetCartTotalInfoWrapper">
-                  <div id="wpdNetShippingNote"></div>
+                  <div id="wpdNetShippingNote"></div>                  
                   <div class="wpd-net-cart-total-info-items wpd-secondary-text-color">
                       <span>Order value</span>
                       <span>{{wcp_total_price | money}}</span>
@@ -1034,6 +1059,10 @@
                   <div id="wpdApplyDiscountWrapper" class="wpd-net-cart-total-info-items wpd-secondary-text-color">
                       <span>Coupon</span>
                       <span id="wpdNetDiscountCodeValue">Apply coupon</span>
+                  </div>
+                 <div id="wpdCartBasedVDWrapper" class="wpd-net-cart-total-info-items wpd-secondary-text-color">
+                      <span>Volume discount</span>
+                      <span id="wpdCartBasedVDValue"></span>
                   </div>
                   <div id="wpdDiscountCodeSuccessTagWrapper" class="wpd-net-cart-total-info-items">
                       <div>

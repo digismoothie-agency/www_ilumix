@@ -1,0 +1,373 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "spacing": {
+          "type": "spacing",
+          "disabled": true,
+          "settings": {
+            "height": 48,
+            "height_mobile": 0
+          }
+        },
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "disabled": true,
+          "settings": {
+            "show_collections_link": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "title-lg tracking-heading"
+          }
+        },
+        "description_wAAmkK": {
+          "type": "description",
+          "settings": {
+            "text_size": "subtext-sm",
+            "text_max_size": 20,
+            "text_font": "body",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "spacing",
+        "breadcrumb",
+        "title",
+        "description_wAAmkK"
+      ],
+      "settings": {
+        "transparent_header": true,
+        "show_image": false,
+        "image_height": "750px",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true,
+        "parallax_direction": "vertical"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "menu": "subcollections",
+            "per_row": 5,
+            "show_count": false
+          }
+        },
+        "promotion": {
+          "type": "promotion",
+          "settings": {
+            "position": 8,
+            "column_size": "1",
+            "image": "shopify://shop_images/Faneurope_Tholos_Zavesne_2.jpg",
+            "heading": "Svítidla v akci",
+            "content": "<p>Aktuální slevy na svítidla</p>",
+            "button_label": "Zobrazit",
+            "button_link": "shopify://collections/akce",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#ffffff",
+            "color_button_text": "#4d5940",
+            "color_button_background": "#ffffff",
+            "color_button_gradient": "",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "promotion_n7JH94": {
+          "type": "promotion",
+          "settings": {
+            "position": 28,
+            "column_size": "1",
+            "image": "shopify://shop_images/nenaslijste.jpg",
+            "heading": "Nenašli jste, co hledáte?",
+            "content": "<p>Prohlédněte si kompletní nabídku našich svítidel.</p>",
+            "button_label": "Všechny produkty",
+            "button_link": "shopify://collections/all",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": true,
+            "content_position": "md:items-center",
+            "text_alignment": "center",
+            "content_position_mobile": "items-center",
+            "text_alignment_mobile": "center",
+            "color_text": "#171717",
+            "color_button_text": "#ffffff",
+            "color_button_background": "#171717",
+            "color_button_gradient": "",
+            "color_overlay": "#ffffff",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "subcollections",
+        "promotion",
+        "promotion_n7JH94"
+      ],
+      "settings": {
+        "products_per_page": 28,
+        "columns": 5,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_filtering": true,
+        "filter_collapsed": true,
+        "filter_type": "drawer",
+        "filter_color_swatches": true,
+        "enable_sorting": true,
+        "padding_top": 28,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "images_with_text_mAaDLH": {
+      "type": "images-with-text",
+      "blocks": {
+        "heading_AiDEi4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>{{ collection.title }}</em>",
+            "heading_size": "title-sm",
+            "heading_tag": "h1",
+            "highlighted_text": "scribble",
+            "highlighted_scribble": "squiggle-underline"
+          }
+        },
+        "heading_REGn9e": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.nadpis_detailni_kolekce.value }}",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_wwNgJ4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.popis_kolekce | metafield_tag }}</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_EeLDfC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Chcete s výběrem svítidla pomoci?",
+            "button_link": "shopify://pages/kontakty",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AiDEi4",
+        "heading_REGn9e",
+        "text_wwNgJ4",
+        "button_EeLDfC"
+      ],
+      "settings": {
+        "image": "{{ collection.metafields.custom.obrazek_ke_kategorii.value }}",
+        "image_ratio": "adapt",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_background": "#1c1c1c",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#1c1c1c",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true
+      }
+    },
+    "images-with-text-overlay": {
+      "type": "images-with-text-overlay",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image_width": "custom",
+            "image_max_width": 50,
+            "image_max_width_mobile": 50
+          }
+        },
+        "spacing": {
+          "type": "spacing",
+          "disabled": true,
+          "settings": {
+            "height": 80,
+            "height_mobile": 20
+          }
+        },
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "{{ collection.title }}",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.nadpis_detailni_kolekce.value }}",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.popis_kolekce | metafield_tag }}</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 20,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "button_atzc8R": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Všechny produkty",
+            "button_link": "{{ collection.url }}",
+            "button_size": "md",
+            "button_external": false,
+            "button_icon": true,
+            "button_secondary_style": true
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "spacing",
+        "subheading",
+        "heading",
+        "text",
+        "button_atzc8R"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": false,
+        "image_height": "650px",
+        "content_width": "small",
+        "content_position": "md:items-start md:justify-start",
+        "text_alignment": "left",
+        "image_1": "shopify://shop_images/Faneurope_Madera_Prisazene_4.jpg",
+        "image_2": "shopify://shop_images/Faneurope_Tropikana_Zavesne_5.jpg",
+        "image_3": "shopify://shop_images/Nova_Luce_Anapnoe_Zavesne_1_jpg.webp",
+        "image_4": "shopify://shop_images/Astro_Palermo_600_Prisazene_Cerna_6.jpg",
+        "image_5": "shopify://shop_images/Faneurope_Tholos_Zavesne_2.jpg",
+        "image_height_mobile": "500px",
+        "content_position_mobile": "items-center justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "product_limit": 9,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Nedávno zobrazené",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 80,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "main-collection",
+    "images_with_text_mAaDLH",
+    "images-with-text-overlay",
+    "recently-viewed"
+  ]
+}

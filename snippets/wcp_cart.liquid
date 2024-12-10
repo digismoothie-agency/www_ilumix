@@ -1,5 +1,5 @@
 {% if shop.metafields.wcp_status.wcp_status != 'disabled' and cart.item_count > 0 and customer.tags.size > 0 %}
-<style>  #wcp-discount-code{  margin-right: 10px;  }  .DiscointCodeSuccess{  	color:#006400;  }  .DiscointCodeInvalid{  color:#8b0000;  }</style>
+<style>  #wcp-discount-code{  margin-right: 10px;  }  .DiscointCodeSuccess{  	color:#006400;  }  .DiscointCodeInvalid{  color:#8b0000;  } .vd-success{color:#006400;margin: 10px 0 0px 0;display: block;} .vd-next-tier-message{color: maroon;display: block;margin: 10px 0 -20px 0;}</style>
 
 <script>
  //var domain = "https://wholesalehelper.io/wpd/root.php?f=";
@@ -498,6 +498,36 @@ reqJquery(function($){
       }
       $("#wcp-wcpModal-container #net-30-summary").html(data.net_30_html);
       window.net_30_data = data;
+
+      if(wpdNetVersion == 2){
+        document.getElementById("wpdCartBasedVDWrapper").style.display = "none";
+      }
+      $(".vd-success").remove();
+      $(".vd-next-tier-message").remove();
+      if (data.cbvd_discount_message != undefined) {
+        let messageHTML = "<span class='vd-success'>" + data.cbvd_discount_message;
+        if (data.cbvd_next_tier_message != undefined) {
+          messageHTML += " " + data.cbvd_next_tier_message;
+        }
+        messageHTML += "</span>";
+        $(".additional-notes").prepend(messageHTML);
+        if(wpdNetVersion == 2){
+          document.getElementById("wpdCartBasedVDMessage").innerHTML = messageHTML;
+          document.getElementById("wpdCartBasedVDMessage").classList.add("success");        
+          document.getElementById("wpdCartBasedVDValue").innerHTML = "-" + data.cbvd_discount_amount;
+          document.getElementById("wpdCartBasedVDWrapper").style.display = "flex";
+        }
+      } else {
+        if (data.cbvd_next_tier_message != undefined) {
+          let messageHTML = "<span class='vd-next-tier-message'>" + data.cbvd_next_tier_message+ "</span>";
+          $(".additional-notes").prepend(messageHTML);   
+          if(wpdNetVersion == 2){
+            document.getElementById("wpdCartBasedVDMessage").innerHTML = messageHTML;
+            document.getElementById("wpdCartBasedVDMessage").classList.add("info");          
+          }
+        }
+      }
+
     });
   }
 

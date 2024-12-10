@@ -1,125 +1,97 @@
-<!DOCTYPE html>
-<html class="no-js supports-no-cookies{% if settings.enable_box %} box-layout{% endif %}" lang="{{ shop.locale }}">
-  <head>
-    <!-- Basic and Helper page needs -->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="{{ settings.color_primary }}">
+{%- capture direction -%}{% render 'direction' %}{%- endcapture -%}
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_button_background }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+  {% # theme-check-disable RemoteAsset %}
+  <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+  <link rel="dns-prefetch" href="https://maps.googleapis.com">
+  <link rel="dns-prefetch" href="https://maps.gstatic.com">
+  {% # theme-check-enable RemoteAsset %}
 
-    {%- assign header_font = settings.header_font_handle -%}
-    {%- assign section_header_font = settings.section_header_font_handle -%}
-    {%- assign paragraph_font = settings.paragraph_font_handle -%}
-    {%- assign other_font = settings.other_font_handle -%}
-    {%- assign body_font = settings.body_font_handle -%}
-    {%- assign body_font_bolder = body_font | font_modify: 'weight', 'bolder' -%}
-    {%- assign body_font_bold = body_font | font_modify: 'weight', 'bold' -%}
-    {%- assign body_font_italic = body_font | font_modify: 'style', 'italic' -%}
-    {%- assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic' -%}
-    <link rel="preload" as="font" href="{{ body_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ header_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ section_header_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ paragraph_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ other_font | font_url }}" type="font/woff2" crossorigin>
-    <link rel="preload" as="font" href="{{ body_font_bold | font_url }}" type="font/woff2" crossorigin>
+  {%- if settings.favicon != blank -%}
+    <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png" />
+  {%- endif -%}
 
-    <!-- Foxentry start -->
-<script type="text/javascript" async>
-  var Foxentry;
-  (function () {
-    var e = document.querySelector("script"), s = document.createElement('script');
-    s.setAttribute('type', 'text/javascript');
-    s.setAttribute('async', 'true');
-    s.setAttribute('src', 'https://cdn.foxentry.cz/lib');
-    e.parentNode.appendChild(s);
-    s.onload = function(){ Foxentry = new FoxentryBase('bwZYwKv6VP'); }
-  })();
-</script>
-<!-- Foxentry end -->
-
-    <link rel="canonical" href="{{ canonical_url }}">
-    {%- if settings.favicon != blank -%}
-    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
+  <title>
+    {{- page_title -}}
+    {%- if current_tags -%}
+      {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
     {%- endif -%}
-      <script>
+    {%- if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif -%}
+    {%- if template == 'password' -%}
+      {{- shop.name -}}
+    {%- else -%}
+      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+    {%- endif -%}
+  </title>
 
-          const input = document.getElementById('search');
-          
-          // ✅ Move focus to Beginning of input field
-          input.setSelectionRange(0, 0);
-          input.focus();
-          
-          // ✅ Move focus to Beginning of input field on button click
-          const btn = document.getElementById('searchBtn');
-          
-          btn.addEventListener('click', function handleClick() {
-            input.setSelectionRange(0, 0);
-            input.focus();
-          });
-          </script>
-    <!-- Title and description -->
-    {% capture seo_title %}
-    {{ page_title }}
-    {% if current_tags %}
-    {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
-    {% endif %}
-    {% if current_page != 1 %}
-    &ndash; {{ 'general.meta.page' | t: page: current_page }}
-    {% endif %}
-    {% unless page_title contains shop.name %}
-    &ndash; {{ shop.name }}
-    {% endunless %}
-    {% endcapture %}
-    <title>{{ seo_title }}</title>
-    {%- if page_description -%}
+  {%- if page_description -%}
     <meta name="description" content="{{ page_description | escape }}">
-    {%- endif -%}
-    <!-- Helpers -->
-    {% include 'social-meta-tags' %}
-    <!-- CSS -->
-    {{ 'timber.scss.css' | asset_url | stylesheet_tag }}
-    {%- include 'header-css' -%}
+  {%- endif -%}
 
-    <style>*,::after,::before{box-sizing:border-box}body{font-family: var(--font-stack-body);font-weight: var(--font-weight-body);font-style: var(--font-style-body);}h1,h2,h3,h4,h5,h6{font-family: var(--font-stack-header);font-weight: var(--font-weight-header);font-style: var(--font-style-header);}
-      {{ header_font | font_face: font_display: 'swap' }}
-      {{ section_header_font | font_face: font_display: 'swap' }}
-      {{ body_font | font_face: font_display: 'swap' }}
-      {{ body_font_bolder | font_face: font_display: 'swap' }}
-      {{ body_font_bold | font_face: font_display: 'swap' }}
-      {{ body_font_italic | font_face: font_display: 'swap' }}
-      {{ body_font_bold_italic | font_face: font_display: 'swap' }}
-    </style>
+  {%- liquid
+    render 'social-meta-tags'
+    
+    render 'css-variables'
+    echo 'theme.css' | asset_url | stylesheet_tag: preload: true
+    
+    if direction == 'rtl'
+      echo 'rtl.css' | asset_url | stylesheet_tag: preload: true
+    endif
+  -%}
 
-    <!-- Header hook for plugins -->
-    {{ content_for_header }}
-    {% include 'oldIE-js' %}
-    <!-- JS -->
-    {%- include 'header-js' -%}
-    {% if template contains 'customers' or 'cart' %}
-    {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
-    {% endif %}
-{% if content_for_header contains 'bss-b2b-cp' %}{% include 'bss-b2b-cp-header' %}{% endif %}
+  <link rel="stylesheet" href="{{ 'apps.css' | asset_url }}" media="print" fetchpriority="low" onload="this.media='all'">
+
+  {{ content_for_header }}
+
+  <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+
+  {%- if request.page_type contains 'customers/' -%}
+    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+  {%- endif -%}
+
+  {%- render 'js-variables' -%}
 </head>
-  <body  id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template.name | handle }}">
-    {%- if settings.enable_preloader -%}
-    {% include 'preloader' %}
-    {%- endif -%}
-    {%- if template == 'index' and settings.newsletter_popup_enable -%}
-    {% include 'newsletter-popup' %}
-    {%- endif -%}
-    {% include 'top-nocification-bar' %}
-    {% section 'header' %}
-    {%- if template != 'index' -%}
-    {% include 'breadcrumb-banner' %}
-    {%- endif -%}
-    <main role="main">
+
+<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{% if request.design_mode %} shopify-design-mode{% endif %}" data-rounded-button="{{ settings.rounded_button }}" data-rounded-input="{{ settings.rounded_input }}" data-rounded-block="{{ settings.rounded_block }}" data-rounded-card="{{ settings.rounded_card }}" data-button-hover="{{ settings.buttons_hover }}"{% if settings.enable_lazy_image %} data-lazy-image{% endif %} data-title-animation data-page-rendering>
+  <a class="sr-only skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+  {%- liquid
+    if settings.enable_page_transition
+      render 'loading-bar'
+    endif
+    
+    render 'mouse-cursor'
+
+    sections 'header-group'
+    sections 'overlay-group'
+  -%}
+
+  <div class="page-container" id="PageContainer">
+    <main class="main-content relative" id="MainContent" role="main">
       {{ content_for_layout }}
     </main>
-    {% include 'fullscreen-bg' %}
-    {% section 'footer' %}
-    {% section 'copy-right' %}
-    {% include 'back-to-top' %}
-  <!-- Necessary JS -->
-    {% include 'footer-js' %}
-  </body>
+
+    <footer-group class="footer-group block w-full">
+      {%- sections 'footer-group' -%}
+    </footer-group>
+  </div>
+
+  <ul hidden>
+    <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
+    <li id="a11y-new-window-message">{{ 'general.accessibility.link_messages.new_window' | t }}</li>
+  </ul>
+
+  {%- if request.design_mode == false -%}
+    <script src="{{ 'instant-page.js' | asset_url }}" type="module" fetchpriority="low" defer="defer"></script>
+  {%- endif -%}
+</body>
 </html>

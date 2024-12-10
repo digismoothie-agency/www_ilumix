@@ -1,59 +1,141 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "16766350232ceca4b3": {
-      "type": "apps",
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "free_shipping": {
+          "type": "free_shipping",
+          "settings": {
+            "minimum_amount": "2500"
+          }
+        },
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "custom_field_NbwkE6": {
+          "type": "custom_field",
+          "disabled": true,
+          "settings": {
+            "type": "text",
+            "title": "Název společnosti",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "custom_field_HW6LyD": {
+          "type": "custom_field",
+          "disabled": true,
+          "settings": {
+            "type": "text",
+            "title": "IČO",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "custom_field_e4wYCQ": {
+          "type": "custom_field",
+          "disabled": true,
+          "settings": {
+            "type": "text",
+            "title": "DIČ",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "custom_field_iydEqH": {
+          "type": "custom_field",
+          "disabled": true,
+          "settings": {
+            "type": "text",
+            "title": "E-mail",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "free_shipping",
+        "subtotal",
+        "custom_field_NbwkE6",
+        "custom_field_HW6LyD",
+        "custom_field_e4wYCQ",
+        "custom_field_iydEqH",
+        "buttons"
+      ],
       "settings": {
+        "heading_size": "title-xl tracking-heading",
+        "heading_alignment": "md:items-end",
+        "heading_tag": "h1",
+        "show_vendor": false,
+        "show_payment_icons": true,
+        "show_shipping_calculator": true,
+        "padding_top": 28,
+        "padding_bottom": 60,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
       }
     },
-    "cart-template": {
-      "type": "cart-template",
+    "recently-viewed": {
+      "type": "recently-viewed",
       "settings": {
-        "bulb": "Svítidlo bez žárovky",
-        "cart_title": "Košík",
-        "cart_item_title": "Položka",
-        "cart_item_remove": "Odstranit",
-        "continue_shopping_title": "Zpět do obchodu",
-        "clear_cart_title": "Vymazat košík",
-        "cart_vendor_enable": false,
-        "cart_notes_enable": true,
-        "shipping_calculator_enable": false,
-        "shipping_calculator_heading": "Shipping info",
-        "shipping_calculator_respose_text1": "There are",
-        "shipping_calculator_respose_text2": "shipping rates available for",
-        "shipping_calculator_respose_text3": "starting at",
-        "shipping_calculator_respose_text4": "There is one shipping rate available for",
-        "shipping_calculator_respose_text5": "We do not ship to this destination.",
-        "shipping_calculator_calculate_at_text": "at",
-        "shipping_calculator_button_title": "Calculate",
-        "cart_total_title": "Celkem",
-        "cart_discount_placeholder_text": "Slevový kód",
-        "checkout_button_title": "pokračovat na dopravu a platbu >",
-        "cart_template_payment_img_enable": false,
-        "cart_empty_title1": "",
-        "cart_empty_title2": "",
-        "cart_empty_desc_text": "Nedá se svítit, ale váš košík v současné době neobsahuje žádné produkty."
-      }
-    },
-    "16312579125deeeac2": {
-      "type": "best-category",
-      "settings": {
-        "section_padding_top": 100,
-        "section_padding_bottom": 100,
-        "section_padding_top_lg": 60,
-        "section_padding_bottom_lg": 60,
-        "section_padding_top_xs": 40,
-        "section_padding_bottom_xs": 40,
-        "section_sub_title": "",
-        "section_title": "Mohlo by se Vám líbit",
-        "section_product_limit": "4",
-        "section_product_limit_handle": "10",
-        "best_label_product": "prisazena-interierova-svitidla"
+        "product_limit": 10,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Mohlo by se Vám take líbit",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 100,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
       }
     }
   },
   "order": [
-    "16766350232ceca4b3",
-    "cart-template",
-    "16312579125deeeac2"
+    "main",
+    "recently-viewed"
   ]
 }
