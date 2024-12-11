@@ -4662,6 +4662,7 @@ class ProductInfo extends HTMLElement {
       updateSourceFromDestination('Volume');
       updateSourceFromDestination('PricePerItem');
       updateSourceFromDestination('BackInStock');
+      updateSourceFromDestination('TechnicalData');
 
       this.updateQuantityRules(this.sectionId, this.productId, parsedHTML);
       updateSourceFromDestination('QuantityRules');
