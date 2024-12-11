@@ -99,9 +99,7 @@
           {%- unless featured_media.media_type == 'video' or featured_media.media_type == 'external_video' -%}
             {%- if show_secondary_image and product.media.size > 1 -%}
               <template>
-                 <div class="media media--height{% unless image_fill %} media--contain{% endunless %} w-full h-full overflow-hidden">
-                    {{- featured_media | image_url: width: featured_media.width | image_tag: loading: 'lazy', widths: '180,360,540,720,900,1080', is: 'lazy-image' -}}
-                  </div>
+                 
                 {%- for media in product.media limit: 4 -%}
                   {% if media.id != featured_media.id %}
                   <div class="media media--height{% unless image_fill %} media--contain{% endunless %} w-full h-full overflow-hidden">
