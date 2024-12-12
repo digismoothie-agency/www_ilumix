@@ -1077,5 +1077,19 @@
         }
       }
     }
-  }
+  },
+  "digismoothie_b2b_app": {
+      "form": {
+        "email": "Email",
+        "company_name": "Company name",
+        "company_id": "Company ID",
+        "company_vat_id": "Company VAT",
+        "edit": "Edit company details",
+        "add": "Add company details",
+        "submit": "Submit"
+      },
+      "details": {
+        "title": "Company details"
+      }
+    }
 }

@@ -583,5 +583,19 @@
         "links": {
             "powered_by_shopify": "Všechna práva vyhrazena"
         }
+    },
+    "digismoothie_b2b_app": {
+      "form": {
+        "email": "E-mail",
+        "company_name": "Název firmy",
+        "company_id": "IČO",
+        "company_vat_id": "DIČ",
+        "edit": "Upravit firemní údaje",
+        "add": "Přidat firemní údaje",
+        "submit": "Potvrdit"
+      },
+      "details": {
+        "title": "Firemní údaje"
+      }
     }
 }

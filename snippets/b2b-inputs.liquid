@@ -1,0 +1,9 @@
+{% if customer.metafields.company.name %}
+  <input type="hidden" name="attributes[firma]" value="{{ customer.metafields.company.name }}">
+{% endif %}
+{% if customer.metafields.company.ico %}
+  <input type="hidden" name="attributes[ico]" value="{{ customer.metafields.company.ico }}">
+{% endif %}
+{% if customer.metafields.company.dic %}
+  <input type="hidden" name="attributes[dic]" value="{{ customer.metafields.company.dic }}">
+{% endif %}

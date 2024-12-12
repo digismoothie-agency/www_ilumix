@@ -1,0 +1,128 @@
+{% liquid
+  assign company_name = 'digismoothie_b2b_app.form.company_name' | t
+  if customer.metafields.company.name
+    assign company_name = customer.metafields.company.name
+  endif
+  assign company_ico = 'digismoothie_b2b_app.form.company_id' | t
+  if customer.metafields.company.ico
+    assign company_ico = customer.metafields.company.ico
+  endif
+  assign company_dic = 'digismoothie_b2b_app.form.company_vat_id' | t
+  if customer.metafields.company.dic
+    assign company_dic = customer.metafields.company.dic
+  endif
+%}
+<div class="field">
+  {% if customer %}
+    <input type="hidden" id="email" value="{{ customer.email }}">
+  {% endif %}
+  <input
+    class="input is-floating"
+    type="text"
+    name="customer[note][firma]"
+    id="firma"
+    {% if customer.metafields.company.name %}
+      value="{{ company_name }}"
+    {% elsif form.note.firma %}
+      value="{{ form.note.firma }}"
+    {% endif %}
+    aria-required="false"
+    placeholder="{{ company_name }}"
+  >
+  <label class="label is-floating" for="firma">{{ company_name }}</label>
+</div>
+
+<div class="field">
+  <input
+    class="input is-floating"
+    type="text"
+    name="customer[note][ico]"
+    id="ico"
+    {% if customer.metafields.company.ico %}
+      value="{{ company_ico }}"
+    {% elsif form.note.ico %}
+      value="{{ form.note.ico }}"
+    {% endif %}
+    aria-required="false"
+    placeholder="{{ company_ico }}"
+  >
+  <label class="label is-floating" for="ico">{{ company_ico }}</label>
+</div>
+<div class="field">
+  <input
+    class="input is-floating"
+    type="text"
+    name="customer[note][dic]"
+    id="dic"
+    {% if customer.metafields.company.dic %}
+      value="{{ company_dic }}"
+    {% elsif form.note.dic %}
+      value="{{ form.note.dic }}"
+    {% endif %}
+    aria-required="false"
+    placeholder="{{ company_dic }}"
+  >
+  <label class="label is-floating" for="dic">{{ company_dic }}</label>
+</div>
+
+{% style %}
+  .loader {
+    position: fixed;
+    z-index: 997;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+{% endstyle %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.querySelector('.customer.register form') || document.querySelector('.customer.edit form');
+    {% if edit_account %}
+      const isEditAccount = true;
+    {% else %}
+      const isEditAccount = false;
+    {% endif %}
+    
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      const b2bAppUrl = '{{ settings.digismoothie_b2b_app_url }}';
+      const companyName = document.querySelector('#firma')?.value;
+      const companyVatId = document.querySelector('#dic')?.value;
+      const companyId = document.querySelector('#ico')?.value;
+      const email = document.querySelector('#RegisterForm-email')?.value || document.querySelector('#email')?.value;
+
+      if (companyName || companyVatId || companyId) {
+        const requestData = {
+          email: email,
+          vat: companyVatId,
+          company_id: companyId,
+          company_name: companyName,
+        };
+        data = fetchB2bAppEndpoint(requestData).then((data) => {
+          if (data.errors) {
+            let errors = '';
+            for (const key in data.errors) {
+              errors += `${key}: ${data.errors[key]}\n`;
+            }
+            alert(errors);
+          } else {
+            form.submit();
+          }
+        });
+      } else {
+        if (!isEditAccount) {
+          form.submit();
+        }
+        else {
+          deleteCompanyData(email).then(() => {
+            form.submit();
+          });
+        }
+      }
+    });
+  });
+</script>

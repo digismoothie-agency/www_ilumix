@@ -194,7 +194,8 @@
         "disabled": false,
         "settings": {}
       }
-    }
+    },
+    "digismoothie_b2b_app_url": "https://be.dsagency.app/api/v1/tax-exemption/"
   },
   "presets": {
     "Harmony": {

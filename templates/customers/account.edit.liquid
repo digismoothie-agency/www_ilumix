@@ -1,0 +1,19 @@
+{{ 'customer.css' | asset_url | stylesheet_tag }}
+
+<div class="customer edit">
+  <h1 class="text-center title-md">{{ 'digismoothie_b2b_app.details.title' | t }}</h1>
+  <div class="grid gap-10">
+    <p class="text-center">
+      <a class="link" href="{{ routes.account_url }}">
+        {{ 'customer.account.return' | t }}
+      </a>
+    </p>
+    <form class="grid gap-5"> 
+      {% render 'b2b-form-fields' %}
+      <button class="button button--primary icon-with-text" is="hover-button">
+        <span class="btn-fill" data-fill></span>
+        <span class="btn-text">{{ 'digismoothie_b2b_app.form.submit' | t }}</span>
+      </button>
+    </form>
+  </div>
+</div>

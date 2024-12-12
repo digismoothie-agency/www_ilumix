@@ -1,0 +1,44 @@
+<div class="company-details">
+  {% if customer.metafields.company.name or customer.metafields.company.ico or customer.metafields.company.dic %}
+    <table class="company-details__table">
+      <tr>
+        <th>{{ 'digismoothie_b2b_app.form.company_name' | t }}</th>
+        <td>{{ customer.metafields.company.name }}</td>
+      </tr>
+      <tr>
+        <th>{{ 'digismoothie_b2b_app.form.company_id' | t }}</th>
+        <td>{{ customer.metafields.company.ico }}</td>
+      </tr>
+      <tr>
+        <th>{{ 'digismoothie_b2b_app.form.company_vat_id' | t }}</th>
+        <td>{{ customer.metafields.company.dic }}</td>
+      </tr>
+    </table>
+    <a class="edit-link button button--primary icon-with-text" href="{{ routes.account_url | append: '?view=edit' }}" is="hover-link">
+      <span class="btn-fill" data-fill></span>
+      <span class="btn-text">{{- 'digismoothie_b2b_app.form.edit' | t -}}</span>
+    </a>
+  {% else %}
+    <a class="edit-link button button--primary icon-with-text" href="{{ routes.account_url | append: '?view=edit' }}" is="hover-link">
+      <span class="btn-fill" data-fill></span>
+      <span class="btn-text">{{- 'digismoothie_b2b_app.form.add' | t -}}</span>
+    </a>
+  {% endif %}
+</div>
+
+{% style %}
+  .company-details__table {
+    width: 100%;
+    max-width: 400px;
+    border-collapse: collapse;
+  }
+  .company-details__table th,
+  .company-details__table td {
+    text-align: left;
+    padding: 3px;
+    border: 1px solid #ddd;
+  }
+  .company-details .edit-link {
+    margin-top: 10px;
+  }
+{% endstyle %}
