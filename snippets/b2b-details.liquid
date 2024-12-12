@@ -32,12 +32,32 @@
     max-width: 400px;
     border-collapse: collapse;
   }
-  .company-details__table th,
+
+  .company-details__table th {
+    text-align: left;
+    padding: 3px 3px 3px 10px;
+    border: 1px solid #ddd;
+    border-top-width: 0px;
+    border-left-width: 0px;
+  }
+
   .company-details__table td {
     text-align: left;
-    padding: 3px;
+    padding: 3px 3px 3px 10px;
     border: 1px solid #ddd;
+    border-top-width: 0px;
+    border-right-width: 0px;
   }
+
+  .company-details__table tr:last-child td,
+  .company-details__table tr:last-child th {
+    border-bottom-width: 0px;
+  }
+
+  .company-details__table tbody tr {
+    border-block-start: 0;
+  }
+  
   .company-details .edit-link {
     margin-top: 10px;
   }

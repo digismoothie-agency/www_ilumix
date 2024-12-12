@@ -6404,6 +6404,10 @@ html.touch .has-modal-open {
   border-block-end: 1px solid rgb(var(--color-border));
 }
 
+.drawer__footer .b2b-info {
+  padding: var(--sp-2) var(--sp-12);
+}
+
 .drawer .modal {
   transition: all .3s ease;
   z-index: 3

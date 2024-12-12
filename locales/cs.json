@@ -596,6 +596,7 @@
       },
       "details": {
         "title": "Firemní údaje"
-      }
+      },
+      "info_html": "Nakupujete na firmu? <a class=\"link\" href=\"{{ login }}\">Přihlaste se<\/a>  nebo <a class=\"link\" href=\"{{ register }}\">se zaregistrujte.<\/a>"
     }
 }

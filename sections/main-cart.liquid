@@ -503,8 +503,15 @@
                   <path stroke-linecap="round" stroke-linejoin="round" d="M1 1L9 9L17 1"></path>
                 </svg>
               </summary>
-              <div>
-                Nakupujete na firmu? Přihlaste se nebo se zaregistrujte.
+              <div class="grid">
+                {% liquid 
+                    if customer 
+                      assign b2b_link = routes.account_login_url
+                    else
+                      assign b2b_link = routes.account_url
+                    endif
+                %}
+                <p>{{ 'digismoothie_b2b_app.info_html' | t: login: routes.b2b_link, register: routes.account_register_url }}</p>
               </div>
             </details>
           </div>
