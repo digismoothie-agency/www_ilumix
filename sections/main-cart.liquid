@@ -495,26 +495,28 @@
               </details>
             </div>
           {%- endif -%}
-          <div class="cart-details">
-            <details class="details" is="accordion-details">
-              <summary class="details__summary flex items-center justify-between gap-2 cursor-pointer">
-                <span class="text-sm md:text-2xl font-medium leading-none">Firemní údaje</span>
-                <svg class="icon icon-chevron-down" viewBox="0 0 18 10" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M1 1L9 9L17 1"></path>
-                </svg>
-              </summary>
-              <div class="grid">
-                {% liquid 
-                    if customer 
-                      assign b2b_link = routes.account_login_url
-                    else
-                      assign b2b_link = routes.account_url
-                    endif
-                %}
-                <p>{{ 'digismoothie_b2b_app.info_html' | t: login: routes.b2b_link, register: routes.account_register_url }}</p>
-              </div>
-            </details>
-          </div>
+          {% unless customer %}
+            <div class="cart-details">
+              <details class="details" is="accordion-details">
+                <summary class="details__summary flex items-center justify-between gap-2 cursor-pointer">
+                  <span class="text-sm md:text-2xl font-medium leading-none">Firemní údaje</span>
+                  <svg class="icon icon-chevron-down" viewBox="0 0 18 10" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M1 1L9 9L17 1"></path>
+                  </svg>
+                </summary>
+                <div class="grid">
+                  {% liquid 
+                      if customer 
+                        assign b2b_link = routes.account_login_url
+                      else
+                        assign b2b_link = routes.account_url
+                      endif
+                  %}
+                  <p>{{ 'digismoothie_b2b_app.info_html' | t: login: routes.b2b_link, register: routes.account_register_url }}</p>
+                </div>
+              </details>
+            </div>
+          {% endunless %}
         </div>
 
         <div class="grow-0">

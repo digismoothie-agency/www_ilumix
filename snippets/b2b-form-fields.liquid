@@ -85,7 +85,7 @@
       const isEditAccount = true;
     {% else %}
       const isEditAccount = false;
-    {% endif %}
+    {% endif %}    
     
     form.addEventListener('submit', function (event) {
       event.preventDefault();
@@ -93,8 +93,10 @@
       const companyName = document.querySelector('#firma')?.value;
       const companyVatId = document.querySelector('#dic')?.value;
       const companyId = document.querySelector('#ico')?.value;
-      const email = document.querySelector('#RegisterForm-email')?.value || document.querySelector('#email')?.value;
+      const email = document.querySelector('#RegisterFormEmail')?.value || document.querySelector('#email')?.value;
 
+      console.log(companyName, companyVatId, companyId, email);
+      
       if (companyName || companyVatId || companyId) {
         const requestData = {
           email: email,
@@ -103,6 +105,8 @@
           company_name: companyName,
         };
         data = fetchB2bAppEndpoint(requestData).then((data) => {
+          console.log(data);
+          
           if (data.errors) {
             let errors = '';
             for (const key in data.errors) {
@@ -110,12 +114,12 @@
             }
             alert(errors);
           } else {
-            form.submit();
+            // form.submit();
           }
         });
       } else {
         if (!isEditAccount) {
-          form.submit();
+          // form.submit();
         }
         else {
           deleteCompanyData(email).then(() => {
