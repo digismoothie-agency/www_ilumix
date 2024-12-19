@@ -479,8 +479,8 @@
               {%- endif -%}
             </div>
             <div class="drawer__footer grid w-full{% if cart == empty %} hidden{% endif %}">
-              {% unless customer %}  
-                <div class="flex justify-center">
+              <div class="flex justify-center cart-drawer__b2b">
+                {% unless customer %}
                   {% liquid 
                       if customer 
                         assign b2b_link = routes.account_login_url
@@ -488,9 +488,11 @@
                         assign b2b_link = routes.account_url
                       endif
                   %}
-                  <p class="b2b-info">{{ 'digismoothie_b2b_app.info_html' | t: login: routes.b2b_link, register: routes.account_register_url }}</p>
-                </div>
-              {% endunless %}
+                  <p class="b2b-info">{{ 'digismoothie_b2b_app.info_html' | t: login: b2b_link, register: routes.account_register_url }}</p>
+                {% else %}
+                  {% render 'b2b-details' %}
+                {% endunless %}
+              </div>
               {%- if section.settings.show_cart_note or section.settings.show_shipping_calculator -%}
                 <div class="drawer__footer-top flex">
                   {%- if section.settings.show_cart_note -%}
