@@ -490,7 +490,7 @@
                   %}
                   <p class="b2b-info">{{ 'digismoothie_b2b_app.info_html' | t: login: b2b_link, register: routes.account_register_url }}</p>
                 {% else %}
-                  {% render 'b2b-details' %}
+                  <p class="b2b-info">{{ 'digismoothie_b2b_app.info_for_customer' | t }}</p>
                 {% endunless %}
               </div>
               {%- if section.settings.show_cart_note or section.settings.show_shipping_calculator -%}

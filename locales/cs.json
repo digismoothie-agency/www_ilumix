@@ -597,6 +597,7 @@
       "details": {
         "title": "Firemní údaje"
       },
-      "info_html": "Nakupujete na firmu? <a class=\"link\" href=\"{{ login }}\">Přihlaste se<\/a>  nebo <a class=\"link\" href=\"{{ register }}\">se zaregistrujte.<\/a>"
+      "info_html": "Nakupujete na firmu? <a class=\"link\" href=\"{{ login }}\">Přihlaste se<\/a>  nebo <a class=\"link\" href=\"{{ register }}\">se zaregistrujte.<\/a>",
+      "info_for_customer": "Údaje pro nákup na firmu jsou vyplněné, pokračujte v nákupu"
     }
 }
