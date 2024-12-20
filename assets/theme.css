@@ -14668,3 +14668,7 @@ lookbook-element .banner__box .title-wrapper {
     }
   }
 }
+
+.cart-drawer__b2b {
+  background-color: rgb(var(--color-foreground) / .045);
+}

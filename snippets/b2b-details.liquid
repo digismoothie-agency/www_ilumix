@@ -2,19 +2,19 @@
   {% if customer.metafields.company.name or customer.metafields.company.ico or customer.metafields.company.dic %}
     <table class="company-details__table">
       <tr>
-        <th>{{ 'digismoothie_b2b_app.form.company_name' | t }}</th>
+        <th>{{ 'digismoothie_b2b_app.form.company_name' | t }}:</th>
         <td>{{ customer.metafields.company.name }}</td>
       </tr>
       <tr>
-        <th>{{ 'digismoothie_b2b_app.form.company_id' | t }}</th>
+        <th>{{ 'digismoothie_b2b_app.form.company_id' | t }}:</th>
         <td>{{ customer.metafields.company.ico }}</td>
       </tr>
       <tr>
-        <th>{{ 'digismoothie_b2b_app.form.company_vat_id' | t }}</th>
+        <th>{{ 'digismoothie_b2b_app.form.company_vat_id' | t }}:</th>
         <td>{{ customer.metafields.company.dic }}</td>
       </tr>
     </table>
-    <a class="edit-link button button--primary icon-with-text" href="{{ routes.account_url | append: '?view=edit' }}" is="hover-link">
+    <a class="edit-link button button--secondary icon-with-text" href="{{ routes.account_url | append: '?view=edit' }}" is="hover-link">
       <span class="btn-fill" data-fill></span>
       <span class="btn-text">{{- 'digismoothie_b2b_app.form.edit' | t -}}</span>
     </a>
@@ -29,24 +29,33 @@
 {% style %}
   .company-details__table {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     border-collapse: collapse;
+    box-shadow: unset
   }
 
   .company-details__table th {
     text-align: left;
     padding: 3px 3px 3px 10px;
-    border: 1px solid #ddd;
-    border-top-width: 0px;
-    border-left-width: 0px;
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    color: rgb(var(--color-foreground) / .6);
+    font-weight: 400;
+    border-bottom: 1px solid rgb(var(--color-border));
+  }
+
+  .company-details__table tr {
+    color: rgb(var(--color-foreground));
   }
 
   .company-details__table td {
     text-align: left;
-    padding: 3px 3px 3px 10px;
-    border: 1px solid #ddd;
-    border-top-width: 0px;
-    border-right-width: 0px;
+    padding: 3px 10px 3px 3px;
+    font-size: var(--text-sm);
+    line-height: 1.6;
+    color: rgb(var(--color-foreground) / .6);
+    text-align: right;
+    border-bottom: 1px solid rgb(var(--color-border));
   }
 
   .company-details__table tr:last-child td,
@@ -62,12 +71,12 @@
     margin-top: 10px;
   }
 
-  .cart-drawer__b2b .company-details {
+  .cart__b2b .company-details {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-start;
     margin-bottom: 10px;
     width: 100%;
+    gap: 1rem;
   }
 {% endstyle %}
