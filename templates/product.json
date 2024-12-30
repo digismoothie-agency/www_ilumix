@@ -152,7 +152,7 @@
             "heading": "LDT data",
             "content": "",
             "page": "",
-            "liquid": "{% if product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% elsif product.metafields.my_fields.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% endif %}"
+            "liquid": "<div id=\"LDTData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% elsif product.metafields.my_fields.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% endif %}\n</div>"
           }
         },
         "share": {
