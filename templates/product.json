@@ -142,7 +142,7 @@
             "heading": "3D model",
             "content": "",
             "page": "",
-            "liquid": "{% if customer %}\n  {% if product.metafields.custom.visual_model.value.url %}\n    <p><a href=\"{{ product.metafields.custom.visual_model.value.url }}\" target=\"_blank\">Stáhnout 3D model</a></p>\n  {% else %}\n    <p>3D model není dostupný.</p>\n  {% endif %}\n{% else %}\n  <p><span class=\"product-download__sign\">Pro stažení 3D modelu se <a href=\"https://360design.cz/account/login?return_to={{ url }}/{{ product.handle }}\">přihlaste</a> nebo <a href=\"https://360design.cz/account/register\">zaregistrujte</a>.</span> </p>\n{% endif %}"
+            "liquid": "<div id=\"DmodelData-{{ section.id }}-{{ product.id }}\">\n{% if customer %}\n  {% if product.metafields.custom.visual_model.value.url %}\n    <p><a href=\"{{ product.metafields.custom.visual_model.value.url }}\" target=\"_blank\">Stáhnout 3D model</a></p>\n  {% else %}\n    <p>3D model není dostupný.</p>\n  {% endif %}\n{% else %}\n  <p><span class=\"product-download__sign\">Pro stažení 3D modelu se <a href=\"https://360design.cz/account/login?return_to={{ url }}/{{ product.handle }}\">přihlaste</a> nebo <a href=\"https://360design.cz/account/register\">zaregistrujte</a>.</span> </p>\n{% endif %}\n</div>"
           }
         },
         "collapsible_tab_UVkARE": {
