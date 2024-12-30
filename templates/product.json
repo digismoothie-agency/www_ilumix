@@ -132,7 +132,7 @@
             "heading": "Data sheet",
             "content": "",
             "page": "",
-            "liquid": "{% if product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% elsif product.metafields.my_fields.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% else %}\n  <p>Data sheet není dostupný.</p>\n{% endif %}"
+            "liquid": "<div id=\"DatasheetData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% elsif product.metafields.my_fields.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% else %}\n  <p>Data sheet není dostupný.</p>\n{% endif %}\n</div"
           }
         },
         "collapsible_tab_ikFHUq": {
