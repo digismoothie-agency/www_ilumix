@@ -122,7 +122,7 @@
             "heading": "Návod k montáži",
             "content": "",
             "page": "",
-            "liquid": "{% if product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% elsif product.metafields.my_fields.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% else %}\n  <p>Návod k montáži není dostupný.</p>\n{% endif %}"
+            "liquid": "<div id=\"NavodData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% elsif product.metafields.my_fields.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% else %}\n  <p>Návod k montáži není dostupný.</p>\n{% endif %}\n</div>"
           }
         },
         "collapsible_tab_CWkCFc": {
