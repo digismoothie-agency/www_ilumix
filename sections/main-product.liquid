@@ -477,11 +477,12 @@
                   product_form_id: product_form_id
                 -%}
               {%- else -%}
+                {%- assign product_variant = product.selected_or_first_available_variant -%}
                 <input
                   type="hidden"
                   name="id"
                   value="{{ product.selected_or_first_available_variant.id }}"
-                  data-stocks="{{ product.selected_or_first_available_variant.inventory_quantity }}"
+                  data-stocks="{{ product_variant.inventory_quantity }}"
                   id="product-stock"
                 >
               {%- endif -%}
