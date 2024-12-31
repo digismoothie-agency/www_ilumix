@@ -4667,6 +4667,7 @@ class ProductInfo extends HTMLElement {
       updateSourceFromDestination('LDTData');
       updateSourceFromDestination('DmodelData');
       updateSourceFromDestination('DatasheetData');
+      updateSourceFromDestination('VariantBadge');
 
       this.updateQuantityRules(this.sectionId, this.productId, parsedHTML);
       updateSourceFromDestination('QuantityRules');
