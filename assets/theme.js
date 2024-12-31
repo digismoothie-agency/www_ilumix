@@ -4663,6 +4663,7 @@ class ProductInfo extends HTMLElement {
       updateSourceFromDestination('PricePerItem');
       updateSourceFromDestination('BackInStock');
       updateSourceFromDestination('TechnicalData');
+      updateSourceFromDestination('VariantBadge');
 
       this.updateQuantityRules(this.sectionId, this.productId, parsedHTML);
       updateSourceFromDestination('QuantityRules');
