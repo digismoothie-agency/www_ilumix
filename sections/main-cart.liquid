@@ -62,6 +62,7 @@
       <main-cart id="MainCart-{{ section.id }}" class="cart__content flex flex-col lg:flex-row">
         <div class="grow flex flex-col gap-8 md:gap-12">
           <form class="cart__form" action="{{ routes.cart_url }}" method="POST" id="cart">
+            {% render 'b2b-inputs' %}
             <cart-items class="cart__items block" data-section-id="{{ section.id }}">
               <table role="table" class="no-headings w-full overflow-visible">
                 <caption class="sr-only">{{ 'cart.general.title' | t }}</caption>
@@ -495,31 +496,6 @@
               </details>
             </div>
           {%- endif -%}
-          
-          <div class="cart-details">
-            <details class="details" is="accordion-details">
-              <summary class="details__summary flex items-center justify-between gap-2 cursor-pointer">
-                <span class="text-sm md:text-2xl font-medium leading-none">{{ 'digismoothie_b2b_app.details.title' | t }}</span>
-                <svg class="icon icon-chevron-down" viewBox="0 0 18 10" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M1 1L9 9L17 1"></path>
-                </svg>
-              </summary>
-              <div class="grid cart__b2b">
-                {% unless customer %}
-                  {% liquid 
-                      if customer 
-                        assign b2b_link = routes.account_login_url
-                      else
-                        assign b2b_link = routes.account_url
-                      endif
-                  %}
-                  <p>{{ 'digismoothie_b2b_app.info_html' | t: login: routes.b2b_link, register: routes.account_register_url }}</p>
-                {% else %}
-                  {% render 'b2b-details' %}
-                {% endunless %}
-              </div>
-            </details>
-          </div>
         </div>
 
         <div class="grow-0">
@@ -560,6 +536,27 @@
                             echo 'cart.general.taxes_and_shipping_at_checkout' | t
                           endif
                         -%}
+                      </div>
+                      <div class="grid gap-2">
+                        <h2 class="font-medium text-base-xl md:text-2xl leading-none">{{ 'digismoothie_b2b_app.details.title' | t }}</h2>
+                        <div class="grid cart__b2b">
+                          {% unless customer %}
+                            {% liquid 
+                                if customer 
+                                  assign b2b_link = routes.account_login_url
+                                else
+                                  assign b2b_link = routes.account_url
+                                endif
+                            %}
+                            <p class="b2b-info">{{ 'digismoothie_b2b_app.info_html' | t: login: b2b_link, register: routes.account_register_url }}</p>
+                          {% else %}
+                            {% if customer.metafields.company.name == blank and customer.metafields.company.ico == blank and customer.metafields.company.dic == blank %}
+                              <p class="b2b-info">{{ 'digismoothie_b2b_app.ifno_for_customer_without_details_html' | t: account: routes.account_url }}</p>
+                            {% else %}
+                              <p class="b2b-info">{{ 'digismoothie_b2b_app.info_for_customer' | t }}</p>
+                            {% endif %}
+                          {% endunless %}
+                        </div>
                       </div>
                     </div>
 
