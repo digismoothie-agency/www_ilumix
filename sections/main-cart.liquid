@@ -537,27 +537,6 @@
                           endif
                         -%}
                       </div>
-                      <div class="grid gap-2">
-                        <h2 class="font-medium text-base-xl md:text-2xl leading-none">{{ 'digismoothie_b2b_app.details.title' | t }}</h2>
-                        <div class="grid cart__b2b">
-                          {% unless customer %}
-                            {% liquid 
-                                if customer 
-                                  assign b2b_link = routes.account_login_url
-                                else
-                                  assign b2b_link = routes.account_url
-                                endif
-                            %}
-                            <p class="b2b-info">{{ 'digismoothie_b2b_app.info_html' | t: login: b2b_link, register: routes.account_register_url }}</p>
-                          {% else %}
-                            {% if customer.metafields.company.name == blank and customer.metafields.company.ico == blank and customer.metafields.company.dic == blank %}
-                              <p class="b2b-info">{{ 'digismoothie_b2b_app.ifno_for_customer_without_details_html' | t: account: routes.account_url }}</p>
-                            {% else %}
-                              <p class="b2b-info">{{ 'digismoothie_b2b_app.info_for_customer' | t }}</p>
-                            {% endif %}
-                          {% endunless %}
-                        </div>
-                      </div>
                     </div>
 
                   {%- when 'cart_note' -%}
@@ -578,6 +557,30 @@
 
                   {%- when 'buttons' -%}
                     <div class="grid gap-3" {{ block.shopify_attributes }}>
+                      <div class="grid gap-2">
+                        <div class="grid cart__b2b">
+                          <div class="b2b-info-message">
+                            {% render 'icon-info' %}
+                            {% unless customer %}
+                              {% liquid 
+                                  if customer 
+                                    assign b2b_link = routes.account_login_url
+                                  else
+                                    assign b2b_link = routes.account_url
+                                  endif
+                              %}
+                              <p class="b2b-info">{{ 'digismoothie_b2b_app.info_html' | t: login: b2b_link, register: routes.account_register_url }}</p>
+                            {% else %}
+                              {% if customer.metafields.company.name == blank and customer.metafields.company.ico == blank and customer.metafields.company.dic == blank %}
+                                <p class="b2b-info">{{ 'digismoothie_b2b_app.ifno_for_customer_without_details_html' | t: account: routes.account_url }}</p>
+                              {% else %}
+                                <p class="b2b-info">{{ 'digismoothie_b2b_app.info_for_customer' | t }}</p>
+                              {% endif %}
+                            {% endunless %}
+                          </div>
+                        </div>
+                    </div>
+                    
                       <noscript>
                         <button class="button button--secondary w-full" type="submit" name="update" form="cart">
                           {{- 'cart.general.update' | t -}}

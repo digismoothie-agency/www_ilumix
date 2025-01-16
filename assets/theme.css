@@ -14672,3 +14672,17 @@ lookbook-element .banner__box .title-wrapper {
 .cart-drawer__b2b {
   background-color: rgb(var(--color-foreground) / .045);
 }
+
+.b2b-info-message {
+  display: flex;
+  gap: 10px;
+}
+
+.b2b-info-message p {
+  width: calc(100% - 30px);
+}
+
+.b2b-info-message svg {
+  width: 20px;
+  height: 20px;
+}
