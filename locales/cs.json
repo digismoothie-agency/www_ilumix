@@ -592,13 +592,14 @@
         "company_vat_id": "DIČ",
         "edit": "Upravit firemní údaje",
         "add": "Přidat firemní údaje",
-        "submit": "Potvrdit"
+        "submit": "Potvrdit",
+        "submit_and_return_to_cart": "Uložit a vrátit se do košíku"
       },
       "details": {
         "title": "Firemní údaje"
       },
       "info_html": "Nakupujete na firmu? <a class=\"link\" href=\"{{ login }}\">Přihlaste se<\/a>",
-      "info_for_customer": "Údaje pro nákup na firmu jsou vyplněné, pokračujte v nákupu",
+      "info_for_customer": "Údaje pro nákup na firmu jsou vyplněné, pokračujte na Pokladnu",
       "ifno_for_customer_without_details_html": "Prosím vyplňte své firemní údaje  <a class=\"link\" href=\"{{ account }}\">zde.<\/a>"
     }
 }

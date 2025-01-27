@@ -479,24 +479,6 @@
               {%- endif -%}
             </div>
             <div class="drawer__footer grid w-full{% if cart == empty %} hidden{% endif %}">
-              <div class="flex justify-center cart-drawer__b2b">
-                {% unless customer %}
-                  {% liquid 
-                      if customer 
-                        assign b2b_link = routes.account_login_url
-                      else
-                        assign b2b_link = routes.account_url
-                      endif
-                  %}
-                  <p class="b2b-info">{{ 'digismoothie_b2b_app.info_html' | t: login: b2b_link, register: routes.account_register_url }}</p>
-                {% else %}
-                  {% if customer.metafields.company.name == blank and customer.metafields.company.ico == blank and customer.metafields.company.dic == blank %}
-                    <p class="b2b-info">{{ 'digismoothie_b2b_app.ifno_for_customer_without_details_html' | t: account: routes.account_url }}</p>
-                  {% else %}
-                    <p class="b2b-info">{{ 'digismoothie_b2b_app.info_for_customer' | t }}</p>
-                  {% endif %}
-                {% endunless %}
-              </div>
               {%- if section.settings.show_cart_note or section.settings.show_shipping_calculator -%}
                 <div class="drawer__footer-top flex">
                   {%- if section.settings.show_cart_note -%}

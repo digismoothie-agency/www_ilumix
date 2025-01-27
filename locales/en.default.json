@@ -1086,7 +1086,8 @@
         "company_vat_id": "Company VAT",
         "edit": "Edit company details",
         "add": "Add company details",
-        "submit": "Submit"
+        "submit": "Submit",
+        "submit_and_return_to_cart": "Save and go back to cart"
       },
       "details": {
         "title": "Company details"

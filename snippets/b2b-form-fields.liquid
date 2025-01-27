@@ -81,6 +81,8 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('.customer.register form') || document.querySelector('.customer.edit form');
+    const cartLink = '{{ store.url }}' + '{{ routes.cart_url }}';
+    
     {% if edit_account %}
       const isEditAccount = true;
     {% else %}
@@ -88,6 +90,8 @@
     {% endif %}    
     
     form.addEventListener('submit', function (event) {
+      console.log(cartLink);
+      
       event.preventDefault();
       const b2bAppUrl = '{{ settings.digismoothie_b2b_app_url }}';
       const companyName = document.querySelector('#firma')?.value;
@@ -103,8 +107,6 @@
           company_name: companyName,
         };
         data = fetchB2bAppEndpoint(requestData).then((data) => {
-          console.log(data);
-          
           if (data.errors) {
             let errors = '';
             for (const key in data.errors) {
@@ -112,12 +114,20 @@
             }
             alert(errors);
           } else {
-            // form.submit();
+            if (event.submitter.classList.contains('return_to_cart_button')) {
+              location.href = cartLink;
+            }else{
+              form.submit();
+            }
           }
         });
       } else {
         if (!isEditAccount) {
-          // form.submit();
+          if (event.submitter.classList.contains('return_to_cart_button')) {
+            location.href = cartLink;
+          }else{
+            form.submit();
+          }
         }
         else {
           deleteCompanyData(email).then(() => {

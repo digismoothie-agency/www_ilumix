@@ -557,7 +557,8 @@
 
                   {%- when 'buttons' -%}
                     <div class="grid gap-3" {{ block.shopify_attributes }}>
-                      <div class="grid gap-2">
+                      <div class="grid gap-3">
+                        <h2 class="font-medium text-base-xl md:text-2xl leading-none">{{ 'digismoothie_b2b_app.details.title' | t }}</h2>
                         <div class="grid cart__b2b">
                           <div class="b2b-info-message">
                             {% render 'icon-info' %}

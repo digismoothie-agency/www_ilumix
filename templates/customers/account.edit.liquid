@@ -9,10 +9,15 @@
       </a>
     </p>
     <form class="grid gap-5"> 
+      <input type="hidden" name="return_to" value="{{ routes.cart_url }}" />
       {% render 'b2b-form-fields' %}
-      <button class="button button--primary icon-with-text" is="hover-button">
+      <button class="button button--primary icon-with-text account_button" is="hover-button">
         <span class="btn-fill" data-fill></span>
         <span class="btn-text">{{ 'digismoothie_b2b_app.form.submit' | t }}</span>
+      </button>
+      <button class="button button--secondary icon-with-text return_to_cart_button" is="hover-button">
+        <span class="btn-fill" data-fill></span>
+        <span class="btn-text">{{ 'digismoothie_b2b_app.form.submit_and_return_to_cart' | t }}</span>
       </button>
     </form>
   </div>
