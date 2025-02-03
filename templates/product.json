@@ -43,7 +43,7 @@
         "liquid_mrhxwV": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"productMeta\">\n  {% assign variant = product.selected_or_first_available_variant %}\n  {% if variant.metafields.custom.typ_svetelneho_zdroje or product.metafields.custom.typ_svetelneho_zdroje or\n        variant.metafields.custom.barevna_teplota or product.metafields.custom.barevna_teplota or\n        variant.metafields.custom.vykon or product.metafields.custom.vykon or\n        variant.metafields.custom.svetelny_tok or product.metafields.custom.svetelny_tok %}\n    <span class=\"productMeta__group productMeta__group--lumins\">\n      {% if variant.metafields.custom.typ_svetelneho_zdroje != blank or product.metafields.custom.typ_svetelneho_zdroje != blank %}<span id=\"variant-typ-svetelneho-zdroje\">{{ variant.metafields.custom.typ_svetelneho_zdroje | default: product.metafields.custom.typ_svetelneho_zdroje }}</span>{% endif %}\n      {% if variant.metafields.custom.barevna_teplota != blank or product.metafields.custom.barevna_teplota != blank %}<span id=\"variant-barevna-teplota\">{{ variant.metafields.custom.barevna_teplota | default: product.metafields.custom.barevna_teplota }}</span>{% endif %}\n      {% if variant.metafields.custom.vykon != blank or product.metafields.custom.vykon != blank %}<span id=\"variant-vykon\">{{ variant.metafields.custom.vykon | default: product.metafields.custom.vykon }}</span>{% endif %}\n      {% if variant.metafields.custom.svetelny_tok != blank or product.metafields.custom.svetelny_tok != blank %}<span id=\"variant-svetelny-tok\">{{ variant.metafields.custom.svetelny_tok | default: product.metafields.custom.svetelny_tok }}</span>{% endif %}\n    </span>\n  {% endif %}\n  {% if product.metafields.custom.stupen_kryti != blank %}<span class=\"productMeta__group productMeta__group--coverage\"><span>{{ product.metafields.custom.stupen_kryti }}</span></span>{% endif %}\n</div>\n<style>\n  .productMeta .productMeta__group {\n    display: inline-block;\n    border: 2px solid;\n    font-weight: 700;\n    padding: 7.5px 15px;\n    line-height: 1;\n    margin-right: 5px;\n    border-radius: 6px;\n    \n  }\n\n  .productMeta .productMeta__group--lumins {\n      color: #e0b566;\n      border-color: #e0b566;\n  }\n\n  .productMeta .productMeta__group--coverage {\n      color: #69a2ec;\n      border-color: #69a2ec;\n  }\n</style>"
+            "liquid": "<div class=\"productMeta\" id=\"VariantBadge-{{ section.id }}-{{ product.id }}\">\n  {% assign variant = product.selected_or_first_available_variant %}\n  {% if variant.metafields.custom.typ_svetelneho_zdroje or product.metafields.custom.typ_svetelneho_zdroje or\n        variant.metafields.custom.barevna_teplota or product.metafields.custom.barevna_teplota or\n        variant.metafields.custom.vykon or product.metafields.custom.vykon or\n        variant.metafields.custom.svetelny_tok or product.metafields.custom.svetelny_tok %}\n    <span class=\"productMeta__group productMeta__group--lumins\">\n      {% if variant.metafields.custom.typ_svetelneho_zdroje != blank or product.metafields.custom.typ_svetelneho_zdroje != blank %}<span id=\"variant-typ-svetelneho-zdroje\">{{ variant.metafields.custom.typ_svetelneho_zdroje | default: product.metafields.custom.typ_svetelneho_zdroje }}</span>{% endif %}\n      {% if variant.metafields.custom.barevna_teplota != blank or product.metafields.custom.barevna_teplota != blank %}<span id=\"variant-barevna-teplota\">{{ variant.metafields.custom.barevna_teplota | default: product.metafields.custom.barevna_teplota }}</span>{% endif %}\n      {% if variant.metafields.custom.vykon != blank or product.metafields.custom.vykon != blank %}<span id=\"variant-vykon\">{{ variant.metafields.custom.vykon | default: product.metafields.custom.vykon }}</span>{% endif %}\n      {% if variant.metafields.custom.svetelny_tok != blank or product.metafields.custom.svetelny_tok != blank %}<span id=\"variant-svetelny-tok\">{{ variant.metafields.custom.svetelny_tok | default: product.metafields.custom.svetelny_tok }}</span>{% endif %}\n    </span>\n  {% endif %}\n  {% if product.metafields.custom.stupen_kryti != blank %}<span class=\"productMeta__group productMeta__group--coverage\"><span>{{ product.metafields.custom.stupen_kryti }}</span></span>{% endif %}\n</div>\n<style>\n  .productMeta .productMeta__group {\n    display: inline-block;\n    border: 2px solid;\n    font-weight: 700;\n    padding: 7.5px 15px;\n    line-height: 1;\n    margin-right: 5px;\n    border-radius: 6px;\n    \n  }\n\n  .productMeta .productMeta__group--lumins {\n      color: #e0b566;\n      border-color: #e0b566;\n  }\n\n  .productMeta .productMeta__group--coverage {\n      color: #69a2ec;\n      border-color: #69a2ec;\n  }\n</style>"
           }
         },
         "sku_gHd7tX": {
@@ -122,7 +122,7 @@
             "heading": "Návod k montáži",
             "content": "",
             "page": "",
-            "liquid": "{% if product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% elsif product.metafields.my_fields.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% else %}\n  <p>Návod k montáži není dostupný.</p>\n{% endif %}"
+            "liquid": "<div id=\"NavodData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% elsif product.metafields.my_fields.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% else %}\n  <p>Návod k montáži není dostupný.</p>\n{% endif %}\n</div>"
           }
         },
         "collapsible_tab_CWkCFc": {
@@ -132,7 +132,7 @@
             "heading": "Data sheet",
             "content": "",
             "page": "",
-            "liquid": "{% if product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% elsif product.metafields.my_fields.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% else %}\n  <p>Data sheet není dostupný.</p>\n{% endif %}"
+            "liquid": "<div id=\"DatasheetData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% elsif product.metafields.my_fields.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% else %}\n  <p>Data sheet není dostupný.</p>\n{% endif %}\n</div"
           }
         },
         "collapsible_tab_ikFHUq": {
@@ -142,7 +142,7 @@
             "heading": "3D model",
             "content": "",
             "page": "",
-            "liquid": "{% if customer %}\n  {% if product.metafields.custom.visual_model.value.url %}\n    <p><a href=\"{{ product.metafields.custom.visual_model.value.url }}\" target=\"_blank\">Stáhnout 3D model</a></p>\n  {% else %}\n    <p>3D model není dostupný.</p>\n  {% endif %}\n{% else %}\n  <p><span class=\"product-download__sign\">Pro stažení 3D modelu se <a href=\"https://360design.cz/account/login?return_to={{ url }}/{{ product.handle }}\">přihlaste</a> nebo <a href=\"https://360design.cz/account/register\">zaregistrujte</a>.</span> </p>\n{% endif %}"
+            "liquid": "<div id=\"DmodelData-{{ section.id }}-{{ product.id }}\">\n{% if customer %}\n  {% if product.metafields.custom.visual_model.value.url %}\n    <p><a href=\"{{ product.metafields.custom.visual_model.value.url }}\" target=\"_blank\">Stáhnout 3D model</a></p>\n  {% else %}\n    <p>3D model není dostupný.</p>\n  {% endif %}\n{% else %}\n  <p><span class=\"product-download__sign\">Pro stažení 3D modelu se <a href=\"https://360design.cz/account/login?return_to={{ url }}/{{ product.handle }}\">přihlaste</a> nebo <a href=\"https://360design.cz/account/register\">zaregistrujte</a>.</span> </p>\n{% endif %}\n</div>"
           }
         },
         "collapsible_tab_UVkARE": {
@@ -152,7 +152,7 @@
             "heading": "LDT data",
             "content": "",
             "page": "",
-            "liquid": "{% if product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% elsif product.metafields.my_fields.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% endif %}"
+            "liquid": "<div id=\"LDTData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% elsif product.metafields.my_fields.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% endif %}\n</div>"
           }
         },
         "share": {
@@ -659,7 +659,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>Made design great again</strong></em>",
+            "text": "<em><strong>Make design great again</strong></em>",
             "text_size": 90,
             "text_font": "heading",
             "highlighted_text": "stencil",

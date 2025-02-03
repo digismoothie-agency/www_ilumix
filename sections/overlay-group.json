@@ -124,7 +124,7 @@
         "mode": "enabled",
         "only_homepage": false,
         "only_visitor": true,
-        "delay": 7,
+        "delay": 12,
         "expiry": 30,
         "text_alignment": "left",
         "content_position": "right-0",

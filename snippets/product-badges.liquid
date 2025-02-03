@@ -25,7 +25,7 @@
   {%- endif -%}
 
   {%- if saved_amount != blank -%}
-     <span class="badge badge--onsale flex items-center gap-1d5 font-medium leading-none rounded-full">
+     <span class="data-wpd-hide badge badge--onsale flex items-center gap-1d5 font-medium leading-none rounded-full">
       {%- liquid
         if save_type == 'label'
           echo 'products.general.sale' | t

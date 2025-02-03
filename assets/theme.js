@@ -4662,6 +4662,12 @@ class ProductInfo extends HTMLElement {
       updateSourceFromDestination('Volume');
       updateSourceFromDestination('PricePerItem');
       updateSourceFromDestination('BackInStock');
+      updateSourceFromDestination('TechnicalData');
+      updateSourceFromDestination('NavokData');
+      updateSourceFromDestination('LDTData');
+      updateSourceFromDestination('DmodelData');
+      updateSourceFromDestination('DatasheetData');
+      updateSourceFromDestination('VariantBadge');
 
       this.updateQuantityRules(this.sectionId, this.productId, parsedHTML);
       updateSourceFromDestination('QuantityRules');
