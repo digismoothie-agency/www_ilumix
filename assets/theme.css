@@ -6404,6 +6404,10 @@ html.touch .has-modal-open {
   border-block-end: 1px solid rgb(var(--color-border));
 }
 
+.drawer__footer .b2b-info {
+  padding: var(--sp-2) var(--sp-12);
+}
+
 .drawer .modal {
   transition: all .3s ease;
   z-index: 3
@@ -14663,4 +14667,22 @@ lookbook-element .banner__box .title-wrapper {
       transition-delay: 0.1s;
     }
   }
+}
+
+.cart-drawer__b2b {
+  background-color: rgb(var(--color-foreground) / .045);
+}
+
+.b2b-info-message {
+  display: flex;
+  gap: 10px;
+}
+
+.b2b-info-message p {
+  width: calc(100% - 30px);
+}
+
+.b2b-info-message svg {
+  width: 20px;
+  height: 20px;
 }

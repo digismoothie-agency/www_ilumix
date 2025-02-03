@@ -59,6 +59,8 @@
   {%- endif -%}
 
   {%- render 'js-variables' -%}
+  
+  <script src="{{ 'b2b-common.js' | asset_url }}" async></script>
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{% if request.design_mode %} shopify-design-mode{% endif %}" data-rounded-button="{{ settings.rounded_button }}" data-rounded-input="{{ settings.rounded_input }}" data-rounded-block="{{ settings.rounded_block }}" data-rounded-card="{{ settings.rounded_card }}" data-button-hover="{{ settings.buttons_hover }}"{% if settings.enable_lazy_image %} data-lazy-image{% endif %} data-title-animation data-page-rendering>
@@ -120,5 +122,11 @@
 {% endif %}
 <!-- WPD End -->
 {% endcomment %}
+<script>
+  window.digismoothieB2bApp = {
+    appUrl: '{{ settings.digismoothie_b2b_app_url }}',
+    lang: '{{ localization.language.iso_code }}',
+  };
+</script>
   </body>
 </html>

@@ -15,7 +15,7 @@
       </{{ section.settings.heading_tag }}>
     </div>
     
-    <div class="customer">
+    <div class="customer register">
       {%- form 'create_customer', class: 'grid gap-12' -%}
         {%- liquid
           if form.errors
@@ -75,6 +75,8 @@
             />
             <label class="label is-floating" for="RegisterFormPassword">{{ 'customer.register.password' | t }}</label>
           </div>
+          
+          {% render 'b2b-form-fields' %}
 
           {%- for block in section.blocks -%}
             {%- assign custom_name = block.settings.title | escape -%}

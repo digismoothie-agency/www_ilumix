@@ -1077,5 +1077,23 @@
         }
       }
     }
-  }
+  },
+  "digismoothie_b2b_app": {
+      "form": {
+        "email": "Email",
+        "company_name": "Company name",
+        "company_id": "Company ID",
+        "company_vat_id": "Company VAT",
+        "edit": "Edit company details",
+        "add": "Add company details",
+        "submit": "Submit",
+        "submit_and_return_to_cart": "Save and go back to cart"
+      },
+      "details": {
+        "title": "Company details"
+      },
+      "info_html": "Are you shopping for a company? <a class=\"link\" href=\"{{ login }}\">Log in<\/a>",
+      "info_for_customer": "The details for purchasing for the company are filled in, continue to Checkout",
+      "ifno_for_customer_without_details_html": "Please fill in your company details  <a class=\"link\" href=\"{{ account }}\">here.<\/a>"
+    }
 }
