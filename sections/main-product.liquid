@@ -626,6 +626,12 @@
                       id="TechnicalData-{{ section.id }}-{{ product.id }}"
                       class="details__content rte text-sm text-opacity technic-table"
                     >
+                      <div>
+                        <p>SKU:</p>
+                        <p>
+                          {{ product.selected_or_first_available_variant.sku }}
+                        </p>
+                      </div>
                       {% if product.selected_or_first_available_variant.metafields.custom.barevna_teplota
                         or product.metafields.custom.barevna_teplota
                       %}
