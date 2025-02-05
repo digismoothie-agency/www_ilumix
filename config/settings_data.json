@@ -134,6 +134,7 @@
     "checkout_accent_color": "#111111",
     "checkout_button_color": "#111111",
     "checkout_error_color": "#ff6d6d",
+    "digismoothie_b2b_app_url": "https://be.dsagency.app/api/v1/tax-exemption/",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -189,8 +190,7 @@
           "appProxy": "/apps/wpdapp"
         }
       }
-    },
-    "digismoothie_b2b_app_url": "https://be.dsagency.app/api/v1/tax-exemption/"
+    }
   },
   "presets": {
     "Harmony": {
