@@ -594,6 +594,7 @@
         "heading_XwbtEW",
         "text_mAAbBK"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.custom.photo_designer.value }}",
         "image_height": "550px",
@@ -714,6 +715,137 @@
         "rounded": false
       }
     },
+    "collage_98yLJP": {
+      "type": "collage",
+      "blocks": {
+        "image_Xzjcbb": {
+          "type": "image",
+          "settings": {
+            "subheading": "Inovativní materiál",
+            "heading": "Kompozitní technologie",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image": "shopify://shop_images/C04-_-3.png",
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
+        },
+        "image_DPgViQ": {
+          "type": "image",
+          "settings": {
+            "subheading": "Skladem",
+            "heading": "Široký sortiment",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image": "shopify://shop_images/A06-_-1.png",
+            "image_ratio": "landscape",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
+        },
+        "image_xcfBRY": {
+          "type": "image",
+          "settings": {
+            "subheading": "Design",
+            "heading": "Originální design",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image": "shopify://shop_images/F02-_-2.png",
+            "image_ratio": "landscape",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
+        },
+        "image_nYzT6Q": {
+          "type": "image",
+          "settings": {
+            "subheading": "Přizpůsobení",
+            "heading": "Tvarové varianty",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image": "shopify://shop_images/B06-02-_-1.png",
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_Xzjcbb",
+        "image_DPgViQ",
+        "image_xcfBRY",
+        "image_nYzT6Q"
+      ],
+      "settings": {
+        "heading": "Odhal kouzlo<em> </em>kompozitní<em> obkladů</em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true
+      }
+    },
     "scrolling-text": {
       "type": "scrolling-text",
       "blocks": {
@@ -745,258 +877,6 @@
         "padding_top": 28,
         "padding_bottom": 28,
         "divider": false,
-        "rounded": false
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "product_limit": 10,
-        "columns": 5,
-        "carousel_on_desktop": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "heading": "Mohlo by se vám také líbit",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": true
-      }
-    },
-    "collage_98yLJP": {
-      "type": "collage",
-      "blocks": {
-        "image_Xzjcbb": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "link": "",
-            "invert_subheading_heading": false,
-            "image_ratio": "portrait",
-            "content_position": "md:items-end md:justify-start",
-            "text_alignment": "left",
-            "image_ratio_mobile": "portrait",
-            "content_position_mobile": "items-end justify-start",
-            "text_alignment_mobile": "left",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "",
-            "gradient_highlight": "",
-            "color_overlay": "#171717",
-            "overlay_opacity": 10
-          }
-        },
-        "image_DPgViQ": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "link": "",
-            "invert_subheading_heading": false,
-            "image_ratio": "portrait",
-            "content_position": "md:items-end md:justify-start",
-            "text_alignment": "left",
-            "image_ratio_mobile": "portrait",
-            "content_position_mobile": "items-end justify-start",
-            "text_alignment_mobile": "left",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "",
-            "gradient_highlight": "",
-            "color_overlay": "#171717",
-            "overlay_opacity": 10
-          }
-        },
-        "image_xcfBRY": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "link": "",
-            "invert_subheading_heading": false,
-            "image_ratio": "portrait",
-            "content_position": "md:items-end md:justify-start",
-            "text_alignment": "left",
-            "image_ratio_mobile": "portrait",
-            "content_position_mobile": "items-end justify-start",
-            "text_alignment_mobile": "left",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "",
-            "gradient_highlight": "",
-            "color_overlay": "#171717",
-            "overlay_opacity": 10
-          }
-        },
-        "image_nYzT6Q": {
-          "type": "image",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "link": "",
-            "invert_subheading_heading": false,
-            "image_ratio": "portrait",
-            "content_position": "md:items-end md:justify-start",
-            "text_alignment": "left",
-            "image_ratio_mobile": "portrait",
-            "content_position_mobile": "items-end justify-start",
-            "text_alignment_mobile": "left",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "",
-            "gradient_highlight": "",
-            "color_overlay": "#171717",
-            "overlay_opacity": 10
-          }
-        }
-      },
-      "block_order": [
-        "image_Xzjcbb",
-        "image_DPgViQ",
-        "image_xcfBRY",
-        "image_nYzT6Q"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "<p>Share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true
-      }
-    },
-    "collection_list_iXKQCy": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_iPdeix": {
-          "type": "collection",
-          "settings": {
-            "collection": "interierova-svitidla",
-            "image": "shopify://shop_images/Faro_Confetti_Zavesne_300_5.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": true,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_499TyV": {
-          "type": "collection",
-          "settings": {
-            "collection": "exterierova-svitidla",
-            "image": "shopify://shop_images/Astro_Montreal_Oval_Nastenne_6.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": true,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_HMgaNd": {
-          "type": "collection",
-          "settings": {
-            "collection": "3f-listy",
-            "image": "shopify://shop_images/PRIVATEHARELBEKE001-RZ.png",
-            "title": "",
-            "description": "",
-            "overlay_content": true,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_88QBw4": {
-          "type": "collection",
-          "settings": {
-            "collection": "zarovky-a-zdroje",
-            "image": "shopify://shop_images/0029905-1_1_c998df7f-96fa-41af-8238-a9fc8354765b.jpg",
-            "title": "",
-            "description": "",
-            "overlay_content": true,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection_iPdeix",
-        "collection_499TyV",
-        "collection_HMgaNd",
-        "collection_88QBw4"
-      ],
-      "settings": {
-        "columns": 4,
-        "carousel_on_desktop": true,
-        "image_type": "collection",
-        "image_ratio": "square",
-        "show_products_count": true,
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "heading": "<em><strong>Svítidla</strong></em> pro každý prostor",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "360design kolekce",
-        "description": "<p>Prohlédněte si kompletní nabídku našich svítidel, pečlivě vybraných s důrazem na design, kvalitu a funkčnost.</p>",
-        "highlighted_text": "scribble",
-        "highlighted_scribble": "squiggle-underline",
-        "color_text": "#ffffff",
-        "color_background": "#1c1c1c",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "divider": false,
-        "full_width": false,
         "rounded": false
       }
     },
@@ -1099,6 +979,131 @@
         "rounded": false
       }
     },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_limit": 10,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Mohlo by se vám také líbit",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "collection_list_iXKQCy": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_iPdeix": {
+          "type": "collection",
+          "settings": {
+            "collection": "interierova-svitidla",
+            "image": "shopify://shop_images/Faro_Confetti_Zavesne_300_5.jpg",
+            "title": "",
+            "description": "",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_499TyV": {
+          "type": "collection",
+          "settings": {
+            "collection": "exterierova-svitidla",
+            "image": "shopify://shop_images/Astro_Montreal_Oval_Nastenne_6.jpg",
+            "title": "",
+            "description": "",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_HMgaNd": {
+          "type": "collection",
+          "settings": {
+            "collection": "3f-listy",
+            "image": "shopify://shop_images/PRIVATEHARELBEKE001-RZ.png",
+            "title": "",
+            "description": "",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_88QBw4": {
+          "type": "collection",
+          "settings": {
+            "collection": "zarovky-a-zdroje",
+            "image": "shopify://shop_images/0029905-1_1_c998df7f-96fa-41af-8238-a9fc8354765b.jpg",
+            "title": "",
+            "description": "",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_iPdeix",
+        "collection_499TyV",
+        "collection_HMgaNd",
+        "collection_88QBw4"
+      ],
+      "settings": {
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "<em><strong>Svítidla</strong></em> pro každý prostor",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "360design kolekce",
+        "description": "<p>Prohlédněte si kompletní nabídku našich svítidel, pečlivě vybraných s důrazem na design, kvalitu a funkčnost.</p>",
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline",
+        "color_text": "#ffffff",
+        "color_background": "#1c1c1c",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "recently-viewed": {
       "type": "recently-viewed",
       "disabled": true,
@@ -1141,11 +1146,11 @@
     "image-with-text-2",
     "image_with_text_3pqmKn",
     "product-details",
-    "scrolling-text",
-    "product-recommendations",
     "collage_98yLJP",
-    "collection_list_iXKQCy",
+    "scrolling-text",
     "faq",
+    "product-recommendations",
+    "collection_list_iXKQCy",
     "recently-viewed"
   ]
 }
