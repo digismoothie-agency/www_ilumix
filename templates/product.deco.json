@@ -297,6 +297,78 @@
         "description": "<p>V případě jakýchkoli dotazů se na nás můžete kdykoli obrátit. Ozveme se vám co nejdříve.</p>"
       }
     },
+    "video_with_text_overlay_4hyWdg": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "subheading_AAyxbX": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Add a tagline",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_bRbdmp": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.nadpis_videa_u_produktu.value }}",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_UxWxWj": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AAyxbX",
+        "heading_bRbdmp",
+        "text_UxWxWj"
+      ],
+      "settings": {
+        "transparent_header": false,
+        "video": "{{ product.metafields.custom.video_u_produktu.value }}",
+        "video_url": "",
+        "description": "{{ product.metafields.custom.nadpis_videa_u_produktu.value }}",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "650px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_mobile": "{{ product.metafields.custom.video_u_produktu.value }}",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
     "image-with-text-1": {
       "type": "image-with-text",
       "blocks": {
@@ -429,78 +501,6 @@
         "rounded": false,
         "enable_parallax": false,
         "parallax_direction": "vertical"
-      }
-    },
-    "video_with_text_overlay_4hyWdg": {
-      "type": "video-with-text-overlay",
-      "blocks": {
-        "subheading_AAyxbX": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Add a tagline",
-            "subheading_size": "subtitle-md",
-            "secondary_color": true
-          }
-        },
-        "heading_bRbdmp": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.custom.nadpis_videa_u_produktu.value }}",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "text_UxWxWj": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_size": "subtext-md",
-            "text_max_size": 32,
-            "text_font": "body",
-            "secondary_color": false,
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_AAyxbX",
-        "heading_bRbdmp",
-        "text_UxWxWj"
-      ],
-      "settings": {
-        "transparent_header": false,
-        "video": "{{ product.metafields.custom.video_u_produktu.value }}",
-        "video_url": "",
-        "description": "{{ product.metafields.custom.nadpis_videa_u_produktu.value }}",
-        "enable_video_autoplay": true,
-        "enable_video_looping": true,
-        "image_height": "650px",
-        "content_width": "small",
-        "content_position": "md:items-center md:justify-center",
-        "text_alignment": "center",
-        "video_mobile": "{{ product.metafields.custom.video_u_produktu.value }}",
-        "video_url_mobile": "",
-        "image_height_mobile": "auto",
-        "content_position_mobile": "items-center justify-center",
-        "text_alignment_mobile": "center",
-        "color_text": "#ffffff",
-        "color_highlight": "#e0a580",
-        "gradient_highlight": "",
-        "color_button_text": "#171717",
-        "color_button_background": "#ffffff",
-        "color_button_gradient": "",
-        "color_overlay": "#171717",
-        "overlay_opacity": 20,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": false
       }
     },
     "image_with_text_3pqmKn": {
@@ -1021,7 +1021,7 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Nechá se obklad ohnout?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -1030,7 +1030,7 @@
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Jak přidělat obklad na stěnu?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -1039,7 +1039,7 @@
         "question-3": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Mohu použít obklad i v exteriéru?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -1048,7 +1048,7 @@
         "question-4": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Nechá se obklad zkrátit?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -1057,7 +1057,7 @@
         "question-5": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Může se obklad přebarvit?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -1066,8 +1066,8 @@
         "contact": {
           "type": "contact",
           "settings": {
-            "heading": "Didn’t find your answer?",
-            "text": "<p>Don't hestitate to contact us</p>",
+            "heading": "Nenašli jste odpověd?",
+            "text": "<p>Neváhejte nás kontaktovat.</p>",
             "show_phone": false,
             "avatar_height": 60,
             "highlighted_text": "none",
@@ -1083,7 +1083,6 @@
         "question-5",
         "contact"
       ],
-      "disabled": true,
       "settings": {
         "style": "with-background",
         "heading": "FAQs",
@@ -1091,7 +1090,7 @@
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
         "subheading": "",
-        "description": "<p>Please read our <a href=\"#\" title=\"FAQ's\">FAQs</a> page to find out more.</p>",
+        "description": "<p>Více informací se dozvíte na <a href=\"/pages/kontakty\" title=\"Kontakty\">stránce</a> s často kladenými dotazy</p>",
         "button_label": "",
         "button_link": "",
         "button_external": false,
@@ -1151,9 +1150,9 @@
   "order": [
     "main-product",
     "help-drawer",
+    "video_with_text_overlay_4hyWdg",
     "image-with-text-1",
     "image-with-text-2",
-    "video_with_text_overlay_4hyWdg",
     "image_with_text_3pqmKn",
     "product-details",
     "scrolling-text",
