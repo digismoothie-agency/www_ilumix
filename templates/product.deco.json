@@ -789,6 +789,133 @@
         "rounded": false
       }
     },
+    "collage_98yLJP": {
+      "type": "collage",
+      "blocks": {
+        "image_Xzjcbb": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
+        },
+        "image_DPgViQ": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
+        },
+        "image_xcfBRY": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
+        },
+        "image_nYzT6Q": {
+          "type": "image",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "link": "",
+            "invert_subheading_heading": false,
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "",
+            "gradient_highlight": "",
+            "color_overlay": "#171717",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_Xzjcbb",
+        "image_DPgViQ",
+        "image_xcfBRY",
+        "image_nYzT6Q"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true
+      }
+    },
     "collection_list_iXKQCy": {
       "type": "collection-list",
       "blocks": {
@@ -881,138 +1008,6 @@
         "divider": false,
         "full_width": false,
         "rounded": false
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "subheading": "<em>Interiér</em>",
-            "heading": "Interiérová svítidla",
-            "link": "shopify://collections/interierova-svitidla",
-            "invert_subheading_heading": false,
-            "image": "shopify://shop_images/360design_sekce_interier_750x600_c03d3459-105a-47ea-89b3-f85b3603d903.jpg",
-            "image_ratio": "landscape",
-            "content_position": "md:items-end md:justify-center",
-            "text_alignment": "center",
-            "image_ratio_mobile": "landscape",
-            "content_position_mobile": "items-end justify-center",
-            "text_alignment_mobile": "center",
-            "highlighted_text": "text",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "#fde047",
-            "gradient_highlight": "",
-            "color_overlay": "#000000",
-            "overlay_opacity": 40
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "subheading": "<em>Exteriér</em>",
-            "heading": "Exteriérová svítidla",
-            "link": "shopify://collections/exterierova-svitidla",
-            "invert_subheading_heading": true,
-            "image": "shopify://shop_images/360design_sekce_600x720_d1f323eb-fd63-4ab4-84e9-cbeff3050ef1.jpg",
-            "image_ratio": "portrait",
-            "content_position": "md:items-end md:justify-start",
-            "text_alignment": "left",
-            "image_ratio_mobile": "portrait",
-            "content_position_mobile": "items-end justify-start",
-            "text_alignment_mobile": "left",
-            "highlighted_text": "text",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "#fde047",
-            "gradient_highlight": "",
-            "color_overlay": "#000000",
-            "overlay_opacity": 40
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "subheading": "<em>Lampičky</em>",
-            "heading": "Přenosná USB svítidla",
-            "link": "shopify://collections/dekorativni-exterierova-svitidla",
-            "invert_subheading_heading": false,
-            "image": "shopify://shop_images/360design_sekce_prenosna_600x720_0acb0f8b-813c-47c2-8c01-130392004d9c.jpg",
-            "image_ratio": "portrait",
-            "content_position": "md:items-start md:justify-end",
-            "text_alignment": "right",
-            "image_ratio_mobile": "portrait",
-            "content_position_mobile": "items-start justify-end",
-            "text_alignment_mobile": "right",
-            "highlighted_text": "text",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "#fde047",
-            "gradient_highlight": "",
-            "color_overlay": "#000000",
-            "overlay_opacity": 40
-          }
-        },
-        "image-4": {
-          "type": "image",
-          "settings": {
-            "subheading": "<em>Příslušenství</em>",
-            "heading": "Žárovky a zdroje",
-            "link": "shopify://collections/zarovky-a-zdroje",
-            "invert_subheading_heading": true,
-            "image": "shopify://shop_images/360design_sekce_zarovky_750x600_2c1aaa26-d8e8-4817-9a98-9d682e52ca12.jpg",
-            "image_ratio": "landscape",
-            "content_position": "md:items-end md:justify-end",
-            "text_alignment": "right",
-            "image_ratio_mobile": "landscape",
-            "content_position_mobile": "items-end justify-end",
-            "text_alignment_mobile": "right",
-            "highlighted_text": "text",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "#fde047",
-            "gradient_highlight": "",
-            "color_overlay": "#000000",
-            "overlay_opacity": 40
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2",
-        "image-3",
-        "image-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "360design <em>kolekce</em>",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "<p>Prohlédněte si kompletní nabídku našich svítidel, pečlivě vybraných s důrazem na design, kvalitu a funkčnost. Najděte to pravé osvětlení pro svůj domov!</p>",
-        "button_label": "Zobrazit kolekce",
-        "button_link": "shopify://collections",
-        "button_external": false,
-        "button_icon": true,
-        "highlighted_text": "scribble",
-        "highlighted_scribble": "basic-underline",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 28,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true
       }
     },
     "faq": {
@@ -1158,8 +1153,8 @@
     "scrolling-text",
     "product-recommendations",
     "video-hero",
+    "collage_98yLJP",
     "collection_list_iXKQCy",
-    "collage",
     "faq",
     "recently-viewed"
   ]
