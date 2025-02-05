@@ -768,7 +768,6 @@
         "slide-3",
         "slide-4"
       ],
-      "disabled": true,
       "settings": {
         "transparent_header": false,
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -1145,6 +1144,7 @@
   "order": [
     "main-product",
     "help-drawer",
+    "video-hero",
     "video_with_text_overlay_4hyWdg",
     "image-with-text-1",
     "image-with-text-2",
@@ -1152,7 +1152,6 @@
     "product-details",
     "scrolling-text",
     "product-recommendations",
-    "video-hero",
     "collage_98yLJP",
     "collection_list_iXKQCy",
     "faq",
