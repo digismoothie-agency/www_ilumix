@@ -297,6 +297,66 @@
         "description": "<p>V případě jakýchkoli dotazů se na nás můžete kdykoli obrátit. Ozveme se vám co nejdříve.</p>"
       }
     },
+    "video-hero": {
+      "type": "video-hero",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "3D obklad",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "který změní",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "slide-3": {
+          "type": "slide",
+          "settings": {
+            "heading": "Váš pohled na design",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2",
+        "slide-3"
+      ],
+      "settings": {
+        "transparent_header": false,
+        "video": "{{ product.metafields.custom.video_u_produktu.value }}",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "content_width": "medium",
+        "video_url_mobile": "",
+        "color_text": "#ffffff",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
     "video_with_text_overlay_4hyWdg": {
       "type": "video-with-text-overlay",
       "blocks": {
@@ -338,6 +398,7 @@
         "heading_bRbdmp",
         "text_UxWxWj"
       ],
+      "disabled": true,
       "settings": {
         "transparent_header": false,
         "video": "{{ product.metafields.custom.video_u_produktu.value }}",
@@ -716,76 +777,6 @@
         "divider": false,
         "full_width": false,
         "rounded": true
-      }
-    },
-    "video-hero": {
-      "type": "video-hero",
-      "blocks": {
-        "slide-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 1",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-2": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 2",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-3": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 3",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-4": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 4",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "slide-1",
-        "slide-2",
-        "slide-3",
-        "slide-4"
-      ],
-      "settings": {
-        "transparent_header": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": true,
-        "content_width": "medium",
-        "video_url_mobile": "",
-        "color_text": "#ffffff",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_overlay": "#000000",
-        "overlay_opacity": 40,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": false
       }
     },
     "collage_98yLJP": {
