@@ -537,7 +537,7 @@
         "text"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.video_u_produktu.value }}",
+        "image": "{{ product.metafields.my_fields.obr_zek_2.value }}",
         "image_height": "600px",
         "image_width": "medium",
         "layout": "text_first",
