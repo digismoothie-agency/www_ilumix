@@ -1,0 +1,1167 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "breadcrumb_XCxWjF": {
+          "type": "breadcrumb",
+          "settings": {
+            "show_collections_link": true
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_size": "text-base"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "product-title-md",
+            "title_size_mobile": "product-title-md",
+            "show_price": true,
+            "show_rating": true
+          }
+        },
+        "liquid_BNqfjW": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% if product.metafields.custom.psaci_text_pod_vyrobcem %}\n  <p class=\"product__badge\">{{ product.metafields.custom.psaci_text_pod_vyrobcem }}</p>\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Unica+One&display=swap\" rel=\"stylesheet\">\n<style>\n.product__badge {\nfont-family: \"Unica One\"; \n    font-size: 24px;\ncolor: #C3C3C3; \n}\n</style>\n{% endif %}"
+          }
+        },
+        "liquid_mrhxwV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"productMeta\" id=\"VariantBadge-{{ section.id }}-{{ product.id }}\">\n  {% assign variant = product.selected_or_first_available_variant %}\n  {% if variant.metafields.custom.typ_svetelneho_zdroje or product.metafields.custom.typ_svetelneho_zdroje or\n        variant.metafields.custom.barevna_teplota or product.metafields.custom.barevna_teplota or\n        variant.metafields.custom.vykon or product.metafields.custom.vykon or\n        variant.metafields.custom.svetelny_tok or product.metafields.custom.svetelny_tok %}\n    <span class=\"productMeta__group productMeta__group--lumins\">\n      {% if variant.metafields.custom.typ_svetelneho_zdroje != blank or product.metafields.custom.typ_svetelneho_zdroje != blank %}<span id=\"variant-typ-svetelneho-zdroje\">{{ variant.metafields.custom.typ_svetelneho_zdroje | default: product.metafields.custom.typ_svetelneho_zdroje }}</span>{% endif %}\n      {% if variant.metafields.custom.barevna_teplota != blank or product.metafields.custom.barevna_teplota != blank %}<span id=\"variant-barevna-teplota\">{{ variant.metafields.custom.barevna_teplota | default: product.metafields.custom.barevna_teplota }}</span>{% endif %}\n      {% if variant.metafields.custom.vykon != blank or product.metafields.custom.vykon != blank %}<span id=\"variant-vykon\">{{ variant.metafields.custom.vykon | default: product.metafields.custom.vykon }}</span>{% endif %}\n      {% if variant.metafields.custom.svetelny_tok != blank or product.metafields.custom.svetelny_tok != blank %}<span id=\"variant-svetelny-tok\">{{ variant.metafields.custom.svetelny_tok | default: product.metafields.custom.svetelny_tok }}</span>{% endif %}\n    </span>\n  {% endif %}\n  {% if product.metafields.custom.stupen_kryti != blank %}<span class=\"productMeta__group productMeta__group--coverage\"><span>{{ product.metafields.custom.stupen_kryti }}</span></span>{% endif %}\n</div>\n<style>\n  .productMeta .productMeta__group {\n    display: inline-block;\n    border: 2px solid;\n    font-weight: 700;\n    padding: 7.5px 15px;\n    line-height: 1;\n    margin-right: 5px;\n    border-radius: 6px;\n    \n  }\n\n  .productMeta .productMeta__group--lumins {\n      color: #e0b566;\n      border-color: #e0b566;\n  }\n\n  .productMeta .productMeta__group--coverage {\n      color: #69a2ec;\n      border-color: #69a2ec;\n  }\n</style>"
+          }
+        },
+        "sku_gHd7tX": {
+          "type": "sku",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "text_size": "text-base"
+          }
+        },
+        "liquid_ay8X3m": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"toggle-button\">\n    &#9662; <span>Zobrazit více</span> \n</div>\n\n<style>\n .product__text {\n    max-height: 6.8em;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: normal;\n    position: relative;\n    transition: max-height 0.3s ease;\n}\n\n.product__text.expanded {\n    max-height: none; \n}\n\n.toggle-button {\nmargin-top: -15px;\nfont-size: 14px;\ncolor: #747474;\ncursor: pointer;\n}\n</style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', () => {\n    const productTexts = document.querySelectorAll('.product__text');\n    const toggleButtons = document.querySelectorAll('.toggle-button');\n\n    toggleButtons.forEach((button, index) => {\n        button.addEventListener('click', () => {\n            const productText = productTexts[index];\n            const isExpanded = productText.classList.toggle('expanded');\n\n            \n            if (isExpanded) {\n                const scrollHeight = productText.scrollHeight;\n                productText.style.maxHeight = `${scrollHeight}px`;\n            } else {\n                productText.style.maxHeight = '6.8em'; \n            }\n\n            // Aktualizace tlačítka\n            const span = button.querySelector('span');\n            span.textContent = isExpanded ? 'Zobrazit méně' : 'Zobrazit více';\n            button.innerHTML = `<span>${span.textContent}</span> ${isExpanded ? '&#9652;' : '&#9662;'}`;\n        });\n    });\n});\n</script>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "color_swatch_type": "color",
+            "size_chart": ""
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Akce",
+            "subheading": "Sleva končí za:",
+            "color_text": "#e11d48",
+            "color_background": "#fff1f2",
+            "gradient_background": ""
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+            "in_stock_title": "Skladem, připraveno k odeslání",
+            "out_of_stock_title": "Skladem u dodavatele <span>(doručíme do $doba_dodani $jednotka)</span>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "collapsible_tab_hP79Aw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Technická data",
+            "content": "",
+            "page": "",
+            "liquid": "{% if product.selected_or_first_available_variant.metafields.custom.barevna_teplota or product.metafields.custom.barevna_teplota %}\n  <p>\n    <strong>Barevná teplota:</strong> \n    {{ product.selected_or_first_available_variant.metafields.custom.barevna_teplota | default: product.metafields.custom.barevna_teplota }}\n  </p>\n{% endif %}\n\n{% if product.selected_or_first_available_variant.metafields.custom.vykon or product.metafields.custom.vykon %}\n  <p>\n    <strong>Výkon:</strong> \n    {{ product.selected_or_first_available_variant.metafields.custom.vykon | default: product.metafields.custom.vykon }}\n  </p>\n{% endif %}\n\n{% if product.selected_or_first_available_variant.metafields.custom.svetelny_tok or product.metafields.custom.svetelny_tok %}\n  <p>\n    <strong>Světelný tok:</strong> \n    {{ product.selected_or_first_available_variant.metafields.custom.svetelny_tok | default: product.metafields.custom.svetelny_tok }}\n  </p>\n{% endif %}\n\n{% if product.metafields.custom.varianta_montaze %}\n  <p><strong>Varianta montáže:</strong>\n    {% assign varianty = product.metafields.custom.varianta_montaze | remove: '[' | remove: ']' | remove: '\"' %}\n    {{ varianty }}\n  </p>\n{% endif %}\n\n{% if product.metafields.custom.typ_svetelneho_zdroje %}\n  <p><strong>Typ světelného zdroje:</strong> {{ product.metafields.custom.typ_svetelneho_zdroje }}</p>\n{% endif %}\n{% if product.metafields.custom.vykon %}\n  <p><strong>Výkon:</strong> {{ product.metafields.custom.vykon }}</p>\n{% endif %}\n{% if product.metafields.custom.svetelny_tok %}\n  <p><strong>Světelný tok:</strong> {{ product.metafields.custom.svetelny_tok }}</p>\n{% endif %}\n{% if product.metafields.custom.barevna_teplota %}\n  <p><strong>Barevná teplota:</strong> {{ product.metafields.custom.barevna_teplota }}</p>\n{% endif %}\n{% if product.metafields.custom.stupen_kryti %}\n  <p><strong>Stupeň krytí:</strong> {{ product.metafields.custom.stupen_kryti }}</p>\n{% endif %}\n{% if product.metafields.custom.uhel_svitu %}\n  <p><strong>Úhel svitu:</strong> {{ product.metafields.custom.uhel_svitu }}</p>\n{% endif %}\n{% if product.selected_or_first_available_variant.metafields.custom.uhel_svitu or product.metafields.custom.uhel_svitu %}\n  <p>\n    <strong>Úhel svitu:</strong> \n    {{ product.selected_or_first_available_variant.metafields.custom.uhel_svitu | default: product.metafields.custom.uhel_svitu }}\n  </p>\n{% endif %}\n{% if product.metafields.custom._hel_svitu %}\n  <p><strong>Hel svitu:</strong> {{ product.metafields.custom._hel_svitu }}</p>\n{% endif %}\n{% if product.metafields.custom.zivnotnost_h_ %}\n  <p><strong>Životnost (h):</strong> {{ product.metafields.custom.zivnotnost_h_ }}</p>\n{% endif %}\n{% if product.metafields.custom.zivotnost %}\n  <p><strong>Životnost:</strong> {{ product.metafields.custom.zivotnost }}</p>\n{% endif %}\n{% if product.metafields.custom.material %}\n  <p><strong>Materiál:</strong> {{ product.metafields.custom.material }}</p>\n{% endif %}\n{% if product.metafields.custom.povrchova_uprava %}\n  <p><strong>Povrchová úprava:</strong> {{ product.metafields.custom.povrchova_uprava }}</p>\n{% endif %}\n{% if product.metafields.custom.hodnota_oslneni %}\n  <p><strong>Hodnota oslnění:</strong> {{ product.metafields.custom.hodnota_oslneni }}</p>\n{% endif %}\n{% if product.metafields.custom.index_barev %}\n  <p><strong>Index barev:</strong> {{ product.metafields.custom.index_barev }}</p>\n{% endif %}\n{% if product.metafields.custom.stmivatelne %}\n  <p><strong>Stmívatelné:</strong> {{ product.metafields.custom.stmivatelne }}</p>\n{% endif %}\n{% if product.metafields.custom.rozmery %}\n  <p><strong>Rozměry:</strong> {{ product.metafields.custom.rozmery }}</p>\n{% endif %}\n{% if product.selected_or_first_available_variant.metafields.custom.rozmer or product.metafields.custom.rozmer %}\n  <p>\n    <strong>Rozměr:</strong> \n    {{ product.selected_or_first_available_variant.metafields.custom.rozmer | default: product.metafields.custom.rozmer }}\n  </p>\n{% endif %}\n{% if product.metafields.custom.rozmer %}\n  <p><strong>Rozměr:</strong> {{ product.metafields.custom.rozmer }}</p>\n{% endif %}\n{% if product.metafields.custom.napeti %}\n  <p><strong>Napětí:</strong> {{ product.metafields.custom.napeti }}</p>\n{% endif %}\n{% if product.metafields.custom.elektricka_trida %}\n  <p><strong>Elektrická třída:</strong> {{ product.metafields.custom.elektricka_trida }}</p>\n{% endif %}\n{% if product.metafields.custom.zaruka %}\n  <p><strong>Záruka:</strong> {{ product.metafields.custom.zaruka }}</p>\n{% endif %}\n\n<style>\n.product__accordion p {\n  display: flex;\n  justify-content: space-between;\n  margin: 5px 0;\n}\n.product__accordion p strong {\n  font-weight: 400;\n}\n</style>"
+          }
+        },
+        "collapsible_tab_NXHzJd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Návod k montáži",
+            "content": "",
+            "page": "",
+            "liquid": "<div id=\"NavodData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% elsif product.metafields.my_fields.n_vod_k_mont_i.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.n_vod_k_mont_i.value.url }}\" target=\"_blank\">Stáhnout návod</a>\n  </p>\n{% else %}\n  <p>Návod k montáži není dostupný.</p>\n{% endif %}\n</div>"
+          }
+        },
+        "collapsible_tab_CWkCFc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Data sheet",
+            "content": "",
+            "page": "",
+            "liquid": "<div id=\"DatasheetData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% elsif product.metafields.my_fields.data_sheet.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.data_sheet.value.url }}\" target=\"_blank\">Stáhnout data sheet</a>\n  </p>\n{% else %}\n  <p>Data sheet není dostupný.</p>\n{% endif %}\n</div"
+          }
+        },
+        "collapsible_tab_ikFHUq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "3D model",
+            "content": "",
+            "page": "",
+            "liquid": "<div id=\"DmodelData-{{ section.id }}-{{ product.id }}\">\n{% if customer %}\n  {% if product.metafields.custom.visual_model.value.url %}\n    <p><a href=\"{{ product.metafields.custom.visual_model.value.url }}\" target=\"_blank\">Stáhnout 3D model</a></p>\n  {% else %}\n    <p>3D model není dostupný.</p>\n  {% endif %}\n{% else %}\n  <p><span class=\"product-download__sign\">Pro stažení 3D modelu se <a href=\"https://360design.cz/account/login?return_to={{ url }}/{{ product.handle }}\">přihlaste</a> nebo <a href=\"https://360design.cz/account/register\">zaregistrujte</a>.</span> </p>\n{% endif %}\n</div>"
+          }
+        },
+        "collapsible_tab_UVkARE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "LDT data",
+            "content": "",
+            "page": "",
+            "liquid": "<div id=\"LDTData-{{ section.id }}-{{ product.id }}\">\n{% if product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.selected_or_first_available_variant.metafields.custom.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% elsif product.metafields.my_fields.ldt_data.value.url %}\n  <p>\n    <a href=\"{{ product.metafields.my_fields.ldt_data.value.url }}\" target=\"_blank\">Stáhnout LDT data</a>\n  </p>\n{% endif %}\n</div>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Sdílej",
+            "show_help_desk": true,
+            "help_label": "Potřebujete pomoct?",
+            "help_type": "drawer",
+            "help_page": ""
+          }
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Dobře se kombinuje s:",
+            "product_limit": 5,
+            "show_vendor": false,
+            "show_price": true
+          }
+        },
+        "sticky_buy_button": {
+          "type": "sticky_buy_button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "breadcrumb_XCxWjF",
+        "vendor",
+        "title",
+        "liquid_BNqfjW",
+        "liquid_mrhxwV",
+        "sku_gHd7tX",
+        "description",
+        "liquid_ay8X3m",
+        "variant_picker",
+        "countdown",
+        "inventory",
+        "buy_buttons",
+        "pickup_availability",
+        "collapsible_tab_hP79Aw",
+        "collapsible_tab_NXHzJd",
+        "collapsible_tab_CWkCFc",
+        "collapsible_tab_ikFHUq",
+        "collapsible_tab_UVkARE",
+        "share",
+        "complementary",
+        "sticky_buy_button"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "media_size": 70,
+        "gallery_layout": "thumbnail",
+        "thumbnail_position": "beside",
+        "image_ratio": "adapt_first",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
+        "mobile_thumbnail": false,
+        "padding_top": 0,
+        "padding_bottom": 84,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "help-drawer": {
+      "type": "help-drawer",
+      "blocks": {
+        "content-1": {
+          "type": "content",
+          "settings": {
+            "icon": "rocket",
+            "heading": "Informace o přepravě",
+            "text": "<p>????</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#b45309",
+            "color_background": "#fffbeb",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-2": {
+          "type": "content",
+          "settings": {
+            "icon": "box",
+            "heading": "Skladová dostupnost",
+            "text": "<p>???</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#0369a1",
+            "color_background": "#f0f9ff",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-3": {
+          "type": "content",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Napište nám",
+            "text": "<p>???</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#be123c",
+            "color_background": "#fff1f2",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        },
+        "content-4": {
+          "type": "content",
+          "settings": {
+            "icon": "phone",
+            "heading": "Zákaznická podpora",
+            "text": "<p>???</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle",
+            "color_text": "#4d7c0f",
+            "color_background": "#f7fee7",
+            "gradient_background": "",
+            "color_highlight": "#ffddbf",
+            "gradient_highlight": ""
+          }
+        }
+      },
+      "block_order": [
+        "content-1",
+        "content-2",
+        "content-3",
+        "content-4"
+      ],
+      "settings": {
+        "heading": "Potřebujte pomoc?",
+        "description": "<p>V případě jakýchkoli dotazů se na nás můžete kdykoli obrátit. Ozveme se vám co nejdříve.</p>"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image_width": "custom",
+            "image_max_width": 50,
+            "image_max_width_mobile": 50
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.nadpis_u_obr_zku_1.value }}",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.text_u_obr_zku_1 | metafield_tag }}</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.obr_zek_1.value }}",
+        "image_height": "600px",
+        "image_width": "medium",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "400px",
+        "text_alignment_mobile": "left",
+        "color_text": "#171717",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "#fafafa",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image_width": "custom",
+            "image_max_width": 50,
+            "image_max_width_mobile": 50
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.nadpis_u_obr_zku_2.value }}",
+            "heading_size": "title-md",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.my_fields.text_u_obr_zku_2 | metafield_tag }}</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.obr_zek_2.value }}",
+        "image_height": "600px",
+        "image_width": "medium",
+        "layout": "text_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "400px",
+        "text_alignment_mobile": "left",
+        "color_text": "#171717",
+        "color_background": "",
+        "gradient_background": "",
+        "color_background_2": "#fafafa",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "video_with_text_overlay_4hyWdg": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "subheading_AAyxbX": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Add a tagline",
+            "subheading_size": "subtitle-md",
+            "secondary_color": true
+          }
+        },
+        "heading_bRbdmp": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.nadpis_videa_u_produktu.value }}",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_UxWxWj": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "subtext-md",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AAyxbX",
+        "heading_bRbdmp",
+        "text_UxWxWj"
+      ],
+      "settings": {
+        "transparent_header": false,
+        "video": "{{ product.metafields.custom.video_u_produktu.value }}",
+        "video_url": "",
+        "description": "{{ product.metafields.custom.nadpis_videa_u_produktu.value }}",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "image_height": "650px",
+        "content_width": "small",
+        "content_position": "md:items-center md:justify-center",
+        "text_alignment": "center",
+        "video_mobile": "{{ product.metafields.custom.video_u_produktu.value }}",
+        "video_url_mobile": "",
+        "image_height_mobile": "auto",
+        "content_position_mobile": "items-center justify-center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_highlight": "#e0a580",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "image_with_text_3pqmKn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XwbtEW": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.name_designer.value }}",
+            "heading_size": "title-sm",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_mAAbBK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.info_designer | metafield_tag }}</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 20,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XwbtEW",
+        "text_mAAbBK"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.photo_designer.value }}",
+        "image_height": "550px",
+        "image_width": "small",
+        "layout": "image_first",
+        "text_alignment": "left",
+        "content_position": "align-self-center",
+        "image_height_mobile": "auto",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_background": "#1c1c1c",
+        "gradient_background": "",
+        "color_background_2": "",
+        "gradient_background_2": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false,
+        "parallax_direction": "vertical"
+      }
+    },
+    "product-details": {
+      "type": "product-details",
+      "blocks": {
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "icon_width": 24,
+            "heading": "Technická data",
+            "content": "",
+            "metafields": "custom.varianta_montaze\ncustom.typ_svetelneho_zdroje\ncustom.vykon \ncustom.svetelny_tok\ncustom.barevna_teplota\ncustom.stupen_kryti \ncustom.uhel_svitu\ncustom._hel_svitu\ncustom.zivnotnost_h_ \ncustom.zivotnost \ncustom.material\ncustom.povrchova_uprava\ncustom.hodnota_oslneni\ncustom.index_barev\ncustom.stmivatelne \ncustom.rozmery \ncustom.rozmer\n custom.napeti \ncustom.elektricka_trida \ncustom.zaruka"
+          }
+        },
+        "collapsible_tab-4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "icon_width": 24,
+            "heading": "Rozměry",
+            "content": "",
+            "metafields": "custom.rozmer\ncustom.rozmery"
+          }
+        },
+        "specification_Xxinb4": {
+          "type": "specification",
+          "settings": {
+            "icon": "shopify://shop_images/techdata.svg",
+            "heading": "Data sheet"
+          }
+        },
+        "specification_ynzth3": {
+          "type": "specification",
+          "settings": {
+            "icon": "shopify://shop_images/techdata.svg",
+            "heading": "Návod k montáži"
+          }
+        },
+        "specification_f3AKTb": {
+          "type": "specification",
+          "settings": {
+            "icon": "shopify://shop_images/techdata.svg",
+            "heading": "3D model"
+          }
+        },
+        "specification_PhiXwQ": {
+          "type": "specification",
+          "settings": {
+            "icon": "shopify://shop_images/techdata.svg",
+            "heading": "LDT data"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab-1",
+        "collapsible_tab-4",
+        "specification_Xxinb4",
+        "specification_ynzth3",
+        "specification_f3AKTb",
+        "specification_PhiXwQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "style": "with-border",
+        "open_first_row": true,
+        "specifications_heading": "Ke stažení",
+        "heading": "Technická specifikace",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#000000",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>Make design great again</strong></em>",
+            "text_size": 90,
+            "text_font": "heading",
+            "highlighted_text": "stencil",
+            "highlighted_scribble": "basic-underline"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 20,
+        "grid_horizontal": 70,
+        "enable_twin": false,
+        "enable_parallax": true,
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_limit": 10,
+        "columns": 5,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Mohlo by se vám také líbit",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true
+      }
+    },
+    "video-hero": {
+      "type": "video-hero",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Video slide 1",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Video slide 2",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "slide-3": {
+          "type": "slide",
+          "settings": {
+            "heading": "Video slide 3",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "slide-4": {
+          "type": "slide",
+          "settings": {
+            "heading": "Video slide 4",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2",
+        "slide-3",
+        "slide-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "transparent_header": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "content_width": "medium",
+        "video_url_mobile": "",
+        "color_text": "#ffffff",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_overlay": "#000000",
+        "overlay_opacity": 40,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
+    },
+    "collection_list_iXKQCy": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_iPdeix": {
+          "type": "collection",
+          "settings": {
+            "collection": "interierova-svitidla",
+            "image": "shopify://shop_images/Faro_Confetti_Zavesne_300_5.jpg",
+            "title": "",
+            "description": "",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_499TyV": {
+          "type": "collection",
+          "settings": {
+            "collection": "exterierova-svitidla",
+            "image": "shopify://shop_images/Astro_Montreal_Oval_Nastenne_6.jpg",
+            "title": "",
+            "description": "",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_HMgaNd": {
+          "type": "collection",
+          "settings": {
+            "collection": "3f-listy",
+            "image": "shopify://shop_images/PRIVATEHARELBEKE001-RZ.png",
+            "title": "",
+            "description": "",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_88QBw4": {
+          "type": "collection",
+          "settings": {
+            "collection": "zarovky-a-zdroje",
+            "image": "shopify://shop_images/0029905-1_1_c998df7f-96fa-41af-8238-a9fc8354765b.jpg",
+            "title": "",
+            "description": "",
+            "overlay_content": true,
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_iPdeix",
+        "collection_499TyV",
+        "collection_HMgaNd",
+        "collection_88QBw4"
+      ],
+      "settings": {
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "image_type": "collection",
+        "image_ratio": "square",
+        "show_products_count": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "<em><strong>Svítidla</strong></em> pro každý prostor",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "360design kolekce",
+        "description": "<p>Prohlédněte si kompletní nabídku našich svítidel, pečlivě vybraných s důrazem na design, kvalitu a funkčnost.</p>",
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "squiggle-underline",
+        "color_text": "#ffffff",
+        "color_background": "#1c1c1c",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "subheading": "<em>Interiér</em>",
+            "heading": "Interiérová svítidla",
+            "link": "shopify://collections/interierova-svitidla",
+            "invert_subheading_heading": false,
+            "image": "shopify://shop_images/360design_sekce_interier_750x600_c03d3459-105a-47ea-89b3-f85b3603d903.jpg",
+            "image_ratio": "landscape",
+            "content_position": "md:items-end md:justify-center",
+            "text_alignment": "center",
+            "image_ratio_mobile": "landscape",
+            "content_position_mobile": "items-end justify-center",
+            "text_alignment_mobile": "center",
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "#fde047",
+            "gradient_highlight": "",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "subheading": "<em>Exteriér</em>",
+            "heading": "Exteriérová svítidla",
+            "link": "shopify://collections/exterierova-svitidla",
+            "invert_subheading_heading": true,
+            "image": "shopify://shop_images/360design_sekce_600x720_d1f323eb-fd63-4ab4-84e9-cbeff3050ef1.jpg",
+            "image_ratio": "portrait",
+            "content_position": "md:items-end md:justify-start",
+            "text_alignment": "left",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-end justify-start",
+            "text_alignment_mobile": "left",
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "#fde047",
+            "gradient_highlight": "",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "subheading": "<em>Lampičky</em>",
+            "heading": "Přenosná USB svítidla",
+            "link": "shopify://collections/dekorativni-exterierova-svitidla",
+            "invert_subheading_heading": false,
+            "image": "shopify://shop_images/360design_sekce_prenosna_600x720_0acb0f8b-813c-47c2-8c01-130392004d9c.jpg",
+            "image_ratio": "portrait",
+            "content_position": "md:items-start md:justify-end",
+            "text_alignment": "right",
+            "image_ratio_mobile": "portrait",
+            "content_position_mobile": "items-start justify-end",
+            "text_alignment_mobile": "right",
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "#fde047",
+            "gradient_highlight": "",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "image-4": {
+          "type": "image",
+          "settings": {
+            "subheading": "<em>Příslušenství</em>",
+            "heading": "Žárovky a zdroje",
+            "link": "shopify://collections/zarovky-a-zdroje",
+            "invert_subheading_heading": true,
+            "image": "shopify://shop_images/360design_sekce_zarovky_750x600_2c1aaa26-d8e8-4817-9a98-9d682e52ca12.jpg",
+            "image_ratio": "landscape",
+            "content_position": "md:items-end md:justify-end",
+            "text_alignment": "right",
+            "image_ratio_mobile": "landscape",
+            "content_position_mobile": "items-end justify-end",
+            "text_alignment_mobile": "right",
+            "highlighted_text": "text",
+            "highlighted_scribble": "circle",
+            "color_text": "#ffffff",
+            "color_highlight": "#fde047",
+            "gradient_highlight": "",
+            "color_overlay": "#000000",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2",
+        "image-3",
+        "image-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "360design <em>kolekce</em>",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Prohlédněte si kompletní nabídku našich svítidel, pečlivě vybraných s důrazem na design, kvalitu a funkčnost. Najděte to pravé osvětlení pro svůj domov!</p>",
+        "button_label": "Zobrazit kolekce",
+        "button_link": "shopify://collections",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "scribble",
+        "highlighted_scribble": "basic-underline",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 28,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": false,
+        "rounded": false,
+        "enable_parallax": true
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-4": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "question-5": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "heading": "Didn’t find your answer?",
+            "text": "<p>Don't hestitate to contact us</p>",
+            "show_phone": false,
+            "avatar_height": 60,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "question-1",
+        "question-2",
+        "question-3",
+        "question-4",
+        "question-5",
+        "contact"
+      ],
+      "disabled": true,
+      "settings": {
+        "style": "with-background",
+        "heading": "FAQs",
+        "heading_size": "title-lg tracking-heading",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "<p>Please read our <a href=\"#\" title=\"FAQ's\">FAQs</a> page to find out more.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#171717",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
+        "padding_top": 84,
+        "padding_bottom": 84,
+        "divider": false,
+        "narrow": false,
+        "rounded": false
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Recently Viewed",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    }
+  },
+  "order": [
+    "main-product",
+    "help-drawer",
+    "image-with-text-1",
+    "image-with-text-2",
+    "video_with_text_overlay_4hyWdg",
+    "image_with_text_3pqmKn",
+    "product-details",
+    "scrolling-text",
+    "product-recommendations",
+    "video-hero",
+    "collection_list_iXKQCy",
+    "collage",
+    "faq",
+    "recently-viewed"
+  ]
+}
