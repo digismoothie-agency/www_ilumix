@@ -343,7 +343,7 @@
         "description": "",
         "enable_video_autoplay": true,
         "enable_video_looping": true,
-        "content_width": "medium",
+        "content_width": "small",
         "video_url_mobile": "",
         "color_text": "#ffffff",
         "color_highlight": "",
