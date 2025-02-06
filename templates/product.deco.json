@@ -303,7 +303,7 @@
         "slide-1": {
           "type": "slide",
           "settings": {
-            "heading": "3D obklad",
+            "heading": "{{ product.title }}",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -313,7 +313,7 @@
         "slide-2": {
           "type": "slide",
           "settings": {
-            "heading": "který změní",
+            "heading": "obklad, který změní",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "highlighted_text": "none",
