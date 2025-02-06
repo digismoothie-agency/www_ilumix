@@ -313,17 +313,7 @@
         "slide-2": {
           "type": "slide",
           "settings": {
-            "heading": "obklad, který změní",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-3": {
-          "type": "slide",
-          "settings": {
-            "heading": "Váš pohled na design",
+            "heading": "obklad, který změní Váš pohled na design",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -333,8 +323,7 @@
       },
       "block_order": [
         "slide-1",
-        "slide-2",
-        "slide-3"
+        "slide-2"
       ],
       "settings": {
         "transparent_header": false,
