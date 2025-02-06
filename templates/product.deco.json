@@ -503,7 +503,7 @@
         "image_3UgkT8": {
           "type": "image",
           "settings": {
-            "image": "{{ product.metafields.my_fields.obr_zek_1.value }}",
+            "image": "{{ product.metafields.my_fields.obr_zek_2.value }}",
             "icon": "none",
             "icon_width": 48,
             "heading": "{{ product.metafields.my_fields.nadpis_u_obr_zku_1.value }}",
@@ -547,7 +547,7 @@
       "settings": {
         "image_height": "650px",
         "image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "text_alignment": "left",
         "content_position": "items-center",
         "image_height_mobile": "auto",
