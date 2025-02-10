@@ -969,7 +969,11 @@
           "few": "{{count}} items",
           "many": "{{count}} items"
         },
-        "empty_state_subtitle": "Go to the store to place an order."
+        "empty_state_subtitle": "Go to the store to place an order.",
+        "list_view": "Open list view",
+        "pagination": {
+          "previous": "Previous"
+        }
       },
       "order_status": {
         "delivered_description_gift_card": {
