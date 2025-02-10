@@ -981,7 +981,12 @@
             "oldest": "Oldest first"
           }
         },
-        "no_filtered_results_description": "By removing or adjusting the filters, you will see your orders."
+        "no_filtered_results_description": "By removing or adjusting the filters, you will see your orders.",
+        "payment_status": {
+          "table_view": {
+            "payment_not_due": "Not due yet"
+          }
+        }
       },
       "order_status": {
         "delivered_description_gift_card": {
