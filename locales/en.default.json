@@ -980,7 +980,8 @@
             "newest": "Newest first",
             "oldest": "Oldest first"
           }
-        }
+        },
+        "no_filtered_results_description": "By removing or adjusting the filters, you will see your orders."
       },
       "order_status": {
         "delivered_description_gift_card": {
