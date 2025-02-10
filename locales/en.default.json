@@ -1090,6 +1090,9 @@
           "many": "{{count}} minutes ago"
         }
       }
+    },
+    "navigation_and_structure": {
+      "action_menu_accessibility_label": "Other actions"
     }
   },
   "digismoothie_b2b_app": {
