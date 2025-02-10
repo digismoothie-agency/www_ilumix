@@ -977,8 +977,8 @@
         },
         "sort": {
           "date": {
-            "newest": "From Newest to oldest",
-            "oldest": "From Oldest to newest"
+            "newest": "Newest first",
+            "oldest": "Oldest first"
           }
         }
       },
