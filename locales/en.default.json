@@ -439,9 +439,9 @@
       "last_name": "Last Name",
       "email": "Email",
       "password": "Password",
-      "accepts_marketing": "Sign up for our newsletter",
+      "accepts_marketing": "I want to subscribe to the newsletter",
       "submit": "Create",
-      "sign_in": "Sign in",
+      "sign_in": "Log In",
       "return": "Return to Store"
     }
   },
