@@ -334,7 +334,7 @@
   "customer": {
     "account": {
       "title": "My account",
-      "log_out": "Log out",
+      "log_out": "Logout",
       "details": "Account details",
       "view_addresses": "View addresses",
       "return": "Return to account"
