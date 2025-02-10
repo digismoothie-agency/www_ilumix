@@ -966,8 +966,8 @@
     "orders": {
       "order_list": {
         "items": {
-          "few": "{{count}} item",
-          "many": "{{count}} item"
+          "few": "{{count}} items",
+          "many": "{{count}} items"
         },
         "empty_state_subtitle": "Go to the store to place an order."
       },
