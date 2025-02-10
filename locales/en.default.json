@@ -340,7 +340,7 @@
       "return": "Return to account"
     },
     "activate_account": {
-      "title": "Activate account",
+      "title": "Account Registration",
       "subtext": "Create your password to activate your account.",
       "password": "Password",
       "password_confirm": "Confirm password",
