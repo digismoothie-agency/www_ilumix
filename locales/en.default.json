@@ -1107,8 +1107,10 @@
         "email_help_text": "The email used to log in cannot be changed",
         "first_name": "First Name",
         "last_name": "Last Name",
-        "phone_number_help_text": "The phone number used to log in cannot be changed"
-      }
+        "phone_number_help_text": "The phone number used to log in cannot be changed",
+        "no_name_provided_accessibility_label": "Missing name or title"
+      },
+      "profile_update_confirmation_message": "Profile has been updated"
     }
   },
   "digismoothie_b2b_app": {
