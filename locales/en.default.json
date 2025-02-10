@@ -968,7 +968,8 @@
         "items": {
           "few": "{{count}} item",
           "many": "{{count}} item"
-        }
+        },
+        "empty_state_subtitle": "Go to the store to place an order."
       },
       "order_status": {
         "delivered_description_gift_card": {
