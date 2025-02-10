@@ -1092,7 +1092,10 @@
       }
     },
     "navigation_and_structure": {
-      "action_menu_accessibility_label": "Other offers"
+      "action_menu_accessibility_label": "Other actions",
+      "close_menu_accessibility_label": "Close menu",
+      "contact_email_subject": "Contact from {{shopName}} Online Store",
+      "contact_link": "Contact Information"
     }
   },
   "digismoothie_b2b_app": {
