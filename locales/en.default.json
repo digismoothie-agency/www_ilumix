@@ -344,11 +344,11 @@
       "subtext": "Enter a password to register an account",
       "password": "Password",
       "password_confirm": "Confirm password",
-      "submit": "Activate account",
+      "submit": "Create",
       "cancel": "Decline invitation"
     },
     "addresses": {
-      "title": "Addresses",
+      "title": "Address",
       "default": "Default",
       "add_new": "Add a new address",
       "edit_address": "Edit address",
