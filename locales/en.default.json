@@ -439,7 +439,7 @@
       "last_name": "Last Name",
       "email": "Email",
       "password": "Password",
-      "accepts_marketing": "I want to subscribe to the newsletter",
+      "accepts_marketing": "Subscribe to the newsletter",
       "submit": "Create",
       "sign_in": "Log In",
       "return": "Return to Store"
