@@ -1095,7 +1095,20 @@
       "action_menu_accessibility_label": "Other actions",
       "close_menu_accessibility_label": "Close menu",
       "contact_email_subject": "Contact from {{shopName}} Online Store",
-      "contact_link": "Contact Information"
+      "contact_link": "Contact Information",
+      "open_menu_accessibility_label": "Open menu",
+      "shop_logo_accessibility_label": "Logo {{shopName}} "
+    },
+    "account_information": {
+      "loading_accessibility_message": "Loading",
+      "loading_finished_accessibility_message": "Loading Finished",
+      "profile_card": {
+        "cancel_accessibility_label": "Undo profile changes",
+        "email_help_text": "The email used to log in cannot be changed",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "phone_number_help_text": "The phone number used to log in cannot be changed"
+      }
     }
   },
   "digismoothie_b2b_app": {
