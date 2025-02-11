@@ -1284,7 +1284,8 @@
         "list_loading_address_accessibility_message": "Loading address for {{locationName}}",
         "list_loading_finished_accessibility_message": "The list of locations has loaded",
         "loading_store_accessibility_message": "Go to store",
-        "title": "Which location are you shopping for?"
+        "title": "Which location are you shopping for?",
+        "no_location_description": "You no longer have permission to place orders for the company {{company}}. However, you can still place personal orders."
       }
     },
     "errors": {
