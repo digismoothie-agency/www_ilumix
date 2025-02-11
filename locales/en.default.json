@@ -1241,7 +1241,8 @@
       "order_details_skeleton_accessibility_label": "Sign in and view all order details",
       "logged_in_account_no_permission_to_order": "You are signed in with the account {{email}}. This account does not have permission to manage order.",
       "log_in_to_a_different_account": "Sign in to a different account.",
-      "ok_duties_tooltip": "This order is shipped from another country, so customs duties have been added to the total order amount."
+      "ok_duties_tooltip": "This order is shipped from another country, so customs duties have been added to the total order amount.",
+      "error_duties_tooltip": "This order is shipped from another country, so duties and taxes may be charged upon delivery."
     },
     "B2B": {
       "orders": {
