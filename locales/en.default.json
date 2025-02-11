@@ -1114,6 +1114,10 @@
             "has_shop_app_label": "Request Shop Cash",
             "no_shop_app_label": "If you want to request Shop Cash, {{appDownloadLink}}",
             "download_shop_app_label": "Download the Shop app"
+          },
+          "details_modal": {
+            "title": "Delivery is guaranteed by:",
+            "modal_accessiblity_label": "Delivery details"
           }
         }
       },
