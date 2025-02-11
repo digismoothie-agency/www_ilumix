@@ -1366,6 +1366,9 @@
       },
       "not_found": {
         "title": "There was an issue loading this page"
+      },
+      "order_not_found": {
+        "description": "This order does not exist or you do not have permission to view it"
       }
     },
     "ui_components": {
