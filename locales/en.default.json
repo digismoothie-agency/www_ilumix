@@ -1280,6 +1280,9 @@
               "few": "Your payment is due in this number of days: {{count}}",
               "many": "Your payment is due in this number of days: {{count}}"
             }
+          },
+          "draft": {
+            "description": "Payment details are decided upon order confirmation."
           }
         }
       },
