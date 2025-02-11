@@ -1184,9 +1184,9 @@
           "view_schedule": "View installment schedule"
         },
         "manual_payment_methods": {
-          "money_order": "Money order: {{formattedTransactionAmount}}",
-          "cash_on_delivery": "Cash on delivery (COD) payment: {{formattedTransactionAmount}}.",
-          "bank_deposit": "Bank deposit: {{formattedTransactionAmount}}",
+          "money_order": "Money Order: {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Cash On Delivery (COD): {{formattedTransactionAmount}}.",
+          "bank_deposit": "Bank Deposit: {{formattedTransactionAmount}}",
           "manual": "Manual: {{formattedTransactionAmount}}"
         }
       }
