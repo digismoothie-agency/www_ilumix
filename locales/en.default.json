@@ -1444,7 +1444,8 @@
     },
     "payment_methods": {
       "payment_details": {
-        "payment_method_expiring_on": "Expires on {{expiryDate}}"
+        "payment_method_expiring_on": "Expires on {{expiryDate}}",
+        "preauthorized_payments": "Pre-authorized payments"
       }
     }
   },
