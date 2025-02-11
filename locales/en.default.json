@@ -1185,7 +1185,9 @@
         },
         "manual_payment_methods": {
           "money_order": "Postal order/payment slip: {{formattedTransactionAmount}}",
-          "cash_on_delivery": "Cash on delivery (COD) payment: {{formattedTransactionAmount}}."
+          "cash_on_delivery": "Cash on delivery (COD) payment: {{formattedTransactionAmount}}.",
+          "bank_deposit": "Bank Deposit: {{formattedTransactionAmount}}",
+          "manual": "Manual: {{formattedTransactionAmount}}"
         }
       }
     },
