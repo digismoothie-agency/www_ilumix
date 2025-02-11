@@ -1359,7 +1359,7 @@
         "description": "Connection error. Please check your internet connection and try again."
       },
       "failed_address_creation": {
-        "description": "There was an issue creating your address. Try refreshing the page or checking your internet connection."
+        "description": "There was an issue creating your address. Try refreshing the page or check your internet connection."
       }
     },
     "ui_components": {
