@@ -1450,7 +1450,8 @@
         "invalid_payment_method_message": "To continue receiving further orders, please use a new credit card."
       },
       "payment_delete": {
-        "description_with_replacement": "Deleting this payment method will affect pre-authorized payments. You can optionally replace it with another payment method to continue receiving upcoming orders."
+        "description_with_replacement": "Deleting this payment method will affect pre-authorized payments. You can optionally replace it with another payment method to continue receiving upcoming orders.",
+        "payment_method_selector_placeholder": "Select an alternative payment method (optional)"
       }
     }
   },
