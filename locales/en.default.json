@@ -1210,6 +1210,12 @@
       "marketing_checkmark_label": "You have subscribed to email news and offers.",
       "mobile_summary_toggle_button": {
         "open": "View order summary"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Download the Shop app to track your package",
+        "track_order_with_shop": "Track your order via Shop",
+        "title_header": "Scan the code with your phone",
+        "real_time_delivery_updates": "The Shop app will send you real-time delivery updates once your order has been shipped."
       }
     },
     "B2B": {
