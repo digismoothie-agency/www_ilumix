@@ -1289,7 +1289,10 @@
               "title": "Payment is not due yet"
             },
             "submitted": {
-              "title": "Payment to confirm"
+              "title": "Payment to confirm",
+              "deposit": {
+                "due_on_fulfillment": "The balance is due once all items in this order have been fulfilled"
+              }
             }
           }
         }
