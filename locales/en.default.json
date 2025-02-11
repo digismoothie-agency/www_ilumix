@@ -1030,8 +1030,10 @@
           "many": "Each gift card will be sent in a separate email."
         },
         "delivered_description_gift_card_text": {
-          "few": "Gift cards were sent via text message.",
-          "many": "Gift cards were sent via text message."
+          "few": "The gift cards have been sent via text message.",
+          "many": "The gift cards have been sent via text message.",
+          "one": "The gift card has been sent via text message.",
+          "other": "The gift cards have been sent via text message."
         },
         "gift_card_resend_text": {
           "few": "Resend text messages",
