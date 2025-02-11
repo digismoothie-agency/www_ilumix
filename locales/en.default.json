@@ -1339,7 +1339,10 @@
         "close_modal_accessibility_label": "Close the purchase order number modal window",
         "discard_changes_modal_title": "Do you want to discard the changes?",
         "edit_accessibility_label": "Edit purchase order number",
-        "edit_modal_title": "Edit purchase order number"
+        "edit_modal_title": "Edit purchase order number",
+        "empty_state": "No purchase order number",
+        "modal_po_number_input_label": "Purchase order number",
+        "modal_po_number_input_max_length_error": "Purchase order numbers have a maximum of {{maxLength}} characters."
       }
     },
     "errors": {
