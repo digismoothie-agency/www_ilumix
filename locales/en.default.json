@@ -1060,7 +1060,10 @@
         "come_back": "On this page, you will find new information about the status of your shipment.",
         "company_tracking_number": "{{company}} - tracking number:",
         "estimated_delivery": "Estimated delivery: {{date}}",
-        "in_review_description": "We will let you know if we need any further information or when your order is confirmed."
+        "in_review_description": "We will let you know if we need any further information or when your order is confirmed.",
+        "out_for_delivery_label": "Shipped",
+        "out_for_delivery_title": "Your shipment has been shipped",
+        "submitted_label": "Sent"
       },
       "if_not_received": {
         "few": "If no delivery,",
