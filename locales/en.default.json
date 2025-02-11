@@ -1117,7 +1117,8 @@
           },
           "details_modal": {
             "title": "Delivery is guaranteed by:",
-            "modal_accessiblity_label": "Delivery details"
+            "modal_accessiblity_label": "Delivery details",
+            "delivery_guaranteed_by_label": "Guaranteed delivery by: {{date}}"
           }
         }
       },
