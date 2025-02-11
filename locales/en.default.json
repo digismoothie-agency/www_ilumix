@@ -1448,6 +1448,9 @@
         "preauthorized_payments": "Pre-authorized payments",
         "payment_method_not_found_error": "Payment method not found",
         "invalid_payment_method_message": "To continue receiving further orders, please use a new credit card."
+      },
+      "payment_delete": {
+        "description_with_replacement": "Deleting this payment method will affect pre-authorized payments. You can optionally replace it with another payment method to continue receiving upcoming orders."
       }
     }
   },
