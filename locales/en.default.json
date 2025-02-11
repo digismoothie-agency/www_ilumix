@@ -1064,8 +1064,10 @@
           "other": "There was an issue with resending the gift cards. Please try again or contact us."
         },
         "delivered_description_digital": {
-          "few": "These items have completed.",
-          "many": "These items have completed."
+          "few": "These items have been completed.",
+          "many": "These items have been completed.",
+          "one": "This item has been completed.",
+          "other": "These items have been completed."
         },
         "tracking_number": {
           "few": "Tracking numbers",
