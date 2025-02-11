@@ -1446,7 +1446,8 @@
       "payment_details": {
         "payment_method_expiring_on": "Expires on {{expiryDate}}",
         "preauthorized_payments": "Pre-authorized payments",
-        "payment_method_not_found_error": "Payment method not found"
+        "payment_method_not_found_error": "Payment method not found",
+        "invalid_payment_method_message": "To continue receiving further orders, please use a new credit card."
       }
     }
   },
