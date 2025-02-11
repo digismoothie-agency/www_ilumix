@@ -1369,6 +1369,9 @@
       },
       "order_not_found": {
         "description": "This order does not exist or you do not have permission to view it"
+      },
+      "profile_update_error": {
+        "description": "There was an issue updating your profile. Try refreshing the page or check your internet connection."
       }
     },
     "ui_components": {
