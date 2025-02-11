@@ -1221,7 +1221,8 @@
         "order_completed_with": "The order was completed via"
       },
       "edit_summary": {
-        "removed_with_quantity": "Removed: {{quantity}}"
+        "removed_with_quantity": "Removed: {{quantity}}",
+        "updated_at": "Your order was updated on: {{date}}"
       }
     },
     "B2B": {
