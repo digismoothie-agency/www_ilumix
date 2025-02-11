@@ -1283,7 +1283,8 @@
             "description_overdue": "Your payment is overdue.",
             "description_authorized": "The amount will be paid using your payment method on the due date, or you can pay it immediately.",
             "title_due_on_receipt": "The payment is not due yet.",
-            "description_due_on_receipt": "Once it is due, you will receive an invoice."
+            "description_due_on_receipt": "Once it is due, you will receive an invoice.",
+            "title_due_on_fulfillment": "Payment due upon fulfillment"
           },
           "draft": {
             "description": "Payment details are decided upon order confirmation",
