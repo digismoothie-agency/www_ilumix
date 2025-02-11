@@ -1144,14 +1144,17 @@
             "delivered_after_description": "Due to the late delivery of your order, you are eligible to request Shop Cash in the amount of {{amount}}.",
             "claimed_shop_cash_description": "Due to the late delivery of your order, you have requested Shop Cash in the amount of {{amount}}.",
             "eligible_to_claim_shop_cash_description": "Due to the late delivery of your order, you are eligible to request Shop Cash in the amount of {{amount}}.",
-            "view_balance_in_shop_button_label": "Your Shop balance"
+            "view_balance_in_shop_button_label": "Your Shop balance",
+            "scan_to_claim_shop_cash_label": "Scan the code to receive {{amount}} in Shop Cash"
           }
         }
       },
       "if_not_received": {
         "few": "If no delivery,",
         "many": "If no delivery,"
-      }
+      },
+      "buy_again_accessibility_label": "Reorder from order {{orderId}}",
+      "group_title_label": "Package includes: {{groupTitle}}"
     },
     "order_details": {
       "image_gallery": {
