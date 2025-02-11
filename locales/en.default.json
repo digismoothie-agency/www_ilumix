@@ -1178,7 +1178,11 @@
       "payment": {
         "status_in_review": "Payment due upon review",
         "status_unpaid": "Due: {{date}}",
-        "store_credit_payment_details": "Store credit: {{formattedTransactionAmount}}"
+        "store_credit_payment_details": "Store credit: {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Paid using Shop Pay installments",
+          "view_schedule": "View installment schedule"
+        }
       }
     },
     "B2B": {
