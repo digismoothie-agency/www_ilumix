@@ -1277,8 +1277,8 @@
               "many": "Your payment is {{count}} days overdue"
             },
             "banner_due": {
-              "few": "Your payment is due in this number of days: {{count}}",
-              "many": "Your payment is due in this number of days: {{count}}"
+              "few": "Your payment is due in {{count}} days",
+              "many": "Your payment is due in {{count}} days"
             }
           },
           "draft": {
