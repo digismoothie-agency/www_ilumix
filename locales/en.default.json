@@ -1279,7 +1279,9 @@
             "banner_due": {
               "few": "Your payment is due in {{count}} days",
               "many": "Your payment is due in {{count}} days"
-            }
+            },
+            "description_overdue": "Your payment is overdue.",
+            "description_authorized": "The amount will be paid using your payment method on the due date, or you can pay it immediately."
           },
           "draft": {
             "description": "Payment details are decided upon order confirmation",
