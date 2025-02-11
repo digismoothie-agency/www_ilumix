@@ -1182,6 +1182,10 @@
         "shop_pay_installments": {
           "paid_in_installments": "Paid using Shop Pay installments",
           "view_schedule": "View installment schedule"
+        },
+        "manual_payment_methods": {
+          "money_order": "Postal order/payment slip: {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Cash on delivery (COD) payment: {{formattedTransactionAmount}}."
         }
       }
     },
