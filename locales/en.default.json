@@ -1225,6 +1225,11 @@
         "updated_at": "Your order was updated on: {{date}}",
         "return_line_item_removed": "Removed from the returned items",
         "return_line_item_removed_with_quantities": "Removed {{delta}} from returned items"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Paid using Shop Pay Installments",
+        "description": "Thanks to reminders in the Shop app, you’ll always stay on top of your payment schedule.",
+        "payment_reminders_button": "Set payment reminders"
       }
     },
     "B2B": {
