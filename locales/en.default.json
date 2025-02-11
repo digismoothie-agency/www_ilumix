@@ -1006,8 +1006,10 @@
       },
       "order_status": {
         "delivered_description_gift_card": {
-          "few": "Gift cards have been sent by email.",
-          "many": "Gift cards have been sent by email."
+          "few": "The gift cards have been sent via email.",
+          "many": "The gift cards have been sent via email.",
+          "one": "The gift card has been sent via email.",
+          "other": "The gift cards have been sent via email."
         },
         "gift_card_label": {
           "few": "Gift cards",
