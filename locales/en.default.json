@@ -1332,6 +1332,12 @@
           "description_without_replacement": "This payment method will no longer be available for future purchases through the given location.",
           "description_with_replacement": "Removing this payment method will affect pre-authorized payments for the given location. Replace it with an alternative payment method if you want to continue receiving further orders."
         }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Add purchase order number",
+        "add_modal_title": "Add purchase order number",
+        "close_modal_accessibility_label": "Close the purchase order number modal window",
+        "discard_changes_modal_title": "Do you want to discard the changes?"
       }
     },
     "errors": {
