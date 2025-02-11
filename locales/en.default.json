@@ -1341,7 +1341,8 @@
       "loading_edit_form_accessibility_message": "Loading form to edit address",
       "loading_finished_accessibility_message": "The address form has loaded",
       "update_success_notification": "The address has been updated",
-      "attention_help_text": "The name of the person or department"
+      "attention_help_text": "The name of the person or department",
+      "attention_company": "Company / Attention"
     }
   },
   "digismoothie_b2b_app": {
