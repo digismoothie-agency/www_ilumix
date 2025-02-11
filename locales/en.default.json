@@ -1052,8 +1052,10 @@
           "many": "Each gift card will be sent in a separate text message."
         },
         "gift_resend_success": {
-          "few": "Gift cards have been sent again",
-          "many": "Gift cards have been sent again"
+          "few": "The gift cards have been sent again.",
+          "many": "The gift cards have been sent again.",
+          "one": "The gift card has been sent again.",
+          "other": "The gift cards have been sent again."
         },
         "gift_resend_failure": {
           "few": "There was a problem resending gift cards. Please try again or contact us.",
