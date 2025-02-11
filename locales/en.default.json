@@ -1068,7 +1068,8 @@
         "attempted_delivery_label": "Delivery attempt",
         "confirmed_description": "We have received your order.",
         "out_for_delivery_description": "This shipment is being delivered.",
-        "preparing_for_shipping_label": "Preparing for shipment"
+        "preparing_for_shipping_label": "Preparing for shipment",
+        "preparing_for_shipping_description": "These items are being prepared for shipment."
       },
       "if_not_received": {
         "few": "If no delivery,",
