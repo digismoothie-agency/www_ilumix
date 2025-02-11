@@ -1150,8 +1150,10 @@
         }
       },
       "if_not_received": {
-        "few": "If no delivery,",
-        "many": "If no delivery,"
+        "few": "If deliveries have not occurred,",
+        "many": "If deliveries have not occurred,",
+        "one": "If delivery has not occurred,",
+        "other": "If deliveries have not occurred,"
       },
       "buy_again_accessibility_label": "Reorder from order {{orderId}}",
       "group_title_label": "Package includes: {{groupTitle}}",
@@ -1170,7 +1172,9 @@
           "few": "Load more items ( {{count}} )",
           "many": "Load more items ( {{count}} )"
         }
-      }
+      },
+      "card_ending_with": "Ends in {{lastDigits}}",
+      "loading": "Order details are loading"
     },
     "B2B": {
       "orders": {
