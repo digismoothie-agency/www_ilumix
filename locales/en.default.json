@@ -1339,7 +1339,8 @@
       "default_address_update_success_notification": "Default address has been updated",
       "loading_add_form_accessibility_message": "Loading form for new address",
       "loading_edit_form_accessibility_message": "Loading form to edit address",
-      "loading_finished_accessibility_message": "The address form has loaded"
+      "loading_finished_accessibility_message": "The address form has loaded",
+      "update_success_notification": "The address has been updated"
     }
   },
   "digismoothie_b2b_app": {
