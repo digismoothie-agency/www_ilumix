@@ -1194,7 +1194,8 @@
         "summary": "Shipment",
         "one_time": "Shipping for a one-time purchase",
         "subscription": "Subscription shipment"
-      }
+      },
+      "summary_totals_title_accessibility_label": "Total order"
     },
     "B2B": {
       "orders": {
