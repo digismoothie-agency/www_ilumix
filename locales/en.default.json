@@ -1203,7 +1203,10 @@
       "show_order_summary": "View order summary",
       "no_data_provided_accessibility_label": "The {{fieldName}} field is empty.",
       "marketing_checkbox_label": "Send me information about news and offers via email.",
-      "marketing_checkmark_label": "You have subscribed to email news and offers."
+      "marketing_checkmark_label": "You have subscribed to email news and offers.",
+      "mobile_summary_toggle_button": {
+        "open": "View order summary"
+      }
     },
     "B2B": {
       "orders": {
