@@ -1372,6 +1372,9 @@
       },
       "profile_update_error": {
         "description": "There was an issue updating your profile. Try refreshing the page or check your internet connection."
+      },
+      "load_paypal_error": {
+        "description": "An error occurred while loading PayPal. Please try again."
       }
     },
     "ui_components": {
