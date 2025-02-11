@@ -1282,7 +1282,8 @@
             }
           },
           "draft": {
-            "description": "Payment details are decided upon order confirmation."
+            "description": "Payment details are decided upon order confirmation.",
+            "title": "Payment is not due yet"
           }
         }
       },
