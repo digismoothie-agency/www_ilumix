@@ -984,7 +984,8 @@
         "no_filtered_results_description": "By removing or adjusting the filters, you will see your orders.",
         "payment_status": {
           "table_view": {
-            "payment_not_due": "Not due yet"
+            "payment_not_due": "Not yet due",
+            "pay_to_confirm": "Payment pending confirmation"
           }
         }
       },
