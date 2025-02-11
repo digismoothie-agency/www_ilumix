@@ -1386,8 +1386,8 @@
         "many": "Items available: {{count}}"
       },
       "month": {
-        "few": "month",
-        "many": "month"
+        "few": "months",
+        "many": "months"
       },
       "mapClusterTitle": {
         "few": "Tag group ( {{number}} )",
