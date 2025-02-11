@@ -1216,6 +1216,9 @@
         "track_order_with_shop": "Track your order via Shop",
         "title_header": "Scan the code with your phone",
         "real_time_delivery_updates": "The Shop app will send you real-time delivery updates once your order has been shipped."
+      },
+      "shop_pay": {
+        "order_completed_with": "The order was completed via"
       }
     },
     "B2B": {
