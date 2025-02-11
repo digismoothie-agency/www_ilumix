@@ -1337,7 +1337,9 @@
         "add_accessibility_label": "Add purchase order number",
         "add_modal_title": "Add purchase order number",
         "close_modal_accessibility_label": "Close the purchase order number modal window",
-        "discard_changes_modal_title": "Do you want to discard the changes?"
+        "discard_changes_modal_title": "Do you want to discard the changes?",
+        "edit_accessibility_label": "Edit purchase order number",
+        "edit_modal_title": "Edit purchase order number"
       }
     },
     "errors": {
