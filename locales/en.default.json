@@ -1156,7 +1156,8 @@
       "buy_again_accessibility_label": "Reorder from order {{orderId}}",
       "group_title_label": "Package includes: {{groupTitle}}",
       "havent_received_your_delivery": "Still haven’t received your shipment?",
-      "didnt_pick_up_order": "Haven’t picked up your order yet?"
+      "didnt_pick_up_order": "Haven’t picked up your order yet?",
+      "let_us_know": "Let us know about it"
     },
     "order_details": {
       "image_gallery": {
