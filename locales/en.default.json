@@ -1309,6 +1309,9 @@
             "description_full_refund": "A full refund has been issued for this order.",
             "description_single_refund": "A partial refund has been issued for this order.",
             "description_multiple_refunds": "Partial refunds have been issued for these orders."
+          },
+          "canceled": {
+            "title": "The payment has been canceled"
           }
         }
       },
