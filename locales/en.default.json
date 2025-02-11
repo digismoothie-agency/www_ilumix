@@ -1451,7 +1451,8 @@
       },
       "payment_delete": {
         "description_with_replacement": "Deleting this payment method will affect pre-authorized payments. You can optionally replace it with another payment method to continue receiving upcoming orders.",
-        "payment_method_selector_placeholder": "Select an alternative payment method (optional)"
+        "payment_method_selector_placeholder": "Select an alternative payment method (optional)",
+        "error_when_deleting": "We apologize, but an error occurred, and we were unable to remove this payment method. Please try again later or refresh the page."
       }
     }
   },
