@@ -1102,7 +1102,15 @@
         "there_was_a_problem_label": "An issue occurred",
         "delivered": "Delivered: {{date}}",
         "complete_label": "Completed",
-        "status_timestamp": "Updated: {{date}}"
+        "status_timestamp": "Updated: {{date}}",
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Delivery is guaranteed by:",
+            "mixed_brands_label": "Guaranteed delivery",
+            "not_delivered_by_label": "Not delivered by: {{date}}",
+            "modal_accessibility_button_label": "Delivery details"
+          }
+        }
       },
       "if_not_received": {
         "few": "If no delivery,",
