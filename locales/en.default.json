@@ -1347,8 +1347,10 @@
     },
     "errors": {
       "banner_title": {
-        "few": "{{count}} errors occurred",
-        "many": "{{count}} errors occurred"
+        "few": "{{count}} errors occurred.",
+        "many": "{{count}} errors occurred.",
+        "one": "{{count}} error occurred.",
+        "other": "{{count}} errors occurred."
       },
       "address_deletion_error": {
         "description": "There was an issue removing this address. Please try again or refresh the page."
