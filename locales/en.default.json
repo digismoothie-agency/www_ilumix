@@ -1282,11 +1282,14 @@
             }
           },
           "draft": {
-            "description": "Payment details are decided upon order confirmation.",
+            "description": "Payment details are decided upon order confirmation",
             "title": "Payment is not due yet",
             "in_review": {
-              "description": "Payment details are determined at the time of order confirmation.",
+              "description": "Payment details are decided upon order confirmation",
               "title": "Payment is not due yet"
+            },
+            "submitted": {
+              "title": "Payment to confirm"
             }
           }
         }
