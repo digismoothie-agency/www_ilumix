@@ -1283,7 +1283,8 @@
         "list_accessibility_label": "List of locations",
         "list_loading_address_accessibility_message": "Loading address for {{locationName}}",
         "list_loading_finished_accessibility_message": "The list of locations has loaded",
-        "loading_store_accessibility_message": "Go to store"
+        "loading_store_accessibility_message": "Go to store",
+        "title": "Which location are you shopping for?"
       }
     },
     "errors": {
