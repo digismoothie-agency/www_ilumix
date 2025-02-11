@@ -1057,7 +1057,8 @@
           "few": "Tracking numbers",
           "many": "Tracking numbers"
         },
-        "come_back": "On this page, you will find new information about the status of your shipment."
+        "come_back": "On this page, you will find new information about the status of your shipment.",
+        "company_tracking_number": "{{company}} - tracking number:"
       },
       "if_not_received": {
         "few": "If no delivery,",
