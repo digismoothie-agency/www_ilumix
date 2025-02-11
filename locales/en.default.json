@@ -1234,7 +1234,8 @@
           "title": "Search reminders",
           "description": "Set up installment reminders through the Shop app"
         }
-      }
+      },
+      "login_to_view_all_order_details": "Sign in and review all order details"
     },
     "B2B": {
       "orders": {
