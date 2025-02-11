@@ -1360,6 +1360,9 @@
       },
       "failed_address_creation": {
         "description": "There was an issue creating your address. Try refreshing the page or check your internet connection."
+      },
+      "no_access_to_locations": {
+        "description": "You have no access to any locations"
       }
     },
     "ui_components": {
