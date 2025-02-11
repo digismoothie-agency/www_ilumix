@@ -1021,7 +1021,7 @@
         },
         "gift_card_resend_description": {
           "few": "If they haven’t arrived, please resend the emails or",
-          "many": "If they didn't come, please resend the emails or",
+          "many": "If they haven’t arrived, please resend the emails or ",
           "one": "If it hasn’t arrived, please resend the email or",
           "other": "If they haven’t arrived, please resend the emails or"
         },
