@@ -1129,6 +1129,12 @@
         },
         "external_promise_manage_button_label": {
           "buy_with_prime": "Manage through Amazon"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Delivery is guaranteed by",
+            "not_delivered_by_label": "Delivered after: {{date}}"
+          }
         }
       },
       "if_not_received": {
