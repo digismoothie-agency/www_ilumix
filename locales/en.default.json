@@ -1169,8 +1169,9 @@
     "order_details": {
       "image_gallery": {
         "load_more_items": {
-          "few": "Load more items ( {{count}} )",
-          "many": "Load more items ( {{count}} )"
+          "few": "Load more items ({{count}})",
+          "many": "Load more items ({{count}})",
+          "one": "Load {{count}} more item"
         },
         "product_name_and_quantity": "Quantity of product {{productName}}: {{quantity}}.",
         "next": "View next items",
