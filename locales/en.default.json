@@ -1174,7 +1174,12 @@
         }
       },
       "card_ending_with": "Ends in {{lastDigits}}",
-      "loading": "Order details are loading"
+      "loading": "Order details are loading",
+      "payment": {
+        "status_in_review": "Payment due upon review",
+        "status_unpaid": "Due: {{date}}",
+        "store_credit_payment_details": "Store credit: {{formattedTransactionAmount}}"
+      }
     },
     "B2B": {
       "orders": {
