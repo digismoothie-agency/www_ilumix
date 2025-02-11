@@ -1291,7 +1291,8 @@
             "submitted": {
               "title": "Payment to confirm",
               "deposit": {
-                "due_on_fulfillment": "The balance is due once all items in this order have been fulfilled"
+                "due_on_fulfillment": "The balance is due once all items in this order have been fulfilled",
+                "due_on_receipt": "An invoice for the remaining balance will be sent to you"
               }
             }
           }
