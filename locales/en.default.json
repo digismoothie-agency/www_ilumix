@@ -1475,6 +1475,11 @@
           "expirable_amounts_info": "Amounts with earlier expiration dates are applied first at checkout."
         }
       }
+    },
+    "settings": {
+      "log_out_everywhere": {
+        "title": "Log out of all devices"
+      }
     }
   },
   "digismoothie_b2b_app": {
