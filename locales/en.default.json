@@ -1201,7 +1201,8 @@
         "print_shipping_label": "Print shipment label"
       },
       "show_order_summary": "View order summary",
-      "no_data_provided_accessibility_label": "The {{fieldName}} field is empty."
+      "no_data_provided_accessibility_label": "The {{fieldName}} field is empty.",
+      "marketing_checkbox_label": "Send me information about news and offers via email."
     },
     "B2B": {
       "orders": {
