@@ -1160,7 +1160,9 @@
       "let_us_know": "Let us know about it",
       "if_you_didnt_receive_this": "If you haven’t received the goods,",
       "list_title_confirmed_orders_accessibility_label": "Orders: Confirmed",
-      "list_title_pending_orders_accessibility_label": "Orders: Pending"
+      "list_title_pending_orders_accessibility_label": "Orders: Pending",
+      "switch_order_type_pending_orders_accessibility_label": "Change order type, currently pending orders are displayed",
+      "switch_order_type_confirmed_orders_accessibility_label": "Change order type, currently confirmed orders are displayed."
     },
     "order_details": {
       "image_gallery": {
