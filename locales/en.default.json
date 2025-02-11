@@ -1118,7 +1118,13 @@
           "details_modal": {
             "title": "Delivery is guaranteed by:",
             "modal_accessiblity_label": "Delivery details",
-            "delivery_guaranteed_by_label": "Guaranteed delivery by: {{date}}"
+            "delivery_guaranteed_by_label": "Guaranteed delivery by: {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise guarantees fast and reliable delivery. If your order arrives late, request Shop Cash.",
+              "may_be_eligible_not_authorized_label": "You are likely eligible for Shop Cash because your order arrived late. Log in and review the details.",
+              "redeemed_label": "You have already requested Shop Cash because your order arrived late.",
+              "expired_label": "This order does not qualify for the late delivery claim as the 30-day guarantee period has expired."
+            }
           }
         }
       },
