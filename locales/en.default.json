@@ -1189,6 +1189,11 @@
           "bank_deposit": "Bank Deposit: {{formattedTransactionAmount}}",
           "manual": "Manual: {{formattedTransactionAmount}}"
         }
+      },
+      "shipping": {
+        "summary": "Shipment",
+        "one_time": "Shipping for a one-time purchase",
+        "subscription": "Subscription shipment"
       }
     },
     "B2B": {
