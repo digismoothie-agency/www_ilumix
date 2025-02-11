@@ -1223,7 +1223,8 @@
       "edit_summary": {
         "removed_with_quantity": "Removed: {{quantity}}",
         "updated_at": "Your order was updated on: {{date}}",
-        "return_line_item_removed": "Removed from the return"
+        "return_line_item_removed": "Removed from the returned items",
+        "return_line_item_removed_with_quantities": "Removed {{delta}} from returned items"
       }
     },
     "B2B": {
