@@ -1092,7 +1092,8 @@
         "confirmed_description_gift_card_text": "You will receive a text message when your order is ready.",
         "amazon_buy_with_prime": {
           "order_tracking_link": {
-            "text": "Manage through Amazon"
+            "text": "Manage through Amazon",
+            "new_window_disclaimer": "(opens in a new window)"
           }
         }
       },
