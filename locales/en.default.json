@@ -1171,7 +1171,8 @@
         "load_more_items": {
           "few": "Load more items ( {{count}} )",
           "many": "Load more items ( {{count}} )"
-        }
+        },
+        "product_name_and_quantity": "Quantity of product {{productName}}: {{quantity}}."
       },
       "card_ending_with": "Ends in {{lastDigits}}",
       "loading": "Order details are loading",
