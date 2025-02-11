@@ -1042,8 +1042,10 @@
           "other": "Resend text messages"
         },
         "gift_card_resend_description_text": {
-          "few": "If they didn't arrive, send the text messages again or",
-          "many": "If they didn't arrive, send the text messages again or"
+          "few": "If they haven't arrived, please resend the text messages or",
+          "many": "If they haven't arrived, please resend the text messages or",
+          "one": "If it hasn’t arrived, please resend the text message or",
+          "other": "If they haven't arrived, please resend the text messages or"
         },
         "confirmed_gift_card_additional_description_text": {
           "few": "Each gift card will be sent in a separate text message.",
