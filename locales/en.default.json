@@ -1199,7 +1199,9 @@
       "unit_price": "{{price}} / pcs",
       "returns": {
         "print_shipping_label": "Print shipment label"
-      }
+      },
+      "show_order_summary": "View order summary",
+      "no_data_provided_accessibility_label": "The {{fieldName}} field is empty."
     },
     "B2B": {
       "orders": {
