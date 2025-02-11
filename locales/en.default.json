@@ -990,7 +990,9 @@
           }
         },
         "show_order_actions_accessibility_label": "Show actions for order {{name}}",
-        "more_than_four_products_accessibility_label": "Order contains {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, and more products {{numberOfAdditionalProducts}} "
+        "more_than_four_products_accessibility_label": "Order contains {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} and more products {{numberOfAdditionalProducts}} ",
+        "plus_more_products": "+ this number of products: {{numberOfAdditionalProducts}}",
+        "more_than_three_products_accessibility_label": "Order contains {{lineItemName1}}, {{lineItemName2}}, and {{numberOfAdditionalProducts}} and more products ({{numberOfAdditionalProducts}})"
       },
       "order_status": {
         "delivered_description_gift_card": {
