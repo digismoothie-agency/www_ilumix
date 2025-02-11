@@ -1273,8 +1273,8 @@
         "payment_status": {
           "pending": {
             "banner_overdue": {
-              "few": "Your payment is this number of days past due: {{count}}",
-              "many": "Your payment is this number of days past due: {{count}}"
+              "few": "Your payment is {{count}} days overdue",
+              "many": "Your payment is {{count}} days overdue"
             },
             "banner_due": {
               "few": "Your payment is due in this number of days: {{count}}",
