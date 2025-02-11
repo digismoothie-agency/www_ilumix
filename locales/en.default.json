@@ -1064,7 +1064,9 @@
         "out_for_delivery_label": "Shipped",
         "out_for_delivery_title": "Your shipment has been shipped",
         "submitted_label": "Sent",
-        "request_return": "Request a return"
+        "request_return": "Request a return",
+        "attempted_delivery_label": "Delivery attempt",
+        "confirmed_description": "We have received your order."
       },
       "if_not_received": {
         "few": "If no delivery,",
