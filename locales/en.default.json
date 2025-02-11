@@ -1058,8 +1058,10 @@
           "other": "The gift cards have been sent again."
         },
         "gift_resend_failure": {
-          "few": "There was a problem resending gift cards. Please try again or contact us.",
-          "many": "There was a problem resending gift cards. Please try again or contact us."
+          "few": "There was an issue with resending the gift cards. Please try again or contact us.",
+          "many": "There was an issue with resending the gift cards. Please try again or contact us.",
+          "one": "There was an issue with resending the gift card. Please try again or contact us.",
+          "other": "There was an issue with resending the gift cards. Please try again or contact us."
         },
         "delivered_description_digital": {
           "few": "These items have completed.",
