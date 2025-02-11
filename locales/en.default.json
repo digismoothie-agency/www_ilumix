@@ -1137,6 +1137,10 @@
             "delivery_guarantee_expired_label": "Delivery guarantee has expired",
             "modal_accessibility_button_label": "Delivery guarantee details",
             "download_shop_app_button_label": "Download the Shop app for tracking"
+          },
+          "details_modal": {
+            "order_includes_guarantees_label": "Your order contains {{deliveryAgreementsCount}} guarantees",
+            "order_includes_guarantees_description": "Shop Promise guarantees fast and reliable delivery. If your order arrives after {{date}}, request Shop Cash."
           }
         }
       },
