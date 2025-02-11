@@ -1126,6 +1126,9 @@
               "expired_label": "This order does not qualify for the late delivery claim as the 30-day guarantee period has expired."
             }
           }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Manage through Amazon"
         }
       },
       "if_not_received": {
