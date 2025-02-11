@@ -1243,7 +1243,8 @@
       "log_in_to_a_different_account": "Sign in to a different account.",
       "ok_duties_tooltip": "This order is shipped from another country, so customs duties have been added to the total order amount.",
       "error_duties_tooltip": "This order is shipped from another country, so duties and taxes may be charged upon delivery.",
-      "zero_duties_tooltip": "This order is shipped from another country. Orders of this value are not subject to duties."
+      "zero_duties_tooltip": "This order is shipped from another country. Orders of this value are not subject to duties.",
+      "group_title_label": "Included in the package: {{groupTitle}}"
     },
     "B2B": {
       "orders": {
