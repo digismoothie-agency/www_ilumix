@@ -1077,7 +1077,8 @@
         "ready_for_pickup_description": "These items are ready for pickup. Please have your order confirmation ready when picking up your order.",
         "last_updated": "Last updated: {{date}}",
         "submitted_description": "Review order and payment details.",
-        "confirmed_description_digital": "You will receive an email when your order is ready."
+        "confirmed_description_digital": "You will receive an email when your order is ready.",
+        "confirmed_description_pickup": "You will receive an email when your order is ready for pickup."
       },
       "if_not_received": {
         "few": "If no delivery,",
