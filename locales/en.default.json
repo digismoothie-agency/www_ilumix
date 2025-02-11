@@ -1235,7 +1235,9 @@
           "description": "Set up installment reminders through the Shop app"
         }
       },
-      "login_to_view_all_order_details": "Sign in and review all order details"
+      "login_to_view_all_order_details": "Sign in and review all order details",
+      "log_in": "Sign in",
+      "remaining_amount": "Remaining amount"
     },
     "B2B": {
       "orders": {
