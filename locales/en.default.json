@@ -1245,7 +1245,10 @@
       "error_duties_tooltip": "This order is shipped from another country, so duties and taxes may be charged upon delivery.",
       "zero_duties_tooltip": "This order is shipped from another country. Orders of this value are not subject to duties.",
       "group_title_label": "Included in the package: {{groupTitle}}",
-      "duties_and_taxes_included": "The total amount includes duties and taxes. No additional fees will be charged upon delivery."
+      "duties_and_taxes_included": "The total amount includes duties and taxes. No additional fees will be charged upon delivery.",
+      "vat_invoices": {
+        "title": "Invoices with VAT"
+      }
     },
     "B2B": {
       "orders": {
