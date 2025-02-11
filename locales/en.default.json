@@ -1237,7 +1237,8 @@
       },
       "login_to_view_all_order_details": "Sign in and review all order details",
       "log_in": "Sign in",
-      "remaining_amount": "Remaining amount"
+      "remaining_amount": "Remaining amount",
+      "order_details_skeleton_accessibility_label": "Sign in and view all order details"
     },
     "B2B": {
       "orders": {
