@@ -1330,7 +1330,8 @@
       "delete_confirmation_title": "Do you want to remove the address?",
       "delete_confirmation_description": "Existing orders will not be affected.",
       "add_address_banner": "Enter the addresses you want to use at checkout.",
-      "back_button_accessibility_label": "Back to edit address {{address}}"
+      "back_button_accessibility_label": "Back to edit address {{address}}",
+      "no_addresses_banner": "No addresses were added"
     }
   },
   "digismoothie_b2b_app": {
