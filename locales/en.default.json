@@ -1281,7 +1281,7 @@
       "location_selection": {
         "description": "If you already have items in your cart, changing the location may affect the prices and quantities in the cart.",
         "list_accessibility_label": "List of locations",
-        "list_loading_address_accessibility_message": "Loading address for location {{locationName}}"
+        "list_loading_address_accessibility_message": "Loading address for {{locationName}}"
       }
     },
     "errors": {
