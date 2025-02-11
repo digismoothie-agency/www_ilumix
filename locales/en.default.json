@@ -1328,7 +1328,9 @@
     "addresses": {
       "loading_finished_accessibility_message": "A new address page has loaded",
       "delete_confirmation_title": "Do you want to remove the address?",
-      "delete_confirmation_description": "Existing orders will not be affected."
+      "delete_confirmation_description": "Existing orders will not be affected.",
+      "add_address_banner": "Enter the addresses you want to use at checkout.",
+      "back_button_accessibility_label": "Back to edit address {{address}}"
     }
   },
   "digismoothie_b2b_app": {
