@@ -1457,6 +1457,11 @@
       "edit_payment_method": {
         "payment_method_updated_toast": "Payment method has been updated",
         "billing_address_choose_from_list": "Choose an option from the list"
+      },
+      "card_fields": {
+        "tooltip": {
+          "card_verification_value_explanation": "The 3-digit security code is usually located on the back of the card. American Express cards have a 4-digit code on the front."
+        }
       }
     }
   },
