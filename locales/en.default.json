@@ -1001,7 +1001,8 @@
           "table_view": {
             "estimated_delivery": "Estimated delivery {{date}}"
           }
-        }
+        },
+        "no_order_banner": "To test your extension on the order status page, create an order."
       },
       "order_status": {
         "delivered_description_gift_card": {
@@ -1055,7 +1056,8 @@
         "tracking_number": {
           "few": "Tracking numbers",
           "many": "Tracking numbers"
-        }
+        },
+        "come_back": "On this page, you will find new information about the status of your shipment."
       },
       "if_not_received": {
         "few": "If no delivery,",
