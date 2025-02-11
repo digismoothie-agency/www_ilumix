@@ -1266,7 +1266,8 @@
           "pagination": {
             "nav_accessibility_label": "Navigation buttons for revised orders"
           }
-        }
+        },
+        "removed_company_contact_tooltip": "Removed from the company"
       },
       "draft_order_details": {
         "payment_status": {
