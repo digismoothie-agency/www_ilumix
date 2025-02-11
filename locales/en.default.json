@@ -1465,7 +1465,11 @@
       },
       "add_payment_method": {
         "payment_method_added_confirmation": "Payment method has been added"
-      }
+      },
+      "expires_soon": "This card will expire soon.",
+      "expired": "This card is expired.",
+      "add_payment_method_banner": "Adding a payment method will speed up the checkout process or pre-authorize services.",
+      "no_payment_methods_banner": "No payment methods have been added"
     }
   },
   "digismoothie_b2b_app": {
