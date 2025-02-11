@@ -1352,6 +1352,9 @@
       },
       "address_deletion_error": {
         "description": "There was an issue removing this address. Please try again or refresh the page."
+      },
+      "addresses_loading_issue": {
+        "description": "Connection error. Please check your internet connection and try again."
       }
     },
     "ui_components": {
