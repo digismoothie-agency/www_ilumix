@@ -1219,6 +1219,9 @@
       },
       "shop_pay": {
         "order_completed_with": "The order was completed via"
+      },
+      "edit_summary": {
+        "removed_with_quantity": "Removed: {{quantity}}"
       }
     },
     "B2B": {
