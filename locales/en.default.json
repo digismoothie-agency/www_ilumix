@@ -1326,6 +1326,11 @@
         "loading_store_accessibility_message": "Go to store",
         "title": "Which location are you shopping for?",
         "no_location_description": "You no longer have permission to place orders for the company {{company}}. However, you can still place personal orders."
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "This payment method will no longer be available for future purchases through the given location."
+        }
       }
     },
     "errors": {
