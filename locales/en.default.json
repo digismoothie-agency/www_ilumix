@@ -1196,7 +1196,10 @@
         "subscription": "Subscription shipment"
       },
       "summary_totals_title_accessibility_label": "Total order",
-      "unit_price": "{{price}} / pcs"
+      "unit_price": "{{price}} / pcs",
+      "returns": {
+        "print_shipping_label": "Print shipment label"
+      }
     },
     "B2B": {
       "orders": {
