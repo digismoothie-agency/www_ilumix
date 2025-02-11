@@ -1284,7 +1284,8 @@
             "description_authorized": "The amount will be paid using your payment method on the due date, or you can pay it immediately.",
             "title_due_on_receipt": "The payment is not due yet.",
             "description_due_on_receipt": "Once it is due, you will receive an invoice.",
-            "title_due_on_fulfillment": "Payment due upon fulfillment"
+            "title_due_on_fulfillment": "Payment due upon fulfillment",
+            "description_due_on_fulfillment": "Payment is due once all items in this order have been fulfilled."
           },
           "draft": {
             "description": "Payment details are decided upon order confirmation",
