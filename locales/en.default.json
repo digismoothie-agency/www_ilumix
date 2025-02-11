@@ -1089,7 +1089,12 @@
         "submitted_description": "Review order and payment details.",
         "confirmed_description_digital": "You will receive an email when your order is ready.",
         "confirmed_description_pickup": "You will receive an email when your order is ready for pickup.",
-        "confirmed_description_gift_card_text": "You will receive a text message when your order is ready."
+        "confirmed_description_gift_card_text": "You will receive a text message when your order is ready.",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Manage through Amazon"
+          }
+        }
       },
       "if_not_received": {
         "few": "If no delivery,",
