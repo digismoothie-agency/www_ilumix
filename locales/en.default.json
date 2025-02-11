@@ -1326,7 +1326,9 @@
       "profile_update_confirmation_message": "Profile has been updated"
     },
     "addresses": {
-      "loading_finished_accessibility_message": "A new address page has loaded"
+      "loading_finished_accessibility_message": "A new address page has loaded",
+      "delete_confirmation_title": "Do you want to remove the address?",
+      "delete_confirmation_description": "Existing orders will not be affected."
     }
   },
   "digismoothie_b2b_app": {
