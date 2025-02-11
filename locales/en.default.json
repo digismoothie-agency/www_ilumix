@@ -1262,7 +1262,10 @@
           "hide_all_accessibility_label": "Hide all revised orders.",
           "show_all_accessibility_label": "Show all revised orders.",
           "show_all_orders_in_review": "Show all revised orders",
-          "show_less_orders_in_review": "Show fewer revised orders."
+          "show_less_orders_in_review": "Show fewer revised orders.",
+          "pagination": {
+            "nav_accessibility_label": "Navigation buttons for revised orders"
+          }
         }
       },
       "draft_order_details": {
