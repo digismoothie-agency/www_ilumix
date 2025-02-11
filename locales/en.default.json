@@ -1098,7 +1098,9 @@
         },
         "attempted_to_deliver_label": "A delivery attempt was made.",
         "there_was_a_problem_label": "An issue occurred",
-        "delivered": "Delivered: {{date}}"
+        "delivered": "Delivered: {{date}}",
+        "complete_label": "Completed",
+        "status_timestamp": "Updated: {{date}}"
       },
       "if_not_received": {
         "few": "If no delivery,",
