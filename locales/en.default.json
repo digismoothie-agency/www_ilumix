@@ -1334,7 +1334,8 @@
       "no_addresses_banner": "No addresses were added"
     },
     "address_form": {
-      "default_address_creation_success_notification": "A default address has been added"
+      "default_address_creation_success_notification": "A default address has been added",
+      "creation_success_notification": "The address has been added"
     }
   },
   "digismoothie_b2b_app": {
