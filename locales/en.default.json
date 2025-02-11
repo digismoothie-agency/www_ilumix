@@ -1441,6 +1441,11 @@
       "update_success_notification": "The address has been updated",
       "attention_help_text": "The name of the person or department",
       "attention_company": "Company / Attention"
+    },
+    "payment_methods": {
+      "payment_details": {
+        "payment_method_expiring_on": "Expires on {{expiryDate}}"
+      }
     }
   },
   "digismoothie_b2b_app": {
