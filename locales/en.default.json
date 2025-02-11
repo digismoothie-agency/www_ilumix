@@ -997,6 +997,9 @@
           "list_view": {
             "estimated_delivery": "Estimated delivery: {{date}}",
             "last_updated": "Last updated: {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Estimated delivery {{date}}"
           }
         }
       },
