@@ -1140,7 +1140,11 @@
           },
           "details_modal": {
             "order_includes_guarantees_label": "Your order contains {{deliveryAgreementsCount}} guarantees",
-            "order_includes_guarantees_description": "Shop Promise guarantees fast and reliable delivery. If your order arrives after {{date}}, request Shop Cash."
+            "order_includes_guarantees_description": "Shop Promise guarantees fast and reliable delivery. If your order arrives after {{date}}, request Shop Cash.",
+            "delivered_after_description": "Due to the late delivery of your order, you are eligible to request Shop Cash in the amount of {{amount}}.",
+            "claimed_shop_cash_description": "Due to the late delivery of your order, you have requested Shop Cash in the amount of {{amount}}.",
+            "eligible_to_claim_shop_cash_description": "Due to the late delivery of your order, you are eligible to request Shop Cash in the amount of {{amount}}.",
+            "view_balance_in_shop_button_label": "Your Shop balance"
           }
         }
       },
