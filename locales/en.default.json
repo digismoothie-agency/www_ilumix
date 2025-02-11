@@ -1332,6 +1332,9 @@
       "add_address_banner": "Enter the addresses you want to use at checkout.",
       "back_button_accessibility_label": "Back to edit address {{address}}",
       "no_addresses_banner": "No addresses were added"
+    },
+    "address_form": {
+      "default_address_creation_success_notification": "A default address has been added"
     }
   },
   "digismoothie_b2b_app": {
