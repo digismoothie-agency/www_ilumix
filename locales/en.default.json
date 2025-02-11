@@ -1469,7 +1469,12 @@
       "expires_soon": "This card will expire soon.",
       "expired": "This card is expired.",
       "add_payment_method_banner": "Adding a payment method will speed up the checkout process or pre-authorize services.",
-      "no_payment_methods_banner": "No payment methods have been added"
+      "no_payment_methods_banner": "No payment methods have been added",
+      "store_credit": {
+        "details_modal": {
+          "expirable_amounts_info": "Amounts with earlier expiration dates are applied first at checkout."
+        }
+      }
     }
   },
   "digismoothie_b2b_app": {
