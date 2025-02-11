@@ -1238,7 +1238,8 @@
       "login_to_view_all_order_details": "Sign in and review all order details",
       "log_in": "Sign in",
       "remaining_amount": "Remaining amount",
-      "order_details_skeleton_accessibility_label": "Sign in and view all order details"
+      "order_details_skeleton_accessibility_label": "Sign in and view all order details",
+      "logged_in_account_no_permission_to_order": "You are signed in with the account {{email}}. This account does not have permission to manage order."
     },
     "B2B": {
       "orders": {
