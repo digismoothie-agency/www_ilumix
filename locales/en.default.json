@@ -1363,6 +1363,9 @@
       },
       "no_access_to_locations": {
         "description": "You have no access to any locations"
+      },
+      "not_found": {
+        "title": "There was an issue loading this page"
       }
     },
     "ui_components": {
