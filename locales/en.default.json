@@ -985,7 +985,8 @@
         "payment_status": {
           "table_view": {
             "payment_not_due": "Not yet due",
-            "pay_to_confirm": "Payment pending confirmation"
+            "pay_to_confirm": "Payment pending confirmation",
+            "due_on_fulfillment": "Due upon fulfillment"
           }
         }
       },
