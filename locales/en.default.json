@@ -1375,6 +1375,9 @@
       },
       "load_paypal_error": {
         "description": "An error occurred while loading PayPal. Please try again."
+      },
+      "logout_everywhere": {
+        "description": "An error occurred while signing out. Please try again."
       }
     },
     "ui_components": {
