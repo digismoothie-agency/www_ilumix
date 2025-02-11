@@ -1324,6 +1324,9 @@
         "no_name_provided_accessibility_label": "Missing name or title"
       },
       "profile_update_confirmation_message": "Profile has been updated"
+    },
+    "addresses": {
+      "loading_finished_accessibility_message": "A new address page has loaded"
     }
   },
   "digismoothie_b2b_app": {
