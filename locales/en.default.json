@@ -1109,6 +1109,11 @@
             "mixed_brands_label": "Guaranteed delivery",
             "not_delivered_by_label": "Not delivered by: {{date}}",
             "modal_accessibility_button_label": "Delivery details"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Request Shop Cash",
+            "no_shop_app_label": "If you want to request Shop Cash, {{appDownloadLink}}",
+            "download_shop_app_label": "Download the Shop app"
           }
         }
       },
