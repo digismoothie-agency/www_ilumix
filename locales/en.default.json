@@ -1037,7 +1037,9 @@
         },
         "gift_card_resend_text": {
           "few": "Resend text messages",
-          "many": "Resend text messages"
+          "many": "Resend text messages",
+          "one": "Resend text message",
+          "other": "Resend text messages"
         },
         "gift_card_resend_description_text": {
           "few": "If they didn't arrive, send the text messages again or",
