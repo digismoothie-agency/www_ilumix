@@ -1286,7 +1286,8 @@
             "description_due_on_receipt": "Once it is due, you will receive an invoice.",
             "title_due_on_fulfillment": "Payment due upon fulfillment",
             "description_due_on_fulfillment": "Payment is due once all items in this order have been fulfilled.",
-            "description_due_on_receipt_partially_paid": "This order has been partially paid. You have a remaining balance. You'll receive an invoice when payment is due."
+            "description_due_on_receipt_partially_paid": "This order has been partially paid. You have a remaining balance. You'll receive an invoice when payment is due.",
+            "description_due_on_fulfillment_partially_paid": "This order was partially paid. You have a remaining balance. Payment is due once all items in this order have been fulfilled."
           },
           "draft": {
             "description": "Payment details are decided upon order confirmation",
