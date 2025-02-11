@@ -1455,7 +1455,8 @@
         "error_when_deleting": "We apologize, but an error occurred, and we were unable to remove this payment method. Please try again later or refresh the page."
       },
       "edit_payment_method": {
-        "payment_method_updated_toast": "Payment method has been updated"
+        "payment_method_updated_toast": "Payment method has been updated",
+        "billing_address_choose_from_list": "Choose an option from the list"
       }
     }
   },
