@@ -765,7 +765,9 @@
             "gift_card_with_components_not_supported": "Gift cards with components are not supported at this checkout.",
             "inventory_not_found": "No stock was found for this product.",
             "minimum_quantity_not_met": "The quantity of some items does not meet the minimum required limit.",
-            "maximum_quantity_exceeded": "The quantity of some items exceeds the maximum allowed limit."
+            "maximum_quantity_exceeded": "The quantity of some items exceeds the maximum allowed limit.",
+            "quantity_increment_not_met": "The quantity of some items does not meet the order limits.",
+            "quantity_rules_not_met": "The quantity of some items does not meet the order limits."
           }
         }
       },
