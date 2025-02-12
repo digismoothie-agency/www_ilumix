@@ -763,7 +763,9 @@
             "gift_card_code_changed": "The gift card code {{proposed_code}} has been changed to {{formatted_code}} to comply with the formatting rules.",
             "gift_card_with_attributes_not_supported": "Gift cards with custom attributes are not supported at this checkout.",
             "gift_card_with_components_not_supported": "Gift cards with components are not supported at this checkout.",
-            "inventory_not_found": "No stock was found for this product."
+            "inventory_not_found": "No stock was found for this product.",
+            "minimum_quantity_not_met": "The quantity of some items does not meet the minimum required limit.",
+            "maximum_quantity_exceeded": "The quantity of some items exceeds the maximum allowed limit."
           }
         }
       },
