@@ -1530,7 +1530,7 @@
       "email": "Email",
       "company_name": "Company name",
       "company_id": "Company ID",
-      "company_vat_id": "Company VAT",
+      "company_vat_id": "Company VATID",
       "edit": "Edit company details",
       "add": "Add company details",
       "submit": "Submit",
