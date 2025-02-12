@@ -754,7 +754,8 @@
         "errors": {
           "line_item_limit_reached": "The maximum number of individual items has been reached.",
           "merchandise": {
-            "merchandise_not_applicable": "The product variant is not available for purchase."
+            "merchandise_not_applicable": "The product variant is not available for purchase.",
+            "bundle_products_not_supported_for_b2b": "It is not possible to add items from the bundle to B2B orders for this location."
           }
         }
       },
