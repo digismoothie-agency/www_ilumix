@@ -419,7 +419,7 @@
       "total_duties": "Fees"
     },
     "recover_password": {
-      "title": "Reset password",
+      "title": "Reset Password",
       "email": "Email",
       "submit": "Submit",
       "cancel": "Cancel",
@@ -428,10 +428,10 @@
     },
     "reset_password": {
       "title": "Reset password",
-      "subtext": "Enter a new password",
+      "subtext": "Enter a New Password",
       "password": "Password",
-      "password_confirm": "Confirm password",
-      "submit": "Reset password"
+      "password_confirm": "Confirm Password",
+      "submit": "Reset Password"
     },
     "register": {
       "title": "Create Account",
