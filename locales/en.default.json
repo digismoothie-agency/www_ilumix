@@ -738,7 +738,7 @@
           }
         },
         "skip_to_content": "Skip To Content",
-        "complete_purchase_button_label": "Complete",
+        "complete_purchase_button_label": "Confirm Order",
         "pay_now_button_label": "Pay Now",
         "authenticate_purchase_button_label": "Verify Payment"
       },
