@@ -344,7 +344,7 @@
       "subtext": "Enter a password to register an account",
       "password": "Password",
       "password_confirm": "Confirm password",
-      "submit": "Create",
+      "submit": "Sign Up",
       "cancel": "Decline invitation"
     },
     "addresses": {
