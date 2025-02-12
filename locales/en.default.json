@@ -350,8 +350,8 @@
     "addresses": {
       "title": "Address",
       "default": "Default",
-      "add_new": "Add address",
-      "edit_address": "Edit address",
+      "add_new": "Add Address",
+      "edit_address": "Edit Address",
       "first_name": "First name",
       "last_name": "Last name",
       "company": "Company",
