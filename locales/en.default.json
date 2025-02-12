@@ -262,9 +262,9 @@
       "taxes_included_but_shipping_at_checkout": "Amount including VAT. Shipping at checkout.",
       "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> will be added at checkout.",
       "taxes_and_shipping_at_checkout": "Taxes are included. Shipping will be added on the shipping and payment page at checkout.",
-      "update": "Update cart",
+      "update": "Update Cart",
       "checkout": "Checkout",
-      "we_accept": "We accept",
+      "we_accept": "We Accept",
       "empty": "Your cart is currently empty.",
       "continue_shopping": "Continue Shopping"
     },
