@@ -427,7 +427,7 @@
       "success": "We've sent you an email with a link to reset your password."
     },
     "reset_password": {
-      "title": "Reset password",
+      "title": "Reset Password",
       "subtext": "Enter a New Password",
       "password": "Password",
       "password_confirm": "Confirm Password",
