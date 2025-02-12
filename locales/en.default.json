@@ -333,11 +333,11 @@
   },
   "customer": {
     "account": {
-      "title": "My Account",
+      "title": "My account",
       "log_out": "Log Out",
       "details": "Account details",
       "view_addresses": "View addresses",
-      "return": "Return to My Account"
+      "return": "Return to account"
     },
     "activate_account": {
       "title": "Account registration",
