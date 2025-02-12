@@ -306,9 +306,9 @@
       "to": "To",
       "from_price": "From Price",
       "to_price": "To Price",
-      "in_stock_only": "In stock Only",
-      "clear": "Remove filter \"{{ name }}\"",
-      "clear_all": "Clear all",
+      "in_stock_only": "In Stock Only",
+      "clear": "Remove Filter \"{{ name }}\"",
+      "clear_all": "Clear All",
       "apply": "Apply"
     },
     "subcollections": {
