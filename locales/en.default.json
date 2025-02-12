@@ -429,8 +429,8 @@
     "reset_password": {
       "title": "Reset Password",
       "subtext": "Enter a New Password",
-      "password": "Password",
-      "password_confirm": "Confirm Password",
+      "password": "Enter your password",
+      "password_confirm": "Enter your password",
       "submit": "Reset Password"
     },
     "register": {
