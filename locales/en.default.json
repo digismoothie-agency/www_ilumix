@@ -383,7 +383,7 @@
       "alternate_provider_separator": "or"
     },
     "orders": {
-      "title": "Order history",
+      "title": "Order History",
       "order_number": "Order",
       "order_number_link": "Order number {{ number }}",
       "date": "Date",
