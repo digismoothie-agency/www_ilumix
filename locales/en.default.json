@@ -743,7 +743,9 @@
         "authenticate_purchase_button_label": "Verify Payment",
         "expand_notice_label": "Show More",
         "continue_to_shipping_method": "Continue To Shipping",
-        "continue_to_payment_method": "Continue To Payment"
+        "continue_to_payment_method": "Continue To Payment",
+        "back_to_cart": "Return To Cart",
+        "back_to_contact_information": "Return To Information"
       },
       "customer_account": {
         "saved_address_option_description": {
