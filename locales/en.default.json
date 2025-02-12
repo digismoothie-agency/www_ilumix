@@ -1003,6 +1003,14 @@
         "few": "Search: The following number of results were found for the query %{terms}: %{count}",
         "many": "Search: The following number of results were found for the query %{terms}: %{count}"
       }
+    },
+    "collections": {
+      "sorting": {
+        "price_ascending": "Price, Low to High",
+        "price_descending": "Price, High to Low",
+        "date_ascending": "Date, Old to New",
+        "date_descending": "Date, New to Old"
+      }
     }
   },
   "customer_accounts": {
