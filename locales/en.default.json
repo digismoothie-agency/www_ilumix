@@ -1537,7 +1537,7 @@
       "submit_and_return_to_cart": "Submit and Go Back to Cart"
     },
     "details": {
-      "title": "Company details"
+      "title": "Company Details"
     },
     "info_html": "Are you shopping for a company? <a class=\"link\" href=\"{{ login }}\">Log in</a>",
     "info_for_customer": "The details for purchasing for the company are filled in, continue to Checkout",
