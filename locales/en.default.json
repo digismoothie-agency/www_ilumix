@@ -759,7 +759,8 @@
             "gift_card_quantity_mismatch": "When entering gift card codes, their quantity must match the quantity of the corresponding individual item.",
             "gift_card_not_supported": "Gift cards are not supported at this checkout.",
             "gift_card_not_unique": "The gift card with code {{code}} has been detected more than once at this checkout. Please verify the code and try again. If you need assistance or believe this is an error, please contact customer support.",
-            "gift_card_used": "The code {{code}} is already assigned to a gift card. "
+            "gift_card_used": "The code {{code}} is already assigned to a gift card. ",
+            "gift_card_code_changed": "The gift card code {{proposed_code}} has been changed to {{formatted_code}} to comply with the formatting rules."
           }
         }
       },
