@@ -747,7 +747,8 @@
         "back_to_cart": "Return To Cart",
         "back_to_contact_information": "Return To Information",
         "back_to_shipping_method": "Return To Shipping",
-        "back_to_payment_method": "Return To Payment"
+        "back_to_payment_method": "Return To Payment",
+        "choose_shipping_method": "Choose a Shipping Method"
       },
       "customer_account": {
         "saved_address_option_description": {
