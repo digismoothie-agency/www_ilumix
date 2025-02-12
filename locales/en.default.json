@@ -758,7 +758,7 @@
             "bundle_products_not_supported_for_b2b": "It is not possible to add items from the bundle to B2B orders for this location.",
             "gift_card_quantity_mismatch": "When entering gift card codes, their quantity must match the quantity of the corresponding individual item.",
             "gift_card_not_supported": "Gift cards are not supported at this checkout.",
-            "gift_card_not_unique": "The gift card with code {{code}} has been detected more than once at this checkout.",
+            "gift_card_not_unique": "The gift card with code {{code}} has been detected more than once at this checkout. Please verify the code and try again. If you need assistance or believe this is an error, please contact customer support.",
             "gift_card_used": "The code {{code}} is already assigned to a gift card. "
           }
         }
