@@ -333,7 +333,7 @@
   },
   "customer": {
     "account": {
-      "title": "My account",
+      "title": "My Account",
       "log_out": "Log Out",
       "details": "Account details",
       "view_addresses": "View addresses",
