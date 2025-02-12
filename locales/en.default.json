@@ -34,7 +34,7 @@
     },
     "404": {
       "title": "Page not found",
-      "subtext_html": "Looks like the page you're looking for no longer exists.<br>Try going back to the previous page or to the pages below.",
+      "subtext_html": "It seems that the page you're looking for no longer exists.<br>Try going back to the previous page or visit the links below.",
       "back_to_home": "Go to the home page",
       "continue_shopping": "Continue shopping"
     },
