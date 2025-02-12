@@ -755,7 +755,8 @@
           "line_item_limit_reached": "The maximum number of individual items has been reached.",
           "merchandise": {
             "merchandise_not_applicable": "The product variant is not available for purchase.",
-            "bundle_products_not_supported_for_b2b": "It is not possible to add items from the bundle to B2B orders for this location."
+            "bundle_products_not_supported_for_b2b": "It is not possible to add items from the bundle to B2B orders for this location.",
+            "gift_card_quantity_mismatch": "When entering gift card codes, their quantity must match the quantity of the corresponding individual item."
           }
         }
       },
