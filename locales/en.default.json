@@ -776,7 +776,8 @@
             "contact_info_does_not_match_customer_account": "The entered customer information should match the information on the logged-in customer account.",
             "phone_number_does_not_match_expected_pattern": "The entered phone number does not match the expected format.",
             "invalid_customer_profile": "An invalid customer profile was entered.",
-            "checkout_completion_target_is_invalid_proc": "The checkout process completion target is invalid."
+            "checkout_completion_target_is_invalid_proc": "The checkout process completion target is invalid.",
+            "company_location_required": "To proceed, the customer must select the company location."
           }
         }
       },
