@@ -768,7 +768,8 @@
             "maximum_quantity_exceeded": "The quantity of some items exceeds the maximum allowed limit.",
             "quantity_increment_not_met": "The quantity of some items does not meet the order limits.",
             "quantity_rules_not_met": "The quantity of some items does not meet the order limits.",
-            "product_not_published_in_buyer_location": "The product is not available in the buyer’s location."
+            "product_not_published_in_buyer_location": "The product is not available in the buyer’s location.",
+            "mixed_currencies": "The checkout contains individual items with different currencies."
           },
           "buyer_identity": {
             "contact_info_does_not_match_customer_account": "The entered customer information should match the information on the logged-in customer account.",
