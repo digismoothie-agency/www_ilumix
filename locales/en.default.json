@@ -749,7 +749,8 @@
         "back_to_shipping_method": "Return To Shipping",
         "back_to_payment_method": "Return To Payment",
         "choose_shipping_method": "Choose a Shipping Method",
-        "choose_payment_method": "Choose a Payment Method"
+        "choose_payment_method": "Choose a Payment Method",
+        "choose_billing_address": "Choose a Billing Address"
       },
       "customer_account": {
         "saved_address_option_description": {
