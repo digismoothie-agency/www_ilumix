@@ -431,7 +431,7 @@
       "subtext": "Enter a New Password",
       "password": "Enter your password",
       "password_confirm": "Enter your password",
-      "submit": "Reset Password"
+      "submit": "Submit"
     },
     "register": {
       "title": "Create Account",
