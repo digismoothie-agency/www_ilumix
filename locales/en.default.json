@@ -378,7 +378,7 @@
       "submit": "Login",
       "create_account": "Create Account",
       "return": "Return to Store",
-      "guest_title": "Continue as a guest",
+      "guest_title": "Continue As a Guest",
       "guest_continue": "Continue",
       "alternate_provider_separator": "or"
     },
