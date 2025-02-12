@@ -736,7 +736,9 @@
             "few": "Tag group ( {{number}} )",
             "many": "Tag group ( {{number}} )"
           }
-        }
+        },
+        "skip_to_content": "Skip To Content",
+        "complete_purchase_button_label": "Complete Order"
       },
       "customer_account": {
         "saved_address_option_description": {
