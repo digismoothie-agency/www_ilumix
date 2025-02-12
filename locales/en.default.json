@@ -375,7 +375,7 @@
       "email": "Email",
       "password": "Password",
       "forgot_password": "Forgot password?",
-      "submit": "Sign In",
+      "submit": "Login",
       "create_account": "Create account",
       "return": "Return to Store",
       "guest_title": "Continue as a guest",
