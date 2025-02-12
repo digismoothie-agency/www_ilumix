@@ -335,9 +335,9 @@
     "account": {
       "title": "My account",
       "log_out": "Log Out",
-      "details": "Account details",
-      "view_addresses": "View addresses",
-      "return": "Return to account"
+      "details": "Account Details",
+      "view_addresses": "View Addresses",
+      "return": "Return to Account"
     },
     "activate_account": {
       "title": "Account registration",
