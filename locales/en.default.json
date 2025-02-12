@@ -345,7 +345,7 @@
       "password": "Password",
       "password_confirm": "Confirm password",
       "submit": "Submit",
-      "cancel": "Decline invitation"
+      "cancel": "Cancel"
     },
     "addresses": {
       "title": "Address",
