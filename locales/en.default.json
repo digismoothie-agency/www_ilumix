@@ -740,7 +740,8 @@
         "skip_to_content": "Skip To Content",
         "complete_purchase_button_label": "Confirm Order",
         "pay_now_button_label": "Pay Now",
-        "authenticate_purchase_button_label": "Verify Payment"
+        "authenticate_purchase_button_label": "Verify Payment",
+        "expand_notice_label": "Show More"
       },
       "customer_account": {
         "saved_address_option_description": {
