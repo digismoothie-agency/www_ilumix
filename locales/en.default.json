@@ -745,7 +745,9 @@
         "continue_to_shipping_method": "Continue To Shipping",
         "continue_to_payment_method": "Continue To Payment",
         "back_to_cart": "Return To Cart",
-        "back_to_contact_information": "Return To Information"
+        "back_to_contact_information": "Return To Information",
+        "back_to_shipping_method": "Return To Shipping",
+        "back_to_payment_method": "Return To Payment"
       },
       "customer_account": {
         "saved_address_option_description": {
