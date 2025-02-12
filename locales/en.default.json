@@ -752,7 +752,10 @@
         "choose_payment_method": "Choose a Payment Method",
         "choose_billing_address": "Choose a Billing Address",
         "errors": {
-          "line_item_limit_reached": "The maximum number of individual items has been reached."
+          "line_item_limit_reached": "The maximum number of individual items has been reached.",
+          "merchandise": {
+            "merchandise_not_applicable": "The product variant is not available for purchase."
+          }
         }
       },
       "customer_account": {
