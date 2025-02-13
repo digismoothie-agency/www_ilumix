@@ -207,7 +207,7 @@
     },
     "quick_order_list": {
       "product_total": "Product subtotal",
-      "view_cart": "View Cart",
+      "view_cart": "View cart",
       "each": "{{ money }}/ea",
       "product": "Product",
       "variant": "Variant",
