@@ -1002,7 +1002,8 @@
       "search_results": {
         "few": "Search: The following number of results were found for the query %{terms}: %{count}",
         "many": "Search: The following number of results were found for the query %{terms}: %{count}"
-      }
+      },
+      "products": "All Products"
     },
     "collections": {
       "sorting": {
