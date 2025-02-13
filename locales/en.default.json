@@ -309,7 +309,7 @@
       "in_stock_only": "In Stock Only",
       "clear": "Remove Filter \"{{ name }}\"",
       "clear_all": "Clear All",
-      "apply": "Apply"
+      "apply": "Show"
     },
     "subcollections": {
       "all_products": "All {{ collection }}"
@@ -464,7 +464,7 @@
       "product_variants": "Product variants",
       "sold_out": "Sold Out",
       "unavailable": "Unavailable",
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to Cart",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "view_product": "View product",
