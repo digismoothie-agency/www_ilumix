@@ -309,7 +309,7 @@
       "in_stock_only": "In Stock Only",
       "clear": "Remove Filter \"{{ name }}\"",
       "clear_all": "Clear All",
-      "apply": "Apply Filters"
+      "apply": "Show Results"
     },
     "subcollections": {
       "all_products": "All {{ collection }}"
