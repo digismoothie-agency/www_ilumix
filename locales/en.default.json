@@ -120,7 +120,7 @@
     },
     "cart": {
       "title": "Cart",
-      "view_cart": "View cart",
+      "view_cart": "View Cart",
       "cart_count": {
         "one": "{{ count }} item",
         "other": "{{ count }} items"
