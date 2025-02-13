@@ -457,7 +457,7 @@
       "size_trigger": "Size",
       "size_chart": "Size chart",
       "save_html": "Save {{ saved_amount }}",
-      "sale": "Lighting on Sale",
+      "sale": "Sale",
       "show_more": "Show more"
     },
     "product": {
