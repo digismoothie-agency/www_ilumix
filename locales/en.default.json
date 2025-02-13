@@ -167,14 +167,14 @@
     },
     "delivery": {
       "days": {
-        "one": "day",
-        "many": "days",
-        "other": "days"
+        "one": "Day",
+        "many": "Days",
+        "other": "Days"
       },
       "weeks": {
-        "one": "week",
-        "many": "weeks",
-        "other": "weeks"
+        "one": "Week",
+        "many": "Weeks",
+        "other": "Weeks"
       }
     }
   },
