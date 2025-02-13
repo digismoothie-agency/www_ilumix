@@ -529,7 +529,7 @@
       "waiting_for_stock": "Item on the way"
     },
     "pickup_availability": {
-      "title": "Pickup availability",
+      "title": "In-Store Pickup",
       "view_store_info": "View store information",
       "check_other_stores": "Check availability at other stores",
       "pick_up_available": "Pickup available",
