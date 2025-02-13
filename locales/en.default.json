@@ -643,8 +643,10 @@
         },
         "recurring_total_intervals": {
           "week": {
-            "few": "%{count} weeks",
-            "many": "%{count} weeks"
+            "few": "%{count} Weeks",
+            "many": "%{count} Weeks",
+            "other": "%{count} Weeks",
+            "one": "Week"
           },
           "month": {
             "few": "%{count} months",
