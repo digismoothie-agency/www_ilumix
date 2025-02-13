@@ -515,15 +515,15 @@
       "price_range": "{{ minimum }} - {{ maximum }}"
     },
     "inventory": {
-      "in_stock": "In stock, ready to ship",
+      "in_stock": "In Stock, Ready to Ship",
       "in_stock_with_count": "{{ count }} in stock",
       "low_stock": "Low stock",
       "low_stock_with_count": {
         "one": "Hurry, only {{ count }} item left in stock!",
         "other": "Hurry, only {{ count }} items left in stock!"
       },
-      "out_of_stock": "Out of stock",
-      "out_of_stock_continue_selling": "In stock",
+      "out_of_stock": "Out of Stock",
+      "out_of_stock_continue_selling": "In Stock",
       "will_not_ship_until": "Ready to ship {{ date }}",
       "will_be_in_stock_after": "Back in stock {{ date }}",
       "waiting_for_stock": "Inventory on the way"
