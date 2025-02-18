@@ -14,6 +14,7 @@
       "blocks": {
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/header_1_55d1ccdd-9951-42a3-9131-086a579cf62f.jpg",
             "image_mobile": "shopify://shop_images/header_mobile_1.jpg",
@@ -45,31 +46,46 @@
             "button_secondary_style": false
           }
         },
-        "image_wMEQLk": {
+        "image_PWzTCJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/header_2.jpg",
-            "image_mobile": "shopify://shop_images/header_mobile_2.jpg",
-            "heading": "Aromas Elli",
+            "image": "shopify://shop_images/aromas_cactus.jpg",
+            "image_mobile": "shopify://shop_images/aromas_cactus.jpg",
+            "heading": "Aromas Cactus",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "button_label": "Zobrazit produkt",
-            "button_link": "shopify://products/aromas-elli-led-zavesne-kruhove-svitidlo-stmivatelne",
+            "button_link": "shopify://products/aromas-cactus-e27-stolni-svitidlo",
             "button_external": false,
             "button_icon": false,
             "button_secondary_style": false
           }
         },
-        "image_V8X8ND": {
+        "image_8MWBdM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/header_3.jpg",
-            "image_mobile": "shopify://shop_images/header_mobile_3.jpg",
-            "heading": "Astro Toro",
+            "image": "shopify://shop_images/faro_venice.jpg",
+            "image_mobile": "shopify://shop_images/faro_venice.jpg",
+            "heading": "Faro Venice",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "button_label": "Zobrazit produkt",
-            "button_link": "shopify://products/astro-toro-e27-nastenne-svitidlo",
+            "button_link": "shopify://products/faro-venice-e27-zavesne-svitidlo",
+            "button_external": false,
+            "button_icon": false,
+            "button_secondary_style": false
+          }
+        },
+        "image_prkwTE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lucis_juno.jpg",
+            "image_mobile": "shopify://shop_images/lucis_juno.jpg",
+            "heading": "Lucis Juno",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "Zobrazit produkt",
+            "button_link": "shopify://products/lucis-juno-e27-zavesne-svitidlo",
             "button_external": false,
             "button_icon": false,
             "button_secondary_style": false
@@ -79,8 +95,9 @@
       "block_order": [
         "slide-1",
         "slide-3",
-        "image_wMEQLk",
-        "image_V8X8ND"
+        "image_PWzTCJ",
+        "image_8MWBdM",
+        "image_prkwTE"
       ],
       "settings": {
         "autoplay": true,
