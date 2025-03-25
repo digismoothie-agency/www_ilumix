@@ -309,7 +309,7 @@
       "in_stock_only": "In Stock Only",
       "clear": "Remove Filter \"{{ name }}\"",
       "clear_all": "Clear All",
-      "apply": "Apply Results"
+      "apply": "Apply Filters"
     },
     "subcollections": {
       "all_products": "All {{ collection }}"
@@ -655,6 +655,10 @@
           "year": {
             "few": "%{count} years",
             "many": "%{count} years"
+          },
+          "day": {
+            "few": "%{count} d.",
+            "many": "%{count} d."
           }
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
@@ -714,6 +718,10 @@
         "number_of_pickup_points_near_location": {
           "few": "Pickup locations near your location: %{count}",
           "many": "Pickup locations near your location: %{count}"
+        },
+        "pickup_unavailable_banner_title": {
+          "few": "Your items are not available at the pickup locations.",
+          "many": "Your items are not available at the pickup locations."
         }
       },
       "local_pickup": {
@@ -1201,6 +1209,10 @@
             "view_balance_in_shop_button_label": "Your Shop balance",
             "scan_to_claim_shop_cash_label": "Scan the code to receive {{amount}} in Shop Cash"
           }
+        },
+        "gift_card_resend_button": {
+          "few": "Resend gift cards",
+          "many": "Resend gift cards"
         }
       },
       "if_not_received": {
