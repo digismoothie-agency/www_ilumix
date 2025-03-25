@@ -220,14 +220,14 @@
           "custom_switcher_border_color": "#000000"
         }
       },
-      "12793297677437526120": {
-        "type": "shopify://apps/t-lab-ai-language-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
-        "disabled": true,
-        "settings": {}
-      },
       "2140405073069974119": {
         "type": "shopify://apps/t-lab-ai-language-translate/blocks/language_detection/b5b83690-efd4-434d-8c6a-a5cef4019faf",
-        "disabled": true,
+        "disabled": false,
+        "settings": {}
+      },
+      "12793297677437526120": {
+        "type": "shopify://apps/t-lab-ai-language-translate/blocks/custom_translations/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": false,
         "settings": {}
       }
     }
